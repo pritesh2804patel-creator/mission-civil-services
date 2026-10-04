@@ -1,0 +1,265 @@
+{
+    "exam": "UPSC",
+    "stage": "Prelims",
+
+    "papers": [
+        {
+            "id": "upsc-gs1",
+            "name": "General Studies Paper I",
+
+            "subjects": [
+
+                {
+                    "id": "history",
+                    "name": "History",
+
+                    "chapters": [
+
+                        {
+                            "id": "ancient-india",
+                            "name": "Ancient India",
+
+                            "topics": [
+                                {
+                                    "id": "indus-valley",
+                                    "name": "Indus Valley Civilization"
+                                },
+                                {
+                                    "id": "vedic-age",
+                                    "name": "Vedic Age"
+                                }
+                            ]
+                        },
+
+                        {
+                            "id": "modern-india",
+                            "name": "Modern India",
+
+                            "topics": [
+                                {
+                                    "id": "revolt-1857",
+                                    "name": "Revolt of 1857"
+                                },
+                                {
+                                    "id": "national-movement",
+                                    "name": "Indian National Movement"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+
+
+                {
+                    "id": "polity",
+                    "name": "Indian Polity",
+
+                    "chapters": [
+
+                        {
+                            "id": "constitution",
+                            "name": "Constitution of India",
+
+                            "topics": [
+                                {
+                                    "id": "making-constitution",
+                                    "name": "Making of the Constitution"
+                                },
+                                {
+                                    "id": "preamble",
+                                    "name": "Preamble"
+                                },
+                                {
+                                    "id": "constitutional-features",
+                                    "name": "Salient Features of the Constitution"
+                                }
+                            ]
+                        },
+
+
+                        {
+                            "id": "fundamental-rights",
+                            "name": "Fundamental Rights",
+
+                            "topics": [
+                                {
+                                    "id": "article-12",
+                                    "name": "Article 12"
+                                },
+                                {
+                                    "id": "article-14",
+                                    "name": "Article 14"
+                                },
+                                {
+                                    "id": "article-19",
+                                    "name": "Article 19"
+                                },
+                                {
+                                    "id": "article-21",
+                                    "name": "Article 21"
+                                },
+                                {
+                                    "id": "article-32",
+                                    "name": "Article 32"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+
+
+                {
+                    "id": "geography",
+                    "name": "Geography",
+
+                    "chapters": [
+
+                        {
+                            "id": "physical-geography",
+                            "name": "Physical Geography",
+
+                            "topics": [
+                                {
+                                    "id": "earth-structure",
+                                    "name": "Structure of the Earth"
+                                },
+                                {
+                                    "id": "rocks",
+                                    "name": "Rocks"
+                                },
+                                {
+                                    "id": "plate-tectonics",
+                                    "name": "Plate Tectonics"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+
+
+                {
+                    "id": "economy",
+                    "name": "Indian Economy",
+
+                    "chapters": [
+
+                        {
+                            "id": "basic-economics",
+                            "name": "Basic Economic Concepts",
+
+                            "topics": [
+                                {
+                                    "id": "gdp",
+                                    "name": "GDP and National Income"
+                                },
+                                {
+                                    "id": "inflation",
+                                    "name": "Inflation"
+                                },
+                                {
+                                    "id": "unemployment",
+                                    "name": "Unemployment"
+                                }
+                            ]
+                        },
+
+                        {
+                            "id": "fiscal-policy",
+                            "name": "Fiscal Policy",
+
+                            "topics": [
+                                {
+                                    "id": "government-budget",
+                                    "name": "Government Budget"
+                                },
+                                {
+                                    "id": "fiscal-deficit",
+                                    "name": "Fiscal Deficit"
+                                }
+                            ]
+                        }
+
+                    ]
+                }
+
+            ]
+        },
+
+
+        {
+            "id": "upsc-csat",
+            "name": "General Studies Paper II — CSAT",
+
+            "subjects": [
+
+                {
+                    "id": "csat-comprehension",
+                    "name": "Comprehension",
+
+                    "chapters": [
+
+                        {
+                            "id": "reading-comprehension",
+                            "name": "Reading Comprehension",
+
+                            "topics": [
+                                {
+                                    "id": "main-idea",
+                                    "name": "Identifying the Main Idea"
+                                },
+                                {
+                                    "id": "inference",
+                                    "name": "Inference"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+
+
+                {
+                    "id": "csat-maths",
+                    "name": "Basic Numeracy",
+
+                    "chapters": [
+
+                        {
+                            "id": "percentage",
+                            "name": "Percentage",
+
+                            "topics": [
+                                {
+                                    "id": "basic-percentage",
+                                    "name": "Basic Percentage"
+                                },
+                                {
+                                    "id": "percentage-change",
+                                    "name": "Percentage Change"
+                                }
+                            ]
+                        },
+
+                        {
+                            "id": "ratio",
+                            "name": "Ratio and Proportion",
+
+                            "topics": [
+                                {
+                                    "id": "basic-ratio",
+                                    "name": "Basic Ratio"
+                                }
+                            ]
+                        }
+
+                    ]
+                }
+
+            ]
+        }
+
+    ]
+}

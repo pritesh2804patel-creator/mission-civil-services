@@ -1,0 +1,19 @@
+{
+  "name": "Mission Civil Services",
+  "short_name": "Mission Civil",
+  "description": "Bilingual UPSC and CGPSC study and practice platform",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071a3d",
+  "theme_color": "#071a3d",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

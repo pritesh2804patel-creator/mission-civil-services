@@ -1,0 +1,16 @@
+{
+    "exams": [
+        {
+            "id": "upsc",
+            "name": "UPSC Civil Services",
+            "shortName": "UPSC",
+            "stage": "Prelims"
+        },
+        {
+            "id": "cgpsc",
+            "name": "Chhattisgarh State Service",
+            "shortName": "CGPSC",
+            "stage": "Prelims"
+        }
+    ]
+}

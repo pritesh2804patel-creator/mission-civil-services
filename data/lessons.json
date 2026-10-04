@@ -1,0 +1,584 @@
+{
+  "indus-valley": {
+    "concept": {
+      "en": "The Indus or Harappan Civilization was a Bronze Age urban civilization that developed along the Indus system and adjoining regions. Its mature urban phase is conventionally dated to about 2600–1900 BCE. It is best understood through archaeology: settlement layouts, seals, pottery, tools, burials and trade remains, because its script has not been conclusively deciphered.",
+      "hi": "सिंधु या हड़प्पा सभ्यता कांस्य युग की नगरीय सभ्यता थी, जो सिंधु नदी तंत्र और आसपास के क्षेत्रों में विकसित हुई। इसका परिपक्व नगरीय चरण सामान्यतः लगभग 2600–1900 ईसा पूर्व माना जाता है। इसे पुरातात्त्विक साक्ष्यों—नगर योजना, मुहरों, मृद्भांडों, औजारों, समाधियों और व्यापार अवशेषों—से समझा जाता है; इसकी लिपि अभी निर्णायक रूप से पढ़ी नहीं गई है।"
+    },
+    "keyPoints": {
+      "en": ["Harappa and Mohenjo-daro are in present-day Pakistan; Dholavira and Lothal are in present-day Gujarat; Rakhigarhi is in Haryana.", "Many settlements show planned streets, baked-brick construction and drainage, but layouts and facilities varied by site.", "Standardised weights, craft production and material exchange indicate extensive trade networks; seals are important archaeological evidence.", "No confirmed monumental palace or temple has been identified; avoid treating this absence as proof of a fully egalitarian society."],
+      "hi": ["हड़प्पा और मोहनजोदड़ो आज के पाकिस्तान में हैं; धोलावीरा और लोथल गुजरात में तथा राखीगढ़ी हरियाणा में हैं।", "कई स्थलों पर नियोजित सड़कें, पकी ईंटों का निर्माण और जल-निकासी मिलती है, पर हर नगर की योजना और सुविधाएँ एक जैसी नहीं थीं।", "मानकीकृत बाट, शिल्प उत्पादन और वस्तुओं का आदान-प्रदान व्यापक व्यापार-जाल दिखाते हैं; मुहरें महत्त्वपूर्ण पुरातात्त्विक साक्ष्य हैं।", "किसी पुष्ट विशाल राजमहल या मंदिर की पहचान नहीं हुई है; इससे पूरे समाज की पूर्ण समानता सिद्ध मानना उचित नहीं है।"]
+    },
+    "examAngle": {
+      "en": "Prelims often tests site–feature matching, the limits of archaeological interpretation, and distinguishing the mature Harappan phase from earlier and later regional cultures. Learn locations from a map rather than memorising an isolated list.",
+      "hi": "प्रारंभिक परीक्षा में स्थल और विशेषता का मिलान, पुरातात्त्विक व्याख्या की सीमाएँ तथा परिपक्व हड़प्पा चरण को पहले और बाद की क्षेत्रीय संस्कृतियों से अलग पहचानना पूछा जा सकता है। स्थलों को अलग सूची की तरह रटने के बजाय मानचित्र पर पढ़ें।"
+    },
+    "revision": {
+      "en": "Make a three-column sheet: site, present-day state/country, and one securely attested feature. Mark the Indus system and major sites on a blank map. Keep archaeological observation separate from hypotheses about religion or political structure.",
+      "hi": "तीन स्तंभों की सारणी बनाएं: स्थल, वर्तमान राज्य/देश और एक प्रमाणित विशेषता। खाली मानचित्र पर सिंधु नदी तंत्र और प्रमुख स्थल चिह्नित करें। पुरातात्त्विक अवलोकन को धर्म या राजनीतिक व्यवस्था संबंधी परिकल्पनाओं से अलग रखें।"
+    },
+    "questions": [
+      {
+        "question": {"en": "Which pair is correctly matched?", "hi": "कौन-सा युग्म सही सुमेलित है?"},
+        "options": {"en": ["Dholavira — Haryana", "Rakhigarhi — Haryana", "Harappa — Gujarat", "Lothal — Pakistan"], "hi": ["धोलावीरा — हरियाणा", "राखीगढ़ी — हरियाणा", "हड़प्पा — गुजरात", "लोथल — पाकिस्तान"]},
+        "correct": 1,
+        "explanation": {"en": "Rakhigarhi is in present-day Haryana. Dholavira and Lothal are in Gujarat, while Harappa is in Pakistan. Site-location questions are easiest to retain with map revision.", "hi": "राखीगढ़ी आज के हरियाणा में है। धोलावीरा और लोथल गुजरात में हैं, जबकि हड़प्पा पाकिस्तान में है। मानचित्र अभ्यास से स्थलों के स्थान बेहतर याद रहते हैं।"}
+      },
+      {
+        "question": {"en": "What is the most careful conclusion about the Harappan script?", "hi": "हड़प्पा लिपि के बारे में सबसे सावधान निष्कर्ष कौन-सा है?"},
+        "options": {"en": ["It has been fully deciphered", "It remains undeciphered", "It was written only in Sanskrit", "It is known only from Ashokan pillars"], "hi": ["इसे पूरी तरह पढ़ लिया गया है", "यह अभी अपठित है", "यह केवल संस्कृत में लिखी गई थी", "यह केवल अशोक के स्तंभों से ज्ञात है"]},
+        "correct": 1,
+        "explanation": {"en": "The inscriptions are short and the script has not been conclusively deciphered. Claims assigning it a definite language should be treated as unproven.", "hi": "अभिलेख छोटे हैं और लिपि को निर्णायक रूप से नहीं पढ़ा गया है। इसे किसी निश्चित भाषा से जोड़ने वाले दावों को अप्रमाणित मानना चाहिए।"}
+      }
+    ]
+  },
+  "vedic-age": {
+    "concept": {
+      "en": "Vedic history is reconstructed mainly from the Vedic texts, supported and qualified by archaeology and comparative historical study. The Rigveda is the oldest Veda. Historians conventionally distinguish an early Vedic period from a later Vedic period, while recognising that changes were gradual and differed across regions.",
+      "hi": "वैदिक इतिहास का पुनर्निर्माण मुख्यतः वैदिक ग्रंथों से होता है; पुरातत्त्व और तुलनात्मक ऐतिहासिक अध्ययन से इनकी पुष्टि और सीमाओं का आकलन किया जाता है। ऋग्वेद सबसे प्राचीन वेद है। इतिहासकार सामान्यतः पूर्व वैदिक और उत्तर वैदिक चरणों में अंतर करते हैं, हालांकि परिवर्तन क्रमिक और क्षेत्रानुसार अलग थे।"
+    },
+    "keyPoints": {
+      "en": ["The four Vedas are Rigveda, Samaveda, Yajurveda and Atharvaveda; each has associated textual layers such as Brahmanas and Upanishads.", "The Rigvedic corpus refers to the Sapta-Sindhu region and a largely pastoral economy, alongside agriculture and exchange.", "Later Vedic texts reflect expanding settlement and changes in political, social and ritual institutions; they are not a uniform census of every community.", "Texts have a particular authorship and purpose. Read them critically and do not project later social practices unchanged onto earlier periods."],
+      "hi": ["चार वेद ऋग्वेद, सामवेद, यजुर्वेद और अथर्ववेद हैं; प्रत्येक से ब्राह्मण और उपनिषद जैसे ग्रंथ-स्तर जुड़े हैं।", "ऋग्वैदिक सामग्री में सप्त-सिंधु क्षेत्र और मुख्यतः पशुपालन आधारित अर्थव्यवस्था के साथ कृषि तथा विनिमय के संकेत मिलते हैं।", "उत्तर वैदिक ग्रंथों में बस्तियों के विस्तार और राजनीतिक, सामाजिक तथा अनुष्ठानिक संस्थाओं में बदलाव दिखाई देते हैं; वे प्रत्येक समुदाय की समान तस्वीर नहीं हैं।", "ग्रंथों के लेखक और उद्देश्य विशेष थे। उन्हें आलोचनात्मक रूप से पढ़ें और बाद की सामाजिक प्रथाओं को बिना प्रमाण पहले के समय पर लागू न करें।"]
+    },
+    "examAngle": {
+      "en": "Questions commonly test the order and nature of Vedic texts, broad early/later distinctions, and cautious interpretation of textual evidence. Avoid absolute claims where evidence indicates gradual change.",
+      "hi": "प्रश्नों में वैदिक ग्रंथों का क्रम और प्रकृति, पूर्व/उत्तर वैदिक के व्यापक अंतर तथा साहित्यिक साक्ष्य की सावधान व्याख्या पूछी जा सकती है। जहाँ परिवर्तन क्रमिक हों वहाँ निरपेक्ष दावों से बचें।"
+    },
+    "revision": {
+      "en": "Draw a simple text-family tree: Veda, Samhita, Brahmana, Aranyaka and Upanishad. Add one evidence-based feature for the early and later phases, then note one limitation of using prescriptive texts as direct descriptions of society.",
+      "hi": "एक सरल ग्रंथ-वंशवृक्ष बनाएं: वेद, संहिता, ब्राह्मण, आरण्यक और उपनिषद। पूर्व तथा उत्तर चरण की एक-एक साक्ष्य-आधारित विशेषता लिखें और निर्देशात्मक ग्रंथों को समाज का सीधा विवरण मानने की एक सीमा भी नोट करें।"
+    },
+    "questions": [
+      {
+        "question": {"en": "Which Veda is generally regarded as the oldest?", "hi": "सामान्यतः सबसे प्राचीन वेद किसे माना जाता है?"},
+        "options": {"en": ["Samaveda", "Atharvaveda", "Rigveda", "Yajurveda"], "hi": ["सामवेद", "अथर्ववेद", "ऋग्वेद", "यजुर्वेद"]},
+        "correct": 2,
+        "explanation": {"en": "The Rigveda is generally regarded as the oldest Veda and is a central source for the early Vedic period.", "hi": "ऋग्वेद को सामान्यतः सबसे प्राचीन वेद माना जाता है और यह पूर्व वैदिक काल का प्रमुख स्रोत है।"}
+      },
+      {
+        "question": {"en": "Which is the most sound way to use Vedic texts as historical evidence?", "hi": "वैदिक ग्रंथों को ऐतिहासिक साक्ष्य के रूप में उपयोग करने का सबसे उचित तरीका क्या है?"},
+        "options": {"en": ["Treat every passage as a literal record of all communities", "Read them critically alongside other evidence", "Assume all texts were composed at one time", "Ignore differences between textual layers"], "hi": ["हर अंश को सभी समुदायों का शाब्दिक विवरण मानें", "उन्हें अन्य साक्ष्यों के साथ आलोचनात्मक रूप से पढ़ें", "सभी ग्रंथों को एक ही समय का मानें", "ग्रंथ-स्तरों के अंतर को अनदेखा करें"]},
+        "correct": 1,
+        "explanation": {"en": "Texts have context, purpose and chronology. Comparing them with archaeology and other sources helps prevent overgeneralisation.", "hi": "ग्रंथों का अपना संदर्भ, उद्देश्य और कालक्रम होता है। पुरातत्त्व और अन्य स्रोतों से तुलना अतिसामान्यीकरण से बचाती है।"}
+      }
+    ]
+  },
+  "revolt-1857": {
+    "concept": {
+      "en": "The uprising of 1857 began among sepoys at Meerut in May and spread to several north and central Indian centres. It combined military revolt with civilian and local resistance, but participation, aims and leadership varied greatly by region. Historians therefore use differing descriptions, and no single label captures every local experience.",
+      "hi": "1857 का विद्रोह मई में मेरठ के सिपाहियों से शुरू हुआ और उत्तर तथा मध्य भारत के कई केंद्रों तक फैला। इसमें सैनिक विद्रोह के साथ नागरिक और स्थानीय प्रतिरोध भी शामिल थे, पर भागीदारी, उद्देश्य और नेतृत्व क्षेत्रानुसार बहुत अलग थे। इसलिए इतिहासकार अलग-अलग संज्ञाएँ देते हैं; कोई एक नाम हर स्थानीय अनुभव को पूरी तरह नहीं बताता।"
+    },
+    "keyPoints": {
+      "en": ["The cartridge controversy was an immediate trigger; wider causes included annexation policies, dispossession, military grievances and social-economic change.", "Major centres included Delhi, Kanpur, Lucknow, Jhansi and Bareilly; local leaders and circumstances differed.", "Bahadur Shah Zafar became a symbolic figure in Delhi; Rani Lakshmibai, Nana Sahib, Begum Hazrat Mahal and Kunwar Singh were among prominent leaders elsewhere.", "The revolt was suppressed by 1858. Company rule ended and governance passed to the British Crown under the Government of India Act 1858."],
+      "hi": ["कारतूस विवाद तात्कालिक कारण बना; व्यापक कारणों में विलय नीतियाँ, अधिकारों का हरण, सैनिक असंतोष और सामाजिक-आर्थिक परिवर्तन शामिल थे।", "दिल्ली, कानपुर, लखनऊ, झाँसी और बरेली प्रमुख केंद्र थे; स्थानीय नेता और परिस्थितियाँ अलग-अलग थीं।", "दिल्ली में बहादुर शाह ज़फ़र प्रतीकात्मक व्यक्तित्व बने; अन्य क्षेत्रों में रानी लक्ष्मीबाई, नाना साहब, बेगम हज़रत महल और कुंवर सिंह प्रमुख नेता थे।", "1858 तक विद्रोह दबा दिया गया। भारत शासन अधिनियम 1858 के तहत कंपनी शासन समाप्त हुआ और शासन ब्रिटिश क्राउन के अधीन चला गया।"]
+    },
+    "examAngle": {
+      "en": "Separate immediate triggers from structural causes, match leaders to centres, and distinguish outcomes from causes. Treat claims of uniform national coordination cautiously because participation and objectives were uneven.",
+      "hi": "तात्कालिक कारणों को संरचनात्मक कारणों से अलग रखें, नेताओं को केंद्रों से मिलाएं और परिणामों को कारणों से अलग पहचानें। पूरे आंदोलन के समान राष्ट्रीय समन्वय के दावों को सावधानी से देखें क्योंकि भागीदारी और उद्देश्य असमान थे।"
+    },
+    "revision": {
+      "en": "Create a cause–event–outcome timeline. On a map, locate the major centres and attach one leader to each. End with the constitutional change of 1858 and one sentence on why historians debate the revolt's character.",
+      "hi": "कारण–घटना–परिणाम की समयरेखा बनाएं। मानचित्र पर प्रमुख केंद्र चिह्नित कर प्रत्येक से एक नेता जोड़ें। अंत में 1858 के शासन परिवर्तन और विद्रोह के स्वरूप पर इतिहासकारों में मतभेद के एक कारण को लिखें।"
+    },
+    "questions": [
+      {
+        "question": {"en": "Which change followed the Government of India Act 1858?", "hi": "भारत शासन अधिनियम 1858 के बाद कौन-सा परिवर्तन हुआ?"},
+        "options": {"en": ["Company rule was transferred to the British Crown", "The Mughal Empire was restored", "The Indian National Congress was founded", "The army was immediately dissolved"], "hi": ["कंपनी शासन ब्रिटिश क्राउन को हस्तांतरित हुआ", "मुगल साम्राज्य बहाल हुआ", "भारतीय राष्ट्रीय कांग्रेस की स्थापना हुई", "सेना तत्काल भंग कर दी गई"]},
+        "correct": 0,
+        "explanation": {"en": "The 1858 Act ended the East India Company's governing role and placed India under the British Crown.", "hi": "1858 के अधिनियम ने ईस्ट इंडिया कंपनी की शासन भूमिका समाप्त कर भारत को ब्रिटिश क्राउन के अधीन रखा।"}
+      },
+      {
+        "question": {"en": "Which statement about the uprising of 1857 is best supported?", "hi": "1857 के विद्रोह के बारे में कौन-सा कथन सबसे अधिक साक्ष्य-समर्थित है?"},
+        "options": {"en": ["Every region participated equally", "It had only one cause", "Its participation and aims varied by region", "It began after the 1905 partition"], "hi": ["हर क्षेत्र ने समान रूप से भाग लिया", "इसका केवल एक कारण था", "इसकी भागीदारी और उद्देश्य क्षेत्रानुसार अलग थे", "यह 1905 के विभाजन के बाद शुरू हुआ"]},
+        "correct": 2,
+        "explanation": {"en": "The uprising drew on multiple grievances, and its scale, leadership and objectives differed across regions.", "hi": "विद्रोह अनेक असंतोषों से जुड़ा था और इसका विस्तार, नेतृत्व तथा उद्देश्य विभिन्न क्षेत्रों में अलग थे।"}
+      }
+    ]
+  },
+  "national-movement": {
+    "concept": {
+      "en": "The Indian national movement developed over many decades through constitutional politics, public mobilisation, social reform, revolutionary activity, peasant and worker struggles, and negotiations. The Indian National Congress, founded in 1885, became a major platform, but the movement included many organisations, ideologies and regional experiences.",
+      "hi": "भारतीय राष्ट्रीय आंदोलन कई दशकों में संवैधानिक राजनीति, जन-संगठन, सामाजिक सुधार, क्रांतिकारी गतिविधि, किसान-मजदूर संघर्ष और वार्ताओं के माध्यम से विकसित हुआ। 1885 में स्थापित भारतीय राष्ट्रीय कांग्रेस एक प्रमुख मंच बनी, लेकिन आंदोलन में अनेक संगठन, विचारधाराएँ और क्षेत्रीय अनुभव शामिल थे।"
+    },
+    "keyPoints": {
+      "en": ["The Swadeshi and boycott movement followed the 1905 partition of Bengal; the partition was annulled in 1911.", "Gandhi's mass politics included the Champaran, Kheda and Ahmedabad interventions, followed by Non-Cooperation, Civil Disobedience and Quit India.", "The 1919 Rowlatt Act and Jallianwala Bagh massacre became major turning points; the Government of India Act 1919 introduced dyarchy in provinces.", "The Cabinet Mission Plan (1946), transfer of power and Indian Independence Act (1947) belong to the final constitutional phase."],
+      "hi": ["1905 के बंगाल विभाजन के बाद स्वदेशी और बहिष्कार आंदोलन चला; 1911 में विभाजन रद्द किया गया।", "गांधी के जन-आंदोलन में चंपारण, खेड़ा और अहमदाबाद के हस्तक्षेप के बाद असहयोग, सविनय अवज्ञा और भारत छोड़ो आंदोलन शामिल थे।", "1919 का रॉलेट एक्ट और जलियांवाला बाग हत्याकांड प्रमुख मोड़ बने; भारत शासन अधिनियम 1919 ने प्रांतों में द्वैध शासन शुरू किया।", "कैबिनेट मिशन योजना (1946), सत्ता हस्तांतरण और भारतीय स्वतंत्रता अधिनियम (1947) अंतिम संवैधानिक चरण से जुड़े हैं।"]
+    },
+    "examAngle": {
+      "en": "Build chronology around causes, methods, participation and outcomes. Questions often use close dates, commissions and acts as distractors; learn what each measure changed rather than memorising its title alone.",
+      "hi": "कारण, तरीके, भागीदारी और परिणामों के आधार पर कालक्रम बनाएं। प्रश्नों में मिलती-जुलती तिथियाँ, आयोग और अधिनियम विकल्पों में आते हैं; केवल नाम याद करने के बजाय हर व्यवस्था ने क्या बदला, यह समझें।"
+    },
+    "revision": {
+      "en": "Use a timeline with four tracks: constitutional reforms, mass movements, organisations and major events. For every movement, note launch context, method, social reach and withdrawal or outcome.",
+      "hi": "चार धाराओं वाली समयरेखा बनाएं: संवैधानिक सुधार, जन-आंदोलन, संगठन और प्रमुख घटनाएँ। प्रत्येक आंदोलन के लिए आरंभिक संदर्भ, तरीका, सामाजिक विस्तार और वापसी या परिणाम लिखें।"
+    },
+    "questions": [
+      {
+        "question": {"en": "The Swadeshi movement gained prominence in response to which event?", "hi": "स्वदेशी आंदोलन किस घटना की प्रतिक्रिया में प्रमुख हुआ?"},
+        "options": {"en": ["Partition of Bengal in 1905", "Simon Commission in 1928", "Cripps Mission in 1942", "Partition of India in 1947"], "hi": ["1905 का बंगाल विभाजन", "1928 का साइमन कमीशन", "1942 का क्रिप्स मिशन", "1947 का भारत विभाजन"]},
+        "correct": 0,
+        "explanation": {"en": "The 1905 partition of Bengal prompted the Swadeshi and boycott movement; the partition was annulled in 1911.", "hi": "1905 के बंगाल विभाजन के बाद स्वदेशी और बहिष्कार आंदोलन चला; विभाजन 1911 में रद्द हुआ।"}
+      },
+      {
+        "question": {"en": "Which is the best method for revising a mass movement?", "hi": "जन-आंदोलन की पुनरावृत्ति का सबसे अच्छा तरीका कौन-सा है?"},
+        "options": {"en": ["Memorise its name only", "Link context, methods, participation and outcome", "Ignore the chronology", "Assume all movements had identical aims"], "hi": ["केवल उसका नाम याद करें", "संदर्भ, तरीके, भागीदारी और परिणाम को जोड़ें", "कालक्रम अनदेखा करें", "सभी आंदोलनों के उद्देश्य समान मानें"]},
+        "correct": 1,
+        "explanation": {"en": "A movement is understood through its context, methods, social reach and consequences; this also helps distinguish similar events.", "hi": "किसी आंदोलन को उसके संदर्भ, तरीकों, सामाजिक विस्तार और परिणामों से समझा जाता है; इससे मिलती-जुलती घटनाओं में अंतर करना आसान होता है।"}
+      }
+    ]
+  },
+  "preamble": {
+    "concept": {
+      "en": "The Preamble states the Constitution's source of authority, the nature of the Indian state, and the objectives it seeks to secure. It is part of the Constitution, but it is not an independent source of legislative power and cannot by itself override operative constitutional provisions.",
+      "hi": "प्रस्तावना संविधान के अधिकार का स्रोत, भारतीय राज्य का स्वरूप और सुरक्षित किए जाने वाले उद्देश्यों को बताती है। यह संविधान का हिस्सा है, लेकिन अपने आप में विधायी शक्ति का स्वतंत्र स्रोत नहीं है और लागू संवैधानिक प्रावधानों को निरस्त नहीं कर सकती।"
+    },
+    "keyPoints": {
+      "en": ["It opens with 'We, the People of India', expressing popular sovereignty.", "The objectives include Justice, Liberty, Equality and Fraternity; the Preamble describes India as a Sovereign, Socialist, Secular, Democratic Republic.", "The words Socialist, Secular and Integrity were added by the 42nd Constitutional Amendment Act, 1976.", "In Kesavananda Bharati v. State of Kerala (1973), the Supreme Court treated the Preamble as part of the Constitution and linked amendment power to the basic-structure limitation."],
+      "hi": ["इसकी शुरुआत ‘हम, भारत के लोग’ से होती है, जो जन-संप्रभुता व्यक्त करती है।", "उद्देश्यों में न्याय, स्वतंत्रता, समानता और बंधुता हैं; प्रस्तावना भारत को संपूर्ण प्रभुत्व-संपन्न, समाजवादी, पंथनिरपेक्ष, लोकतंत्रात्मक गणराज्य बताती है।", "‘समाजवादी’, ‘पंथनिरपेक्ष’ और ‘अखंडता’ शब्द 42वें संविधान संशोधन अधिनियम, 1976 से जोड़े गए।", "केशवानंद भारती बनाम केरल राज्य (1973) में सर्वोच्च न्यायालय ने प्रस्तावना को संविधान का हिस्सा माना और संशोधन शक्ति को मूल संरचना की सीमा से जोड़ा।"]
+    },
+    "examAngle": {
+      "en": "Separate the original text from the 1976 additions. Remember that the Preamble is amendable, but an amendment cannot damage the Constitution's basic structure. Avoid the incorrect extremes that it is either legally irrelevant or an independent enforceable power.",
+      "hi": "मूल पाठ और 1976 में जोड़े गए शब्द अलग याद रखें। प्रस्तावना में संशोधन हो सकता है, पर संशोधन संविधान की मूल संरचना को नष्ट नहीं कर सकता। यह कहना गलत है कि प्रस्तावना पूरी तरह अप्रासंगिक है या स्वतंत्र प्रवर्तनीय शक्ति देती है।"
+    },
+    "revision": {
+      "en": "Recite the Preamble in four parts: source, state description, objectives, and adoption date. Mark the three 1976 additions and connect Kesavananda Bharati to the basic-structure doctrine.",
+      "hi": "प्रस्तावना को चार भागों में दोहराएं: स्रोत, राज्य का स्वरूप, उद्देश्य और अंगीकरण की तिथि। 1976 के तीन जोड़े गए शब्द चिह्नित करें और केशवानंद भारती को मूल संरचना सिद्धांत से जोड़ें।"
+    },
+    "questions": [
+      {
+        "question": {"en": "Which words were added to the Preamble by the 42nd Amendment?", "hi": "42वें संशोधन द्वारा प्रस्तावना में कौन-से शब्द जोड़े गए?"},
+        "options": {"en": ["Justice, Liberty, Equality", "Socialist, Secular, Integrity", "Democratic, Republic, Sovereign", "People, India, Constitution"], "hi": ["न्याय, स्वतंत्रता, समानता", "समाजवादी, पंथनिरपेक्ष, अखंडता", "लोकतंत्रात्मक, गणराज्य, संप्रभु", "लोग, भारत, संविधान"]},
+        "correct": 1,
+        "explanation": {"en": "The 42nd Amendment Act, 1976 added Socialist and Secular and changed 'unity of the Nation' to 'unity and integrity of the Nation'.", "hi": "42वें संशोधन अधिनियम, 1976 ने समाजवादी और पंथनिरपेक्ष शब्द जोड़े तथा ‘राष्ट्र की एकता’ को ‘राष्ट्र की एकता और अखंडता’ किया।"}
+      },
+      {
+        "question": {"en": "Which statement best describes the legal role of the Preamble?", "hi": "प्रस्तावना की कानूनी भूमिका का सबसे सही वर्णन कौन-सा है?"},
+        "options": {"en": ["It is not part of the Constitution", "It is part of the Constitution but is not an independent source of power", "It overrides every Article", "It cannot be amended under any circumstances"], "hi": ["यह संविधान का हिस्सा नहीं है", "यह संविधान का हिस्सा है, पर शक्ति का स्वतंत्र स्रोत नहीं", "यह हर अनुच्छेद को निरस्त करती है", "इसमें किसी भी परिस्थिति में संशोधन नहीं हो सकता"]},
+        "correct": 1,
+        "explanation": {"en": "The Preamble guides constitutional interpretation and is part of the Constitution, but powers and rights arise from operative provisions.", "hi": "प्रस्तावना संवैधानिक व्याख्या का मार्गदर्शन करती है और संविधान का हिस्सा है, पर शक्तियाँ और अधिकार लागू प्रावधानों से आते हैं।"}
+      }
+    ]
+  },
+  "article-14": {
+    "concept": {
+      "en": "Article 14 guarantees equality before the law and equal protection of the laws to any person within India's territory. Equality does not require identical treatment in every situation; it permits reasonable classification when the classification is intelligible and has a rational connection with the law's objective. Arbitrary state action can also offend equality.",
+      "hi": "अनुच्छेद 14 भारत के क्षेत्र में किसी भी व्यक्ति को विधि के समक्ष समता और विधियों के समान संरक्षण की गारंटी देता है। समानता का अर्थ हर स्थिति में बिल्कुल समान व्यवहार नहीं है; युक्तिसंगत वर्गीकरण तभी स्वीकार्य है जब उसका स्पष्ट आधार हो और कानून के उद्देश्य से तर्कसंगत संबंध हो। मनमानी राज्य कार्रवाई भी समानता का उल्लंघन कर सकती है।"
+    },
+    "keyPoints": {
+      "en": ["'Equality before law' is a negative concept associated with absence of special privilege; 'equal protection' requires like cases to be treated alike.", "Article 14 applies to 'any person', not only citizens.", "A classification must satisfy intelligible differentia and a rational nexus with the objective.", "Equality is not a ban on all classification; the constitutional test is whether the distinction is reasonable and non-arbitrary."],
+      "hi": ["‘विधि के समक्ष समता’ विशेषाधिकार के अभाव से जुड़ी नकारात्मक अवधारणा है; ‘विधियों का समान संरक्षण’ समान परिस्थितियों में समान व्यवहार की मांग करता है।", "अनुच्छेद 14 ‘किसी भी व्यक्ति’ पर लागू होता है, केवल नागरिकों पर नहीं।", "वर्गीकरण में स्पष्ट भेद और उद्देश्य से तर्कसंगत संबंध होना चाहिए।", "समानता सभी वर्गीकरणों पर रोक नहीं है; कसौटी यह है कि भेद युक्तिसंगत और गैर-मनमाना हो।"]
+    },
+    "examAngle": {
+      "en": "Look for traps that say Article 14 is citizen-only, forbids every classification, or requires identical outcomes. Test both the basis of classification and its connection to the stated objective.",
+      "hi": "ऐसे विकल्पों से सावधान रहें जो अनुच्छेद 14 को केवल नागरिकों पर लागू बताते हैं, हर वर्गीकरण पर रोक कहते हैं या समान परिणाम अनिवार्य मानते हैं। वर्गीकरण का आधार और घोषित उद्देश्य से उसका संबंध दोनों जाँचें।"
+    },
+    "revision": {
+      "en": "Use a two-question test for a classification: Is the distinguishing feature intelligible? Does it rationally advance the law's objective? Then check whether the question asks about citizens or any person.",
+      "hi": "वर्गीकरण पर दो प्रश्न पूछें: क्या अलग पहचान का आधार स्पष्ट है? क्या वह कानून के उद्देश्य को तर्कसंगत रूप से आगे बढ़ाता है? फिर देखें कि प्रश्न नागरिकों या किसी भी व्यक्ति की बात कर रहा है।"
+    },
+    "questions": [
+      {
+        "question": {"en": "Article 14 is available to which of the following?", "hi": "अनुच्छेद 14 निम्नलिखित में से किसे उपलब्ध है?"},
+        "options": {"en": ["Citizens only", "Any person within the territory of India", "Only government employees", "Only elected representatives"], "hi": ["केवल नागरिकों को", "भारत के क्षेत्र में किसी भी व्यक्ति को", "केवल सरकारी कर्मचारियों को", "केवल निर्वाचित प्रतिनिधियों को"]},
+        "correct": 1,
+        "explanation": {"en": "Article 14 uses the phrase 'any person', so its guarantee is not restricted to citizens.", "hi": "अनुच्छेद 14 में ‘किसी भी व्यक्ति’ शब्द हैं, इसलिए इसकी गारंटी केवल नागरिकों तक सीमित नहीं है।"}
+      },
+      {
+        "question": {"en": "A reasonable classification under Article 14 must have what?", "hi": "अनुच्छेद 14 के अंतर्गत युक्तिसंगत वर्गीकरण में क्या आवश्यक है?"},
+        "options": {"en": ["A distinction with no stated purpose", "Intelligible differentia and rational nexus with the objective", "Identical treatment in all cases", "Approval by every citizen"], "hi": ["बिना उद्देश्य का भेद", "स्पष्ट भेद और उद्देश्य से तर्कसंगत संबंध", "हर मामले में समान व्यवहार", "हर नागरिक की स्वीकृति"]},
+        "correct": 1,
+        "explanation": {"en": "The conventional test requires an intelligible basis for distinction and a rational connection between that basis and the law's objective.", "hi": "परंपरागत कसौटी में भेद का स्पष्ट आधार और उस आधार तथा कानून के उद्देश्य के बीच तर्कसंगत संबंध आवश्यक है।"}
+      }
+    ]
+  },
+  "article-21": {
+    "concept": {
+      "en": "Article 21 provides that no person shall be deprived of life or personal liberty except according to procedure established by law. In Maneka Gandhi v. Union of India (1978), the Supreme Court held that such procedure must be just, fair and reasonable, and read Articles 14, 19 and 21 together. Judicial interpretation has given the right a broad scope, while specific claims depend on constitutional text and precedent.",
+      "hi": "अनुच्छेद 21 कहता है कि किसी व्यक्ति को विधि द्वारा स्थापित प्रक्रिया के अतिरिक्त उसके जीवन या व्यक्तिगत स्वतंत्रता से वंचित नहीं किया जाएगा। मेनका गांधी बनाम भारत संघ (1978) में सर्वोच्च न्यायालय ने कहा कि प्रक्रिया न्यायसंगत, उचित और तर्कसंगत होनी चाहिए तथा अनुच्छेद 14, 19 और 21 को साथ पढ़ा। न्यायिक व्याख्या ने इस अधिकार का दायरा व्यापक किया है, हालांकि विशिष्ट दावे संवैधानिक पाठ और नज़ीर पर निर्भर करते हैं।"
+    },
+    "keyPoints": {
+      "en": ["Article 21 protects every person, not only citizens.", "'Life' has been interpreted as more than mere physical existence; the exact scope develops through judicial decisions.", "Maneka Gandhi connected procedural fairness under Article 21 with the non-arbitrariness of Article 14 and freedoms in Article 19.", "The right is not an absolute bar on deprivation: restrictions must meet constitutional and legal requirements."],
+      "hi": ["अनुच्छेद 21 प्रत्येक व्यक्ति की रक्षा करता है, केवल नागरिकों की नहीं।", "‘जीवन’ की व्याख्या केवल शारीरिक अस्तित्व से आगे हुई है; इसका सटीक दायरा न्यायिक निर्णयों से विकसित होता है।", "मेनका गांधी निर्णय ने अनुच्छेद 21 की प्रक्रियात्मक निष्पक्षता को अनुच्छेद 14 की गैर-मनमानी और अनुच्छेद 19 की स्वतंत्रताओं से जोड़ा।", "यह अधिकार प्रत्येक प्रकार की वंचना पर पूर्ण रोक नहीं है; प्रतिबंधों को संवैधानिक और कानूनी कसौटियाँ पूरी करनी होती हैं।"]
+    },
+    "examAngle": {
+      "en": "Remember the text's 'person' wording, the Maneka Gandhi fairness test, and the interrelationship of Articles 14, 19 and 21. Avoid presenting every desirable social outcome as an unqualified, expressly listed Article 21 clause.",
+      "hi": "पाठ में ‘व्यक्ति’ शब्द, मेनका गांधी की निष्पक्षता कसौटी और अनुच्छेद 14, 19 तथा 21 के परस्पर संबंध याद रखें। हर वांछनीय सामाजिक परिणाम को बिना शर्त अनुच्छेद 21 में स्पष्ट रूप से सूचीबद्ध अधिकार न बताएं।"
+    },
+    "revision": {
+      "en": "Memorise the Article 21 sentence, then make a case card for Maneka Gandhi: issue, fairness standard, and Articles linked. Add newer interpretations only with the case name and a reliable current source.",
+      "hi": "अनुच्छेद 21 का वाक्य याद करें, फिर मेनका गांधी का केस-कार्ड बनाएं: मुद्दा, निष्पक्षता की कसौटी और जुड़े अनुच्छेद। नई व्याख्याएँ केवल निर्णय के नाम और विश्वसनीय अद्यतन स्रोत के साथ जोड़ें।"
+    },
+    "questions": [
+      {
+        "question": {"en": "Which phrase appears in Article 21?", "hi": "अनुच्छेद 21 में कौन-सा वाक्यांश है?"},
+        "options": {"en": ["Citizens alone shall not be deprived", "No person shall be deprived except according to procedure established by law", "No tax shall be imposed", "Every person must vote"], "hi": ["केवल नागरिकों को वंचित नहीं किया जाएगा", "विधि द्वारा स्थापित प्रक्रिया के अतिरिक्त किसी व्यक्ति को वंचित नहीं किया जाएगा", "कोई कर नहीं लगाया जाएगा", "प्रत्येक व्यक्ति को मतदान करना होगा"]},
+        "correct": 1,
+        "explanation": {"en": "Article 21 protects the life and personal liberty of any person, subject to procedure established by law as constitutionally interpreted.", "hi": "अनुच्छेद 21 किसी भी व्यक्ति के जीवन और व्यक्तिगत स्वतंत्रता की रक्षा करता है; प्रक्रिया की संवैधानिक व्याख्या न्यायालयों ने विकसित की है।"}
+      },
+      {
+        "question": {"en": "What did Maneka Gandhi (1978) establish about procedure under Article 21?", "hi": "मेनका गांधी (1978) ने अनुच्छेद 21 की प्रक्रिया के बारे में क्या स्थापित किया?"},
+        "options": {"en": ["It may be arbitrary", "It must be just, fair and reasonable", "Article 14 no longer applies", "Only citizens receive Article 21 protection"], "hi": ["यह मनमानी हो सकती है", "यह न्यायसंगत, उचित और तर्कसंगत होनी चाहिए", "अनुच्छेद 14 अब लागू नहीं होता", "अनुच्छेद 21 की रक्षा केवल नागरिकों को है"]},
+        "correct": 1,
+        "explanation": {"en": "The Court rejected a narrow reading and required a fair, just and reasonable procedure, reading Articles 14, 19 and 21 in relation to one another.", "hi": "न्यायालय ने संकीर्ण व्याख्या अस्वीकार कर निष्पक्ष, न्यायसंगत और तर्कसंगत प्रक्रिया आवश्यक मानी तथा अनुच्छेद 14, 19 और 21 को परस्पर संबंधित पढ़ा।"}
+      }
+    ]
+  },
+  "plate-tectonics": {
+    "concept": {
+      "en": "Plate tectonics explains the large-scale movement of rigid lithospheric plates over the weaker asthenosphere. Interactions at divergent, convergent and transform boundaries create characteristic patterns of earthquakes, volcanism, mountain building, ocean-floor formation and subduction. The type of boundary and crust involved determines the resulting landforms.",
+      "hi": "प्लेट विवर्तनिकी दुर्बल एस्थेनोस्फीयर के ऊपर कठोर स्थलमंडलीय प्लेटों की व्यापक गति समझाती है। अपसारी, अभिसारी और रूपांतर सीमाओं पर अंतःक्रियाएँ भूकंप, ज्वालामुखिता, पर्वत निर्माण, महासागरीय तल निर्माण और अधोगमन के विशिष्ट रूप बनाती हैं। सीमा और भूपर्पटी का प्रकार स्थलरूप निर्धारित करता है।"
+    },
+    "keyPoints": {
+      "en": ["At divergent boundaries plates move apart; new oceanic crust can form at mid-ocean ridges.", "At oceanic–continental convergence, denser oceanic lithosphere commonly subducts, producing trenches and volcanic arcs.", "Continental collision can build fold mountains; transform boundaries involve lateral motion and frequent earthquakes.", "Plate motion is supported by evidence including seafloor spreading, magnetic stripes, earthquake distribution and GPS measurements; no single boundary produces every feature."],
+      "hi": ["अपसारी सीमा पर प्लेटें दूर जाती हैं; मध्य-महासागरीय पर्वतमालाओं पर नया महासागरीय भूपटल बन सकता है।", "महासागरीय–महाद्वीपीय अभिसरण में अधिक घना महासागरीय स्थलमंडल सामान्यतः नीचे धँसता है, जिससे गर्त और ज्वालामुखीय चाप बनते हैं।", "महाद्वीपीय टक्कर वलित पर्वत बना सकती है; रूपांतर सीमाओं पर पार्श्व गति और अक्सर भूकंप होते हैं।", "समुद्रतल प्रसार, चुंबकीय धारियाँ, भूकंप वितरण और GPS मापन प्लेट गति के साक्ष्य हैं; कोई एक सीमा सभी स्थलरूप नहीं बनाती।"]
+    },
+    "examAngle": {
+      "en": "Classify a boundary before selecting its landform or hazard. Common traps confuse subduction with seafloor spreading, or assume that all convergent boundaries create identical volcanoes.",
+      "hi": "स्थलरूप या आपदा चुनने से पहले सीमा का प्रकार पहचानें। सामान्य भ्रम अधोगमन को समुद्रतल प्रसार से मिलाना या हर अभिसारी सीमा पर समान ज्वालामुखी मानना है।"
+    },
+    "revision": {
+      "en": "Draw three labelled boundary sketches. For each, record plate motion, crust type, dominant landform and typical hazard. Explain one example such as the Himalaya–India/Eurasia collision or a mid-ocean ridge.",
+      "hi": "तीनों सीमाओं के नामांकित चित्र बनाएं। प्रत्येक में प्लेट गति, भूपर्पटी का प्रकार, प्रमुख स्थलरूप और सामान्य आपदा लिखें। हिमालय में भारत–यूरेशिया टक्कर या मध्य-महासागरीय पर्वतमाला का एक उदाहरण समझाएं।"
+    },
+    "questions": [
+      {
+        "question": {"en": "New oceanic crust is most directly associated with which boundary?", "hi": "नया महासागरीय भूपटल सीधे किस सीमा से जुड़ा है?"},
+        "options": {"en": ["Divergent boundary", "Transform boundary", "Continental collision zone", "Stable craton"], "hi": ["अपसारी सीमा", "रूपांतर सीमा", "महाद्वीपीय टक्कर क्षेत्र", "स्थिर क्रेटन"]},
+        "correct": 0,
+        "explanation": {"en": "At divergent oceanic boundaries, magma rises as plates separate and solidifies to form new oceanic crust.", "hi": "अपसारी महासागरीय सीमा पर प्लेटें अलग होती हैं; मैग्मा ऊपर आकर ठंडा होता है और नया महासागरीय भूपटल बनाता है।"}
+      },
+      {
+        "question": {"en": "A transform boundary is chiefly characterised by", "hi": "रूपांतर सीमा की मुख्य विशेषता क्या है?"},
+        "options": {"en": ["Plates sliding laterally past one another", "New crust forming continuously", "One continent subducting beneath another", "No relative plate motion"], "hi": ["प्लेटों का एक-दूसरे के पास से पार्श्व रूप में खिसकना", "नए भूपटल का लगातार बनना", "एक महाद्वीप का दूसरे के नीचे धँसना", "प्लेटों में कोई सापेक्ष गति न होना"]},
+        "correct": 0,
+        "explanation": {"en": "Transform boundaries accommodate lateral plate motion and commonly generate earthquakes; crust is not created or consumed in the same way as at other boundaries.", "hi": "रूपांतर सीमाएँ प्लेटों की पार्श्व गति समायोजित करती हैं और अक्सर भूकंप उत्पन्न करती हैं; यहाँ अन्य सीमाओं जैसी भूपटल-निर्माण या विनाश प्रक्रिया नहीं होती।"}
+      }
+    ]
+  },
+  "gdp": {
+    "concept": {
+      "en": "Gross Domestic Product (GDP) measures the market value of final goods and services produced within a country's economic territory during a specified period. It is a production measure, not a complete measure of welfare, distribution or unpaid household work. Nominal GDP uses current prices; real GDP adjusts for price changes using a specified base and deflator methodology.",
+      "hi": "सकल घरेलू उत्पाद (GDP) किसी निश्चित अवधि में देश की आर्थिक सीमा के भीतर उत्पादित अंतिम वस्तुओं और सेवाओं के बाजार मूल्य को मापता है। यह उत्पादन का माप है, कल्याण, वितरण या अवैतनिक घरेलू कार्य का पूर्ण माप नहीं। नाममात्र GDP चालू कीमतों पर होता है; वास्तविक GDP निर्धारित आधार और अपस्फीतिकारक पद्धति से कीमतों के बदलाव का समायोजन करता है।"
+    },
+    "keyPoints": {
+      "en": ["The expenditure identity is GDP = private consumption + investment + government expenditure + (exports − imports), with statistical adjustments as required.", "Intermediate goods are excluded to avoid double counting; the value of final output or value added is counted.", "GDP is domestic: production location matters. Gross National Income (GNI) additionally accounts for net primary income from abroad.", "GDP growth can coexist with inequality, environmental costs or weak job creation; use complementary indicators for broader assessment."],
+      "hi": ["व्यय पहचान है: GDP = निजी उपभोग + निवेश + सरकारी व्यय + (निर्यात − आयात), आवश्यक सांख्यिकीय समायोजन सहित।", "दोहरी गणना से बचने के लिए मध्यवर्ती वस्तुएँ अलग से नहीं जोड़ी जातीं; अंतिम उत्पादन या मूल्य-वर्धन गिना जाता है।", "GDP घरेलू माप है: उत्पादन का स्थान महत्त्वपूर्ण है। GNI में विदेश से शुद्ध प्राथमिक आय भी जोड़ी जाती है।", "GDP वृद्धि के साथ असमानता, पर्यावरणीय लागत या कमजोर रोजगार सृजन संभव है; व्यापक आकलन के लिए पूरक संकेतक चाहिए।"]
+    },
+    "examAngle": {
+      "en": "Distinguish nominal from real, domestic from national, final from intermediate, and GDP from welfare. For current Indian estimates, use the latest Ministry of Statistics and Programme Implementation release and state its reference period.",
+      "hi": "नाममात्र और वास्तविक, घरेलू और राष्ट्रीय, अंतिम और मध्यवर्ती तथा GDP और कल्याण में अंतर करें। भारत के नवीनतम अनुमानों के लिए सांख्यिकी एवं कार्यक्रम कार्यान्वयन मंत्रालय की ताज़ा विज्ञप्ति देखें और संदर्भ अवधि लिखें।"
+    },
+    "revision": {
+      "en": "Practise the expenditure identity with a small example. Label each item as final/intermediate and domestic/foreign. Keep a dated note for the current base year and official estimate rather than hard-coding a number that may change.",
+      "hi": "छोटे उदाहरण से व्यय पहचान का अभ्यास करें। प्रत्येक मद को अंतिम/मध्यवर्ती और घरेलू/विदेशी के रूप में चिह्नित करें। बदल सकने वाली संख्या स्थायी रूप से रटने के बजाय वर्तमान आधार वर्ष और आधिकारिक अनुमान की दिनांकित टिप्पणी रखें।"
+    },
+    "questions": [
+      {
+        "question": {"en": "What does GDP primarily measure?", "hi": "GDP मुख्यतः क्या मापता है?"},
+        "options": {"en": ["All wealth owned by citizens worldwide", "Final production within the domestic economic territory during a period", "Only government revenue", "The distribution of income among households"], "hi": ["दुनिया भर में नागरिकों की कुल संपत्ति", "एक अवधि में घरेलू आर्थिक क्षेत्र के भीतर अंतिम उत्पादन", "केवल सरकारी राजस्व", "परिवारों के बीच आय का वितरण"]},
+        "correct": 1,
+        "explanation": {"en": "GDP is a flow measure of final production within domestic territory over a specified period.", "hi": "GDP एक निश्चित अवधि में घरेलू क्षेत्र के भीतर अंतिम उत्पादन का प्रवाह-माप है।"}
+      },
+      {
+        "question": {"en": "Why are intermediate goods generally excluded from GDP calculation?", "hi": "GDP गणना में मध्यवर्ती वस्तुओं को सामान्यतः क्यों अलग रखा जाता है?"},
+        "options": {"en": ["They are never produced domestically", "To avoid double counting", "They have no market value", "They are government services"], "hi": ["वे देश में कभी उत्पादित नहीं होतीं", "दोहरी गणना से बचने के लिए", "उनका बाजार मूल्य नहीं होता", "वे सरकारी सेवाएँ हैं"]},
+        "correct": 1,
+        "explanation": {"en": "Their value is embodied in the final good; counting both the intermediate input and final output would count the same value more than once.", "hi": "मध्यवर्ती वस्तु का मूल्य अंतिम वस्तु में शामिल होता है; दोनों को गिनने पर एक ही मूल्य की दोहरी गणना होगी।"}
+      }
+    ]
+  },
+  "inflation": {
+    "concept": {
+      "en": "Inflation is a sustained increase in the general price level, which reduces the purchasing power of money. It differs from a one-time rise in an individual price. Consumer Price Index (CPI) tracks a weighted basket of household consumption items; the Wholesale Price Index (WPI) measures prices at the wholesale level and has a different coverage and purpose.",
+      "hi": "मुद्रास्फीति सामान्य मूल्य स्तर में लगातार वृद्धि है, जिससे मुद्रा की क्रय-शक्ति घटती है। यह किसी एक वस्तु की एकबारगी कीमत-वृद्धि से अलग है। उपभोक्ता मूल्य सूचकांक (CPI) घरेलू उपभोग की भारित टोकरी को मापता है; थोक मूल्य सूचकांक (WPI) थोक स्तर की कीमतें मापता है और उसका दायरा तथा उद्देश्य अलग हैं।"
+    },
+    "keyPoints": {
+      "en": ["Demand-pull pressure arises when aggregate demand outpaces supply; cost-push pressure can follow rising input costs or supply disruption.", "Headline inflation covers the full index basket; core measures commonly exclude selected volatile items, but the exact definition must be stated.", "The RBI's flexible inflation-targeting framework uses CPI inflation; the notified target and tolerance band should be checked against the current official notification.", "Deflation is a sustained fall in the general price level; disinflation means inflation is slowing while prices may still be rising."],
+      "hi": ["जब कुल मांग आपूर्ति से आगे निकलती है तो मांग-प्रेरित दबाव होता है; इनपुट लागत या आपूर्ति व्यवधान बढ़ने से लागत-प्रेरित दबाव हो सकता है।", "समग्र मुद्रास्फीति पूरे सूचकांक को शामिल करती है; मूल मुद्रास्फीति में सामान्यतः कुछ अस्थिर मदें हटाई जाती हैं, पर सटीक परिभाषा बतानी चाहिए।", "RBI का लचीला मुद्रास्फीति लक्ष्यीकरण ढाँचा CPI मुद्रास्फीति का उपयोग करता है; अधिसूचित लक्ष्य और सहनशीलता सीमा नवीन आधिकारिक अधिसूचना से जाँचें।", "अपस्फीति सामान्य मूल्य स्तर में लगातार गिरावट है; अवमुद्रास्फीति में मुद्रास्फीति की दर घटती है, जबकि कीमतें फिर भी बढ़ सकती हैं।"]
+    },
+    "examAngle": {
+      "en": "Questions test index coverage, causes, effects and the difference between inflation, deflation and disinflation. Be cautious with current target numbers: they are time-bound policy facts and should be verified from RBI and government releases.",
+      "hi": "प्रश्न सूचकांक का दायरा, कारण, प्रभाव और मुद्रास्फीति, अपस्फीति तथा अवमुद्रास्फीति का अंतर जाँचते हैं। लक्ष्य के वर्तमान अंकों को समय-बद्ध नीति तथ्य मानें और RBI तथा सरकारी विज्ञप्ति से सत्यापित करें।"
+    },
+    "revision": {
+      "en": "Make a comparison table for CPI and WPI. Add one example each for demand-pull and cost-push inflation, then explain in one line why falling inflation does not necessarily mean falling prices.",
+      "hi": "CPI और WPI की तुलना सारणी बनाएं। मांग-प्रेरित और लागत-प्रेरित मुद्रास्फीति का एक-एक उदाहरण दें और एक वाक्य में समझाएं कि घटती मुद्रास्फीति का अर्थ आवश्यक रूप से गिरती कीमतें क्यों नहीं है।"
+    },
+    "questions": [
+      {
+        "question": {"en": "Disinflation means", "hi": "अवमुद्रास्फीति का अर्थ है"},
+        "options": {"en": ["A sustained fall in the price level", "A slower rate of price increase", "A rise in one commodity's price", "An increase in the money supply only"], "hi": ["मूल्य स्तर में लगातार गिरावट", "कीमतों में वृद्धि की दर का धीमा होना", "एक वस्तु की कीमत बढ़ना", "केवल मुद्रा आपूर्ति बढ़ना"]},
+        "correct": 1,
+        "explanation": {"en": "With disinflation, prices may continue to rise, but at a slower rate. A sustained general fall in prices is deflation.", "hi": "अवमुद्रास्फीति में कीमतें बढ़ सकती हैं, लेकिन धीमी दर से। सामान्य कीमतों में लगातार गिरावट अपस्फीति है।"}
+      },
+      {
+        "question": {"en": "Which index is used for India's flexible inflation-targeting framework?", "hi": "भारत के लचीले मुद्रास्फीति लक्ष्यीकरण ढाँचे में कौन-सा सूचकांक प्रयुक्त होता है?"},
+        "options": {"en": ["Consumer Price Index", "Wholesale Price Index only", "Index of Industrial Production", "GDP deflator only"], "hi": ["उपभोक्ता मूल्य सूचकांक", "केवल थोक मूल्य सूचकांक", "औद्योगिक उत्पादन सूचकांक", "केवल GDP अपस्फीतिकारक"]},
+        "correct": 0,
+        "explanation": {"en": "The flexible inflation-targeting framework is based on CPI inflation. Current target parameters should be checked in the applicable official notification.", "hi": "लचीला मुद्रास्फीति लक्ष्यीकरण ढाँचा CPI मुद्रास्फीति पर आधारित है। वर्तमान लक्ष्य मान लागू आधिकारिक अधिसूचना से जाँचें।"}
+      }
+    ]
+  },
+  "cg-rivers": {
+    "concept": {
+      "en": "Chhattisgarh's drainage is organised around the Mahanadi system and several important tributaries, with other basins connecting the state to the Godavari and Ganga systems. Basin direction, tributary relationships and upland–plain transitions help explain irrigation, settlement and flood patterns. Verify site-specific facts using state water-resource or official geography publications.",
+      "hi": "छत्तीसगढ़ की नदी-निकासी महानदी तंत्र और उसकी प्रमुख सहायक नदियों के इर्द-गिर्द है; अन्य नदी बेसिन राज्य को गोदावरी और गंगा तंत्र से जोड़ते हैं। बेसिन की दिशा, सहायक नदियों के संबंध और उच्चभूमि–मैदान परिवर्तन सिंचाई, बसावट तथा बाढ़ के स्वरूप समझाते हैं। स्थल-विशिष्ट तथ्यों की पुष्टि राज्य के जल संसाधन या आधिकारिक भूगोल प्रकाशनों से करें।"
+    },
+    "keyPoints": {
+      "en": ["The Mahanadi rises in the Sihawa hills of present-day Dhamtari district and flows east towards Odisha and the Bay of Bengal.", "The Shivnath (Seonath), Hasdeo, Mand and Jonk are among important Mahanadi tributaries in Chhattisgarh; river direction and confluence location should be learned from a map.", "The Indravati is a major tributary of the Godavari system and drains parts of southern Chhattisgarh.", "The state also includes parts of the Ganga basin in the north; do not assume every river in Chhattisgarh drains to the Mahanadi."],
+      "hi": ["महानदी का उद्गम वर्तमान धमतरी जिले की सिहावा पहाड़ियों में है और यह पूर्व की ओर ओडिशा तथा बंगाल की खाड़ी की ओर बहती है।", "शिवनाथ (शेओनाथ), हसदेव, मांड और जोंक छत्तीसगढ़ में महानदी की महत्त्वपूर्ण सहायक नदियों में हैं; प्रवाह-दिशा और संगम मानचित्र से पढ़ें।", "इंद्रावती गोदावरी तंत्र की प्रमुख सहायक नदी है और दक्षिणी छत्तीसगढ़ के भागों से बहती है।", "राज्य के उत्तर में गंगा बेसिन का भी हिस्सा है; छत्तीसगढ़ की हर नदी को महानदी में मिलने वाली न मानें।"]
+    },
+    "examAngle": {
+      "en": "State prelims commonly uses source–tributary–basin matching and map-based direction questions. Distinguish rivers by basin before memorising dams or projects; verify changing project status separately from physical geography.",
+      "hi": "राज्य प्रारंभिक परीक्षा में उद्गम–सहायक नदी–बेसिन मिलान और मानचित्र आधारित दिशा पूछी जा सकती है। बाँध या परियोजना याद करने से पहले नदियों को बेसिन के अनुसार अलग करें; परियोजना की बदलती स्थिति भौतिक भूगोल से अलग सत्यापित करें।"
+    },
+    "revision": {
+      "en": "Sketch the state and trace the Mahanadi eastward, adding Shivnath, Hasdeo, Mand and Jonk. Separately mark the Indravati in the south and the northern Ganga-basin area. Use an official state atlas to check exact locations.",
+      "hi": "राज्य का रेखाचित्र बनाकर महानदी को पूर्व की ओर दिखाएं और शिवनाथ, हसदेव, मांड तथा जोंक जोड़ें। दक्षिण में इंद्रावती और उत्तर के गंगा-बेसिन क्षेत्र को अलग चिह्नित करें। सटीक स्थान आधिकारिक राज्य एटलस से जाँचें।"
+    },
+    "questions": [
+      {
+        "question": {"en": "The Mahanadi rises in which area of Chhattisgarh?", "hi": "महानदी छत्तीसगढ़ के किस क्षेत्र से निकलती है?"},
+        "options": {"en": ["Sihawa hills", "Amarkantak plateau", "Bailadila hills", "Mainpat plateau"], "hi": ["सिहावा पहाड़ियाँ", "अमरकंटक पठार", "बैलाडीला पहाड़ियाँ", "मैनपाट पठार"]},
+        "correct": 0,
+        "explanation": {"en": "The Mahanadi rises in the Sihawa hills in present-day Dhamtari district and flows east towards Odisha.", "hi": "महानदी वर्तमान धमतरी जिले की सिहावा पहाड़ियों से निकलती है और पूर्व की ओर ओडिशा बहती है।"}
+      },
+      {
+        "question": {"en": "The Indravati belongs to which major river system?", "hi": "इंद्रावती किस प्रमुख नदी तंत्र से संबंधित है?"},
+        "options": {"en": ["Godavari", "Narmada", "Yamuna", "Sabarmati"], "hi": ["गोदावरी", "नर्मदा", "यमुना", "साबरमती"]},
+        "correct": 0,
+        "explanation": {"en": "The Indravati is an important tributary of the Godavari system and drains parts of southern Chhattisgarh.", "hi": "इंद्रावती गोदावरी तंत्र की महत्त्वपूर्ण सहायक नदी है और दक्षिणी छत्तीसगढ़ के भागों से बहती है।"}
+      }
+    ]
+  },
+  "basic-percentage": {
+    "concept": {
+      "en": "A percentage expresses a ratio per hundred. To find x% of a quantity, multiply it by x/100. Percentage change is measured against the original value, not the new value. This base-value rule is essential in successive increases, discounts, population changes and data interpretation.",
+      "hi": "प्रतिशत किसी अनुपात को प्रति सौ के रूप में व्यक्त करता है। किसी मात्रा का x% निकालने के लिए उसे x/100 से गुणा करें। प्रतिशत परिवर्तन मूल मान के सापेक्ष मापा जाता है, नए मान के सापेक्ष नहीं। क्रमिक वृद्धि, छूट, जनसंख्या परिवर्तन और आंकड़ा व्याख्या में मूल मान का नियम आवश्यक है।"
+    },
+    "keyPoints": {
+      "en": ["x% = x/100; therefore 25% = 1/4 and 12.5% = 1/8.", "Percentage change = (change ÷ original value) × 100.", "An increase by x% followed by a decrease by x% does not return to the original value; the net change is a decrease of x²/100 percent.", "For successive percentage changes a and b, multiply the factors (1 + a/100)(1 + b/100), using negative signs for decreases."],
+      "hi": ["x% = x/100; इसलिए 25% = 1/4 और 12.5% = 1/8।", "प्रतिशत परिवर्तन = (परिवर्तन ÷ मूल मान) × 100।", "x% वृद्धि के बाद x% कमी से मूल मान वापस नहीं आता; कुल परिवर्तन x²/100 प्रतिशत की कमी होता है।", "क्रमिक प्रतिशत परिवर्तन a और b के लिए गुणक (1 + a/100)(1 + b/100) गुणा करें; कमी के लिए ऋणात्मक चिह्न लें।"]
+    },
+    "examAngle": {
+      "en": "Identify the base before calculating. Questions often switch the reference quantity between successive steps. Estimate the answer and check whether the result should rise or fall before selecting an option.",
+      "hi": "गणना से पहले आधार मान पहचानें। प्रश्न क्रमिक चरणों में संदर्भ मात्रा बदल देते हैं। विकल्प चुनने से पहले अनुमान लगाएं और जाँचें कि परिणाम बढ़ना चाहिए या घटना।"
+    },
+    "revision": {
+      "en": "Practise conversions between fractions and percentages, then solve one reverse-percentage problem and one successive-change problem. Write the base value beside each percentage calculation.",
+      "hi": "भिन्न और प्रतिशत रूपांतरण का अभ्यास करें, फिर एक प्रतिलोम-प्रतिशत और एक क्रमिक-परिवर्तन प्रश्न हल करें। प्रत्येक प्रतिशत गणना के साथ आधार मान लिखें।"
+    },
+    "questions": [
+      {
+        "question": {"en": "A value rises from 200 to 250. What is the percentage increase?", "hi": "एक मान 200 से बढ़कर 250 हो जाता है। प्रतिशत वृद्धि कितनी है?"},
+        "options": {"en": ["20%", "25%", "50%", "125%"], "hi": ["20%", "25%", "50%", "125%"]},
+        "correct": 1,
+        "explanation": {"en": "The increase is 50. Divide by the original value 200: (50/200) × 100 = 25%.", "hi": "वृद्धि 50 है। इसे मूल मान 200 से भाग दें: (50/200) × 100 = 25%।"}
+      },
+      {
+        "question": {"en": "A price increases by 10% and then decreases by 10%. What is the net change?", "hi": "एक कीमत 10% बढ़ती है और फिर 10% घटती है। कुल परिवर्तन क्या होगा?"},
+        "options": {"en": ["No change", "1% decrease", "1% increase", "10% decrease"], "hi": ["कोई परिवर्तन नहीं", "1% कमी", "1% वृद्धि", "10% कमी"]},
+        "correct": 1,
+        "explanation": {"en": "Starting at 100, the value becomes 110 and then 99. The net change is a 1% decrease because the second 10% is applied to 110.", "hi": "100 से शुरू करने पर मान 110 और फिर 99 होता है। कुल 1% कमी है क्योंकि दूसरी 10% वृद्धि के बाद के 110 पर लगती है।"}
+      }
+    ]
+  },
+  "article-19": {
+    "concept": {
+      "en": "Article 19(1) guarantees six freedoms to citizens: speech and expression; peaceful assembly without arms; association or unions or co-operative societies; movement throughout India; residence and settlement anywhere in India; and profession, occupation, trade or business. These freedoms are subject to the specific reasonable restrictions permitted by clauses 19(2)–19(6).",
+      "hi": "अनुच्छेद 19(1) नागरिकों को छह स्वतंत्रताएँ देता है: वाक् और अभिव्यक्ति; बिना हथियार शांतिपूर्ण सभा; संघ, यूनियन या सहकारी समिति बनाना; पूरे भारत में आवागमन; भारत में कहीं निवास और बसना; तथा पेशा, व्यवसाय, व्यापार या कारोबार करना। इन स्वतंत्रताओं पर खंड 19(2)–19(6) में निर्दिष्ट युक्तियुक्त प्रतिबंध लागू हो सकते हैं।"
+    },
+    "keyPoints": {
+      "en": ["Article 19 freedoms are guaranteed to citizens, unlike Articles 14 and 21, which use 'person'.", "Each freedom has its own grounds for restriction; the grounds are not interchangeable across clauses.", "The right to property is not one of the six freedoms in Article 19(1).", "A restriction must have legal authority and meet the applicable constitutional test; it is not enough to label a measure desirable."],
+      "hi": ["अनुच्छेद 19 की स्वतंत्रताएँ नागरिकों को प्राप्त हैं; अनुच्छेद 14 और 21 में ‘व्यक्ति’ शब्द है।", "हर स्वतंत्रता पर प्रतिबंध के अपने आधार हैं; अलग-अलग खंडों के आधार एक-दूसरे के स्थान पर लागू नहीं होते।", "संपत्ति का अधिकार अनुच्छेद 19(1) की छह स्वतंत्रताओं में नहीं है।", "प्रतिबंध का कानूनी आधार होना और लागू संवैधानिक कसौटी पूरी करना आवश्यक है; केवल किसी उपाय को वांछनीय कहना पर्याप्त नहीं।"]
+    },
+    "examAngle": {
+      "en": "Memorise the six freedoms and match each to its own restriction clause. Typical traps add property as a seventh freedom or describe these guarantees as available to every person.",
+      "hi": "छह स्वतंत्रताएँ याद करें और प्रत्येक को उसके प्रतिबंध वाले खंड से मिलाएं। सामान्य भ्रम संपत्ति को सातवीं स्वतंत्रता जोड़ना या इन गारंटियों को प्रत्येक व्यक्ति के लिए बताना है।"
+    },
+    "revision": {
+      "en": "Draw six rows: freedom, clause, who receives it, and one permitted restriction ground. Review the current bare text of Article 19 rather than relying on an unsourced mnemonic.",
+      "hi": "छह पंक्तियाँ बनाएं: स्वतंत्रता, खंड, अधिकार किसे है और एक अनुमत प्रतिबंध आधार। बिना स्रोत वाली स्मृति-युक्ति पर निर्भर रहने के बजाय अनुच्छेद 19 का वर्तमान मूल पाठ पढ़ें।"
+    },
+    "questions": [
+      {"question": {"en": "Article 19 freedoms are guaranteed to", "hi": "अनुच्छेद 19 की स्वतंत्रताएँ किसे प्राप्त हैं?"}, "options": {"en": ["Every person", "Citizens", "Only government employees", "Only voters above 25"], "hi": ["प्रत्येक व्यक्ति", "नागरिकों", "केवल सरकारी कर्मचारियों", "केवल 25 वर्ष से अधिक आयु के मतदाताओं"]}, "correct": 1, "explanation": {"en": "Article 19(1) begins with 'All citizens shall have the right'; this differs from provisions that expressly apply to any person.", "hi": "अनुच्छेद 19(1) कहता है ‘सभी नागरिकों को अधिकार होगा’; यह उन प्रावधानों से अलग है जो स्पष्ट रूप से किसी भी व्यक्ति पर लागू होते हैं।"}},
+      {"question": {"en": "Which is not one of the six freedoms in Article 19(1)?", "hi": "निम्न में से कौन-सा अनुच्छेद 19(1) की छह स्वतंत्रताओं में नहीं है?"}, "options": {"en": ["Freedom of speech and expression", "Freedom of movement", "Right to property", "Freedom of profession"], "hi": ["वाक् और अभिव्यक्ति की स्वतंत्रता", "आवागमन की स्वतंत्रता", "संपत्ति का अधिकार", "पेशा चुनने की स्वतंत्रता"]}, "correct": 2, "explanation": {"en": "Property is not one of Article 19(1)'s six freedoms. Its constitutional position changed through the 44th Amendment; it is now protected under Article 300A as a constitutional right.", "hi": "संपत्ति अनुच्छेद 19(1) की छह स्वतंत्रताओं में नहीं है। 44वें संशोधन के बाद इसका संवैधानिक संरक्षण अनुच्छेद 300A के अंतर्गत है।"}}
+    ]
+  },
+  "article-32": {
+    "concept": {
+      "en": "Article 32 guarantees the right to move the Supreme Court for enforcement of Fundamental Rights and empowers it to issue directions, orders or writs. Dr B. R. Ambedkar described it as the Constitution's 'heart and soul'. High Courts have a separate writ power under Article 226, whose scope extends to Fundamental Rights and other legal purposes.",
+      "hi": "अनुच्छेद 32 मौलिक अधिकारों के प्रवर्तन के लिए सर्वोच्च न्यायालय जाने की गारंटी देता है और उसे निर्देश, आदेश या रिट जारी करने की शक्ति देता है। डॉ. बी. आर. आंबेडकर ने इसे संविधान का ‘हृदय और आत्मा’ कहा था। उच्च न्यायालयों को अनुच्छेद 226 के अंतर्गत अलग रिट शक्ति है, जिसका दायरा मौलिक अधिकारों और अन्य कानूनी प्रयोजनों तक है।"
+    },
+    "keyPoints": {
+      "en": ["Article 32 is itself a Fundamental Right, subject to the Constitution's provisions on suspension during emergencies.", "The five traditional writs are habeas corpus, mandamus, prohibition, certiorari and quo warranto.", "Article 226 gives High Courts wider subject-matter jurisdiction than Article 32, but it is a constitutional discretion and not itself listed as a Fundamental Right.", "The correct forum and remedy depend on the right alleged, the respondent and the facts; writ names are not interchangeable."],
+      "hi": ["अनुच्छेद 32 स्वयं मौलिक अधिकार है; आपातकाल में निलंबन के संवैधानिक प्रावधान लागू हो सकते हैं।", "पाँच पारंपरिक रिट हैं: बंदी प्रत्यक्षीकरण, परमादेश, प्रतिषेध, उत्प्रेषण और अधिकार-पृच्छा।", "अनुच्छेद 226 का विषयगत दायरा अनुच्छेद 32 से व्यापक है, पर यह उच्च न्यायालय की संवैधानिक विवेकाधीन शक्ति है और स्वयं सूचीबद्ध मौलिक अधिकार नहीं।", "सही न्यायालय और उपाय कथित अधिकार, प्रतिवादी और तथ्यों पर निर्भर करते हैं; रिटों के नाम परस्पर बदलने योग्य नहीं हैं।"]
+    },
+    "examAngle": {
+      "en": "Distinguish Article 32 from Article 226 and learn the purpose of each writ. A frequent trap says only the Supreme Court can issue writs or that Article 226 is limited to Fundamental Rights.",
+      "hi": "अनुच्छेद 32 और 226 में अंतर करें तथा प्रत्येक रिट का प्रयोजन जानें। सामान्य भ्रम यह है कि केवल सर्वोच्च न्यायालय रिट जारी कर सकता है या अनुच्छेद 226 केवल मौलिक अधिकारों तक सीमित है।"
+    },
+    "revision": {
+      "en": "Make a two-column comparison of Articles 32 and 226: court, rights/remedies covered, and constitutional status. Use a one-line factual example for each of the five writs.",
+      "hi": "अनुच्छेद 32 और 226 की दो-स्तंभीय तुलना बनाएं: न्यायालय, अधिकार/उपाय का दायरा और संवैधानिक स्थिति। पाँचों रिट के लिए एक-पंक्ति का तथ्यात्मक उदाहरण लिखें।"
+    },
+    "questions": [
+      {"question": {"en": "Which statement about Article 226 is correct?", "hi": "अनुच्छेद 226 के बारे में कौन-सा कथन सही है?"}, "options": {"en": ["It is the Supreme Court's writ power", "High Courts may issue writs for Fundamental Rights and other purposes", "It is identical in scope to Article 32", "It is available only during an emergency"], "hi": ["यह सर्वोच्च न्यायालय की रिट शक्ति है", "उच्च न्यायालय मौलिक अधिकारों और अन्य प्रयोजनों के लिए रिट जारी कर सकते हैं", "इसका दायरा अनुच्छेद 32 के समान है", "यह केवल आपातकाल में उपलब्ध है"]}, "correct": 1, "explanation": {"en": "Article 226 empowers High Courts to issue writs for enforcement of Fundamental Rights and 'for any other purpose', giving it a wider scope than Article 32.", "hi": "अनुच्छेद 226 उच्च न्यायालयों को मौलिक अधिकारों के प्रवर्तन और ‘किसी अन्य प्रयोजन’ के लिए रिट जारी करने की शक्ति देता है; इसका दायरा अनुच्छेद 32 से व्यापक है।"}},
+      {"question": {"en": "Which writ is primarily used to require a person to be brought before a court to examine the legality of detention?", "hi": "निरोध की वैधता जाँचने के लिए व्यक्ति को न्यायालय के समक्ष प्रस्तुत कराने में मुख्यतः कौन-सी रिट प्रयुक्त होती है?"}, "options": {"en": ["Quo warranto", "Habeas corpus", "Prohibition", "Mandamus"], "hi": ["अधिकार-पृच्छा", "बंदी प्रत्यक्षीकरण", "प्रतिषेध", "परमादेश"]}, "correct": 1, "explanation": {"en": "Habeas corpus protects against unlawful detention by requiring the detaining authority to produce the person and justify the detention.", "hi": "बंदी प्रत्यक्षीकरण अवैध निरोध से रक्षा करता है; निरोध करने वाले प्राधिकारी को व्यक्ति प्रस्तुत कर निरोध का औचित्य बताना होता है।"}}
+    ]
+  },
+  "directive-principles": {
+    "concept": {
+      "en": "The Directive Principles of State Policy in Part IV (Articles 36–51) guide the state in making laws and policy towards social and economic democracy. Article 37 says they are not enforceable by courts, yet are fundamental in the governance of the country and it is the state's duty to apply them in making laws.",
+      "hi": "भाग IV (अनुच्छेद 36–51) के राज्य के नीति निदेशक तत्त्व सामाजिक और आर्थिक लोकतंत्र की दिशा में कानून तथा नीति बनाने में राज्य का मार्गदर्शन करते हैं। अनुच्छेद 37 के अनुसार वे न्यायालयों द्वारा प्रवर्तनीय नहीं हैं, फिर भी देश के शासन में मूलभूत हैं और कानून बनाते समय उन्हें लागू करना राज्य का कर्तव्य है।"
+    },
+    "keyPoints": {
+      "en": ["DPSPs are non-justiciable, unlike Fundamental Rights, but are constitutionally significant directions to the state.", "They are often grouped as socialistic, Gandhian and liberal-intellectual principles; this is a study aid, not a formal constitutional classification.", "Article 39 includes principles concerning adequate livelihood, distribution of material resources for the common good and prevention of concentration of wealth.", "Fundamental Rights and DPSPs should be read harmoniously; neither category can be reduced to a slogan that automatically overrides the other."],
+      "hi": ["नीति निदेशक तत्त्व न्यायालय में प्रवर्तनीय नहीं हैं; फिर भी वे राज्य के लिए संवैधानिक रूप से महत्त्वपूर्ण निर्देश हैं।", "इन्हें प्रायः समाजवादी, गांधीवादी और उदार-बौद्धिक समूहों में पढ़ाया जाता है; यह अध्ययन-सुविधा है, औपचारिक संवैधानिक वर्गीकरण नहीं।", "अनुच्छेद 39 में पर्याप्त आजीविका, जनहित में भौतिक संसाधनों का वितरण और धन के संकेंद्रण को रोकने से जुड़े सिद्धांत हैं।", "मौलिक अधिकार और नीति निदेशक तत्त्व सामंजस्यपूर्वक पढ़े जाने चाहिए; कोई एक वर्ग स्वतः दूसरे को निरस्त नहीं करता।"]
+    },
+    "examAngle": {
+      "en": "Article 37's two-part formulation is frequently tested: non-enforceability and fundamental importance in governance. Learn the article behind a principle and distinguish constitutional text from textbook groupings.",
+      "hi": "अनुच्छेद 37 का दोहरा कथन अक्सर पूछा जाता है: न्यायालय में अप्रवर्तनीयता और शासन में मूलभूत महत्त्व। सिद्धांत के पीछे का अनुच्छेद पढ़ें तथा संवैधानिक पाठ और पाठ्यपुस्तक के समूह-विभाजन में अंतर रखें।"
+    },
+    "revision": {
+      "en": "Build an Article 36–51 map with one-line themes. Star Article 37 and compare its enforceability statement with Article 32. Add examples of legislation that pursue a directive only after checking the relevant law.",
+      "hi": "अनुच्छेद 36–51 का मानचित्र बनाकर प्रत्येक की विषय-वस्तु एक पंक्ति में लिखें। अनुच्छेद 37 को चिह्नित करें और उसकी प्रवर्तनीयता की तुलना अनुच्छेद 32 से करें। संबंधित कानून जाँचने के बाद नीति लागू करने वाले कानूनों के उदाहरण जोड़ें।"
+    },
+    "questions": [
+      {"question": {"en": "Article 37 states that Directive Principles are", "hi": "अनुच्छेद 37 के अनुसार नीति निदेशक तत्त्व"}, "options": {"en": ["Enforceable by every court", "Not enforceable by courts but fundamental in governance", "Superior to every Fundamental Right in all cases", "Applicable only to local governments"], "hi": ["हर न्यायालय द्वारा प्रवर्तनीय हैं", "न्यायालयों द्वारा अप्रवर्तनीय, पर शासन में मूलभूत हैं", "हर मामले में प्रत्येक मौलिक अधिकार से ऊपर हैं", "केवल स्थानीय सरकारों पर लागू हैं"]}, "correct": 1, "explanation": {"en": "Article 37 expressly combines non-enforceability with fundamental importance and a duty of the state to apply these principles in making laws.", "hi": "अनुच्छेद 37 अप्रवर्तनीयता के साथ उनके मूलभूत महत्त्व और कानून बनाते समय राज्य द्वारा लागू करने के कर्तव्य को स्पष्ट करता है।"}},
+      {"question": {"en": "Directive Principles are contained primarily in which Part of the Constitution?", "hi": "नीति निदेशक तत्त्व मुख्यतः संविधान के किस भाग में हैं?"}, "options": {"en": ["Part II", "Part III", "Part IV", "Part IVA"], "hi": ["भाग II", "भाग III", "भाग IV", "भाग IVA"]}, "correct": 2, "explanation": {"en": "Part IV contains Articles 36–51 on Directive Principles of State Policy.", "hi": "भाग IV में राज्य के नीति निदेशक तत्त्वों से संबंधित अनुच्छेद 36–51 हैं।"}}
+    ]
+  },
+  "fiscal-deficit": {
+    "concept": {
+      "en": "Fiscal deficit is the gap between the government's total expenditure and its receipts excluding debt capital receipts. It indicates the government's borrowing requirement for that period. It is a flow measure, not the same as public debt, which is the accumulated stock of obligations.",
+      "hi": "राजकोषीय घाटा सरकार के कुल व्यय और ऋण-पूंजी प्राप्तियों को छोड़कर कुल प्राप्तियों के बीच का अंतर है। यह उस अवधि में सरकार की उधारी आवश्यकता बताता है। यह प्रवाह-माप है; सार्वजनिक ऋण से अलग, जो संचित देनदारियों का भंडार है।"
+    },
+    "keyPoints": {
+      "en": ["A common expression is fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts).", "Revenue deficit compares revenue expenditure with revenue receipts; primary deficit is fiscal deficit minus interest payments.", "Borrowing finances the deficit but its impact depends on use, economic conditions, interest costs and future revenue.", "Deficit ratios and estimates are year-specific; use the relevant Union or state budget documents and note whether a figure is budgeted, revised or actual."],
+      "hi": ["सामान्य सूत्र है: राजकोषीय घाटा = कुल व्यय − (राजस्व प्राप्तियाँ + गैर-ऋण पूंजी प्राप्तियाँ)।", "राजस्व घाटा राजस्व व्यय और राजस्व प्राप्तियों का अंतर है; प्राथमिक घाटा राजकोषीय घाटे में से ब्याज भुगतान घटाने पर मिलता है।", "उधारी घाटे का वित्तपोषण करती है, पर प्रभाव उसके उपयोग, आर्थिक परिस्थिति, ब्याज लागत और भविष्य के राजस्व पर निर्भर करता है।", "घाटा अनुपात और अनुमान वर्ष-विशिष्ट हैं; संबंधित केंद्रीय या राज्य बजट दस्तावेज़ देखें और बताएं कि आँकड़ा बजटीय, संशोधित या वास्तविक है।"]
+    },
+    "examAngle": {
+      "en": "Keep the three deficit concepts separate and identify which receipts are excluded from fiscal deficit. Numerical claims must carry a year and estimate status; avoid treating every deficit as inherently harmful or harmless.",
+      "hi": "तीनों घाटा अवधारणाओं को अलग रखें और पहचानें कि राजकोषीय घाटे से कौन-सी प्राप्तियाँ बाहर हैं। संख्यात्मक दावे के साथ वर्ष और अनुमान की स्थिति लिखें; हर घाटे को स्वभावतः अच्छा या बुरा न मानें।"
+    },
+    "revision": {
+      "en": "Write the three formulas side by side and test them with a small made-up budget. For current values, read the relevant budget at indiabudget.gov.in or the Chhattisgarh Finance Department publication.",
+      "hi": "तीनों सूत्र साथ लिखकर काल्पनिक छोटे बजट से अभ्यास करें। वर्तमान आँकड़ों के लिए indiabudget.gov.in या छत्तीसगढ़ वित्त विभाग का संबंधित बजट प्रकाशन देखें।"
+    },
+    "questions": [
+      {"question": {"en": "Fiscal deficit most directly indicates the government's", "hi": "राजकोषीय घाटा सबसे सीधे सरकार की किस बात को दर्शाता है?"}, "options": {"en": ["Total stock of all private savings", "Borrowing requirement for the period", "Annual rate of inflation", "Value of exports only"], "hi": ["सभी निजी बचत का कुल भंडार", "अवधि की उधारी आवश्यकता", "मुद्रास्फीति की वार्षिक दर", "केवल निर्यात का मूल्य"]}, "correct": 1, "explanation": {"en": "Fiscal deficit measures the government's financing gap after specified non-debt receipts and therefore indicates its borrowing requirement.", "hi": "निर्धारित गैर-ऋण प्राप्तियों के बाद राजकोषीय घाटा सरकार का वित्तपोषण अंतर मापता है और उसकी उधारी आवश्यकता दर्शाता है।"}},
+      {"question": {"en": "Primary deficit equals", "hi": "प्राथमिक घाटा किसके बराबर है?"}, "options": {"en": ["Fiscal deficit minus interest payments", "Revenue receipts minus capital receipts", "Fiscal deficit plus interest payments", "Total debt minus exports"], "hi": ["राजकोषीय घाटा − ब्याज भुगतान", "राजस्व प्राप्तियाँ − पूंजी प्राप्तियाँ", "राजकोषीय घाटा + ब्याज भुगतान", "कुल ऋण − निर्यात"]}, "correct": 0, "explanation": {"en": "Primary deficit excludes interest payments on past borrowing: primary deficit = fiscal deficit − interest payments.", "hi": "प्राथमिक घाटा पिछली उधारी के ब्याज भुगतान को अलग करता है: प्राथमिक घाटा = राजकोषीय घाटा − ब्याज भुगतान।"}}
+    ]
+  },
+  "unemployment": {
+    "concept": {
+      "en": "Unemployment describes people in the labour force who are seeking or available for work but do not have work, according to the statistical definition and reference period used. The labour force includes employed and unemployed people; people outside it are not automatically counted as unemployed. Measurement in India depends on survey concepts such as usual status and current weekly status.",
+      "hi": "बेरोजगारी उन लोगों की स्थिति है जो प्रयुक्त सांख्यिकीय परिभाषा और संदर्भ अवधि के अनुसार श्रमबल में हैं, काम खोज रहे हैं या उपलब्ध हैं, पर उन्हें काम नहीं मिला है। श्रमबल में नियोजित और बेरोजगार दोनों शामिल हैं; श्रमबल से बाहर व्यक्ति स्वतः बेरोजगार नहीं गिने जाते। भारत में मापन सामान्य स्थिति और वर्तमान साप्ताहिक स्थिति जैसी सर्वेक्षण अवधारणाओं पर निर्भर करता है।"
+    },
+    "keyPoints": {
+      "en": ["The unemployment rate is generally unemployed people as a share of the labour force, not the entire population.", "The labour force participation rate and worker population ratio answer different questions and should not be interchanged.", "Open, seasonal, disguised and structural unemployment describe different situations; disguised unemployment means some workers add little or no marginal output in the current activity.", "Use the survey source, period, age group and status measure when reporting a rate; estimates from different methods may not be comparable."],
+      "hi": ["बेरोजगारी दर सामान्यतः श्रमबल में बेरोजगारों का अनुपात है, पूरी जनसंख्या का नहीं।", "श्रमबल भागीदारी दर और श्रमिक जनसंख्या अनुपात अलग प्रश्नों के उत्तर देते हैं; इन्हें परस्पर न बदलें।", "खुली, मौसमी, प्रच्छन्न और संरचनात्मक बेरोजगारी अलग स्थितियाँ हैं; प्रच्छन्न बेरोजगारी में कुछ श्रमिक वर्तमान गतिविधि के उत्पादन में बहुत कम या कोई अतिरिक्त योगदान नहीं देते।", "दर बताते समय सर्वेक्षण स्रोत, अवधि, आयु-वर्ग और स्थिति-माप लिखें; अलग पद्धतियों के अनुमान तुलनीय न भी हों।"]
+    },
+    "examAngle": {
+      "en": "Check the denominator and reference period in any unemployment statistic. Distinguish unemployment from underemployment and labour-force withdrawal, and avoid unsourced current rates.",
+      "hi": "बेरोजगारी के किसी भी आँकड़े में हर और संदर्भ अवधि जाँचें। बेरोजगारी, अल्प-रोजगार और श्रमबल से बाहर होने में अंतर करें तथा बिना स्रोत की वर्तमान दरों से बचें।"
+    },
+    "revision": {
+      "en": "Draw the population-to-labour-force flow and label employed, unemployed and outside labour force. Compare unemployment rate, labour-force participation rate and worker population ratio in a three-row table.",
+      "hi": "जनसंख्या से श्रमबल तक का प्रवाह-चित्र बनाकर नियोजित, बेरोजगार और श्रमबल से बाहर वर्ग दिखाएं। बेरोजगारी दर, श्रमबल भागीदारी दर और श्रमिक जनसंख्या अनुपात की तीन-पंक्ति तुलना करें।"
+    },
+    "questions": [
+      {"question": {"en": "The unemployment rate is generally calculated as unemployed people divided by", "hi": "बेरोजगारी दर सामान्यतः बेरोजगार लोगों को किससे भाग देकर निकाली जाती है?"}, "options": {"en": ["Total population", "Labour force", "Working-age population only", "Number of households"], "hi": ["कुल जनसंख्या", "श्रमबल", "केवल कार्यशील आयु की जनसंख्या", "परिवारों की संख्या"]}, "correct": 1, "explanation": {"en": "The labour force comprises employed and unemployed people; the unemployment rate uses it as the denominator under the specified measure.", "hi": "श्रमबल में नियोजित और बेरोजगार शामिल होते हैं; निर्धारित माप के अनुसार बेरोजगारी दर में यही हर होता है।"}},
+      {"question": {"en": "Disguised unemployment is most closely associated with", "hi": "प्रच्छन्न बेरोजगारी सबसे अधिक किस स्थिति से जुड़ी है?"}, "options": {"en": ["Workers whose removal would not materially reduce current output", "A temporary rise in prices", "People who are not of working age", "A fall in exports"], "hi": ["ऐसे श्रमिक जिन्हें हटाने पर वर्तमान उत्पादन में विशेष कमी न हो", "कीमतों में अस्थायी वृद्धि", "कार्यशील आयु से कम या अधिक लोग", "निर्यात में गिरावट"]}, "correct": 0, "explanation": {"en": "In disguised unemployment, more workers are engaged than are needed for the existing output, so some have very low marginal productivity.", "hi": "प्रच्छन्न बेरोजगारी में मौजूदा उत्पादन के लिए आवश्यक संख्या से अधिक श्रमिक लगे होते हैं; कुछ की सीमांत उत्पादकता बहुत कम होती है।"}}
+    ]
+  },
+  "cg-minerals": {
+    "concept": {
+      "en": "Chhattisgarh's mineral geography reflects the geology of the Chhattisgarh basin, Bastar region and adjoining highlands. Iron ore, coal, limestone, bauxite and tin are among minerals associated with the state. Deposits, grades, extraction and production are distinct facts: current production rankings and mine status must be checked in dated official mineral statistics.",
+      "hi": "छत्तीसगढ़ का खनिज भूगोल छत्तीसगढ़ बेसिन, बस्तर क्षेत्र और आसपास की उच्चभूमियों की भूगर्भीय संरचना से जुड़ा है। लौह अयस्क, कोयला, चूना-पत्थर, बॉक्साइट और टिन राज्य से जुड़े प्रमुख खनिजों में हैं। भंडार, गुणवत्ता, उत्खनन और उत्पादन अलग तथ्य हैं; वर्तमान उत्पादन क्रम तथा खदान स्थिति दिनांकित आधिकारिक खनिज आँकड़ों से जाँचें।"
+    },
+    "keyPoints": {
+      "en": ["Bailadila in Dantewada is known for iron-ore deposits; the exact mine and production status is time-sensitive.", "Korba is a major coal and power region; coalfield names and mine data should be tied to current Coal India or Ministry of Coal information.", "Bauxite occurs in plateau areas including parts of Mainpat and the Maikal highlands; district-level deposit claims need an official map.", "Mining can support industry and public revenue while creating land, forest, water and displacement concerns; exam answers should include both development and safeguards."],
+      "hi": ["दंतेवाड़ा का बैलाडीला लौह अयस्क भंडार के लिए जाना जाता है; विशिष्ट खदान और उत्पादन स्थिति समय के साथ बदलती है।", "कोरबा प्रमुख कोयला और विद्युत क्षेत्र है; कोयला क्षेत्र के नाम और खदान आँकड़े वर्तमान Coal India या कोयला मंत्रालय की जानकारी से जोड़ें।", "मैनपाट और मैकल उच्चभूमि के कुछ भागों सहित पठारी क्षेत्रों में बॉक्साइट मिलता है; जिला-स्तरीय भंडार दावे आधिकारिक मानचित्र से जाँचें।", "खनन उद्योग और सार्वजनिक राजस्व को सहारा देता है, पर भूमि, वन, जल और विस्थापन संबंधी चिंताएँ भी पैदा करता है; उत्तर में विकास और संरक्षण दोनों शामिल करें।"]
+    },
+    "examAngle": {
+      "en": "State questions may match mineral to district or region, but distinguish a geological occurrence from an operating mine or leading producer. Add the year and source to any production statistic.",
+      "hi": "राज्य प्रश्न खनिज और जिले/क्षेत्र का मिलान करा सकते हैं, पर भूगर्भीय उपलब्धता को चालू खदान या प्रमुख उत्पादक से अलग रखें। उत्पादन आँकड़े के साथ वर्ष और स्रोत लिखें।"
+    },
+    "revision": {
+      "en": "Make a map table with mineral, region, major use and one environmental or social issue. Verify all district boundaries and production data against the Indian Bureau of Mines and state publications before memorising figures.",
+      "hi": "खनिज, क्षेत्र, प्रमुख उपयोग और एक पर्यावरणीय या सामाजिक मुद्दे की मानचित्र-सारणी बनाएं। आँकड़े याद करने से पहले जिले की सीमाएँ और उत्पादन भारतीय खान ब्यूरो तथा राज्य प्रकाशनों से सत्यापित करें।"
+    },
+    "questions": [
+      {"question": {"en": "Bailadila is especially associated with deposits of", "hi": "बैलाडीला विशेष रूप से किस खनिज के भंडार से संबंधित है?"}, "options": {"en": ["Iron ore", "Petroleum", "Rock salt", "Natural gas"], "hi": ["लौह अयस्क", "पेट्रोलियम", "सेंधा नमक", "प्राकृतिक गैस"]}, "correct": 0, "explanation": {"en": "The Bailadila range in Dantewada is well known for iron ore. Production and mine-operation details should be checked against current official records.", "hi": "दंतेवाड़ा की बैलाडीला पहाड़ियाँ लौह अयस्क के लिए प्रसिद्ध हैं। उत्पादन और खदान संचालन का वर्तमान विवरण आधिकारिक अभिलेखों से जाँचें।"}},
+      {"question": {"en": "Which is the best way to use a current mineral production figure in an exam answer?", "hi": "परीक्षा उत्तर में वर्तमान खनिज उत्पादन आँकड़े का सबसे अच्छा उपयोग कैसे करें?"}, "options": {"en": ["State it without a year", "Give its year and official source", "Assume a deposit equals current production", "Use an undated social media chart"], "hi": ["वर्ष बताए बिना लिखें", "वर्ष और आधिकारिक स्रोत दें", "भंडार को वर्तमान उत्पादन मानें", "बिना तारीख का सोशल मीडिया चार्ट लें"]}, "correct": 1, "explanation": {"en": "Production and rankings change over time. An exam-ready statistic should be dated and attributable to an official source.", "hi": "उत्पादन और क्रम समय के साथ बदलते हैं। परीक्षा-योग्य आँकड़ा दिनांकित और आधिकारिक स्रोत से पुष्ट होना चाहिए।"}}
+    ]
+  },
+  "tribal-culture": {
+    "concept": {
+      "en": "Chhattisgarh has diverse Adivasi communities, languages, livelihoods and cultural traditions; there is no single uniform 'tribal culture'. Study community-specific practices in their regional and historical context, and distinguish a self-identification from broad administrative categories such as Scheduled Tribes.",
+      "hi": "छत्तीसगढ़ में विविध आदिवासी समुदाय, भाषाएँ, आजीविकाएँ और सांस्कृतिक परंपराएँ हैं; कोई एक समान ‘आदिवासी संस्कृति’ नहीं है। समुदाय-विशिष्ट प्रथाओं को उनके क्षेत्रीय और ऐतिहासिक संदर्भ में पढ़ें तथा आत्म-पहचान को अनुसूचित जनजाति जैसी व्यापक प्रशासनिक श्रेणी से अलग समझें।"
+    },
+    "keyPoints": {
+      "en": ["Major communities in the state include Gond groups, Baiga, Oraon, Kanwar, Halba and others; names, subgroups and regional distribution should be checked in official census and state sources.", "Languages, oral traditions, festivals, crafts, food systems and forest-based livelihoods differ among communities and locations.", "The Constitution provides specific protections and governance frameworks, including Fifth Schedule provisions and laws concerning forest rights; check the applicable text and area.", "Avoid presenting a community as static or reducing it to a costume, dance or one festival; culture changes and communities are internally diverse."],
+      "hi": ["राज्य के प्रमुख समुदायों में गोंड समूह, बैगा, उराँव, कंवर, हल्बा और अन्य शामिल हैं; नाम, उपसमूह और क्षेत्रीय वितरण आधिकारिक जनगणना तथा राज्य स्रोत से जाँचें।", "भाषाएँ, मौखिक परंपराएँ, पर्व, शिल्प, खाद्य प्रणालियाँ और वन-आधारित आजीविका समुदाय तथा स्थान के अनुसार अलग हैं।", "संविधान में पाँचवीं अनुसूची और वन अधिकार संबंधी कानूनों सहित विशिष्ट संरक्षण तथा शासन व्यवस्थाएँ हैं; लागू पाठ और क्षेत्र जाँचें।", "किसी समुदाय को स्थिर रूप में या केवल वेशभूषा, नृत्य अथवा एक पर्व तक सीमित न करें; संस्कृति बदलती है और समुदायों के भीतर भी विविधता है।"]
+    },
+    "examAngle": {
+      "en": "Use precise community–region–tradition matches and separate constitutional protections from cultural description. Administrative and population facts can change or vary by source, so use the Census and state tribal-welfare publications.",
+      "hi": "समुदाय–क्षेत्र–परंपरा का सटीक मिलान करें और संवैधानिक संरक्षण को सांस्कृतिक विवरण से अलग रखें। प्रशासनिक और जनसंख्या तथ्य स्रोत के अनुसार बदल सकते हैं; जनगणना और राज्य आदिमजाति/जनजाति कल्याण प्रकाशन देखें।"
+    },
+    "revision": {
+      "en": "Prepare a respectful table with community, language/region, livelihood or tradition, and constitutional or policy context. Attribute contested names and population figures to a dated official source.",
+      "hi": "समुदाय, भाषा/क्षेत्र, आजीविका या परंपरा तथा संवैधानिक/नीतिगत संदर्भ की सम्मानजनक सारणी बनाएं। विवादित नामों और जनसंख्या आँकड़ों को दिनांकित आधिकारिक स्रोत से जोड़ें।"
+    },
+    "questions": [
+      {"question": {"en": "Which approach is most accurate when studying Adivasi communities?", "hi": "आदिवासी समुदायों का अध्ययन करते समय सबसे सटीक दृष्टिकोण कौन-सा है?"}, "options": {"en": ["Treat all communities as culturally identical", "Study community-specific practices in regional context", "Reduce each community to one festival", "Assume traditions never change"], "hi": ["सभी समुदायों को सांस्कृतिक रूप से समान मानें", "समुदाय-विशिष्ट परंपराओं को क्षेत्रीय संदर्भ में पढ़ें", "हर समुदाय को एक पर्व तक सीमित करें", "परंपराओं को कभी न बदलने वाला मानें"]}, "correct": 1, "explanation": {"en": "Communities are internally diverse and traditions are shaped by place and history; a contextual approach avoids stereotyping.", "hi": "समुदायों के भीतर विविधता होती है और परंपराएँ स्थान तथा इतिहास से आकार लेती हैं; संदर्भ-आधारित अध्ययन रूढ़िबद्धता से बचाता है।"}},
+      {"question": {"en": "The Fifth Schedule primarily concerns", "hi": "पाँचवीं अनुसूची मुख्यतः किससे संबंधित है?"}, "options": {"en": ["Administration of Scheduled Areas and Scheduled Tribes in specified states", "Official languages of the Union", "Allocation of seats in the Rajya Sabha", "Powers of the Election Commission"], "hi": ["निर्दिष्ट राज्यों के अनुसूचित क्षेत्रों और अनुसूचित जनजातियों का प्रशासन", "संघ की राजभाषाएँ", "राज्यसभा में सीटों का आवंटन", "निर्वाचन आयोग की शक्तियाँ"]}, "correct": 0, "explanation": {"en": "The Fifth Schedule provides a framework for administration and control of Scheduled Areas and Scheduled Tribes in specified states, subject to the constitutional text.", "hi": "पाँचवीं अनुसूची संवैधानिक पाठ के अधीन निर्दिष्ट राज्यों के अनुसूचित क्षेत्रों और अनुसूचित जनजातियों के प्रशासन तथा नियंत्रण का ढाँचा देती है।"}}
+    ]
+  },
+  "basic-ratio": {
+    "concept": {
+      "en": "A ratio compares quantities of the same kind by division. Simplify it by dividing both terms by a common factor and convert units before comparing unlike units. A proportion states that two ratios are equal; cross-multiplication can solve a missing term when the quantities are directly proportional.",
+      "hi": "अनुपात समान प्रकार की मात्राओं की तुलना भाग देकर करता है। दोनों पदों को समान गुणनखंड से भाग देकर सरल करें और अलग इकाइयों की तुलना से पहले इकाइयाँ समान करें। समानुपात बताता है कि दो अनुपात बराबर हैं; मात्राएँ सीधे समानुपाती हों तो लुप्त पद निकालने में तिर्यक गुणन उपयोगी है।"
+    },
+    "keyPoints": {
+      "en": ["The ratio 2:3 means two parts to three parts, not necessarily quantities 2 and 3; the common multiplier determines actual values.", "For a:b = c:d, ad = bc, provided the quantities and units are set up consistently.", "If a total is split in ratio a:b, the shares are a/(a+b) and b/(a+b) of the total.", "Direct proportion changes in the same direction; inverse proportion changes in opposite directions. Check the relationship before applying a formula."],
+      "hi": ["2:3 का अर्थ दो भाग और तीन भाग है, आवश्यक नहीं कि वास्तविक मात्राएँ 2 और 3 ही हों; समान गुणक वास्तविक मान तय करता है।", "यदि a:b = c:d हो तो ad = bc, बशर्ते मात्राएँ और इकाइयाँ संगत हों।", "कुल राशि a:b में बाँटने पर हिस्से कुल के a/(a+b) और b/(a+b) होते हैं।", "प्रत्यक्ष समानुपात में दोनों मात्राएँ एक ही दिशा में बदलती हैं; व्युत्क्रम समानुपात में विपरीत दिशा में। सूत्र लगाने से पहले संबंध जाँचें।"]
+    },
+    "examAngle": {
+      "en": "Most errors come from mismatched units, confusing a part-to-part ratio with a part-to-whole ratio, or applying direct proportion to an inverse relationship. Label units and what each term represents.",
+      "hi": "अधिकांश गलतियाँ असमान इकाइयों, भाग-से-भाग अनुपात को भाग-से-कुल समझने या व्युत्क्रम संबंध में प्रत्यक्ष समानुपात लगाने से होती हैं। इकाइयाँ और प्रत्येक पद का अर्थ लिखें।"
+    },
+    "revision": {
+      "en": "Practise one sharing problem, one unit-conversion problem and one work-rate problem. For each, first state whether the relationship is direct or inverse, then solve and check the units.",
+      "hi": "एक बाँटने का प्रश्न, एक इकाई-रूपांतरण और एक कार्य-दर प्रश्न हल करें। हर प्रश्न में पहले प्रत्यक्ष या व्युत्क्रम संबंध लिखें, फिर हल कर इकाइयाँ जाँचें।"
+    },
+    "questions": [
+      {"question": {"en": "A sum of 120 is divided in the ratio 2:3. What is the smaller share?", "hi": "120 की राशि 2:3 के अनुपात में बाँटी जाती है। छोटा हिस्सा कितना है?"}, "options": {"en": ["24", "48", "60", "72"], "hi": ["24", "48", "60", "72"]}, "correct": 1, "explanation": {"en": "There are 2 + 3 = 5 total parts. Each part is 120/5 = 24, so the smaller share is 2 × 24 = 48.", "hi": "कुल 2 + 3 = 5 भाग हैं। प्रत्येक भाग 120/5 = 24 है, इसलिए छोटा हिस्सा 2 × 24 = 48 है।"}},
+      {"question": {"en": "If 4 workers complete a fixed task in 6 days at the same rate, how many days would 8 workers take?", "hi": "यदि 4 श्रमिक समान दर से काम करके एक कार्य 6 दिन में पूरा करते हैं, तो 8 श्रमिक कितने दिन लेंगे?"}, "options": {"en": ["3 days", "6 days", "9 days", "12 days"], "hi": ["3 दिन", "6 दिन", "9 दिन", "12 दिन"]}, "correct": 0, "explanation": {"en": "Workers and time are inversely proportional for a fixed amount of work: doubling workers halves the time, so 3 days.", "hi": "निश्चित कार्य के लिए श्रमिक और समय व्युत्क्रमानुपाती हैं: श्रमिक दोगुने होने पर समय आधा, यानी 3 दिन होगा।"}}
+    ]
+  },
+  "inference": {
+    "concept": {
+      "en": "An inference question asks what necessarily or most reasonably follows from the passage, not what is generally true from outside knowledge. The conclusion must be supported by the author's stated evidence and qualifications. Distinguish a valid implication from an assumption, an example and a personal opinion.",
+      "hi": "अनुमान प्रश्न पूछता है कि अनुच्छेद से अनिवार्य या सबसे उचित निष्कर्ष क्या निकलता है; यह बाहरी सामान्य ज्ञान नहीं पूछता। निष्कर्ष लेखक के दिए साक्ष्य और सीमाओं से समर्थित होना चाहिए। वैध निहितार्थ को धारणा, उदाहरण और निजी राय से अलग रखें।"
+    },
+    "keyPoints": {
+      "en": ["Use only information supplied in the passage unless the question explicitly invites outside knowledge.", "A conclusion that is stronger or broader than the evidence is not justified, even if it sounds plausible.", "Watch quantifiers such as all, some, often, may and only; changing one can reverse the claim.", "For 'must follow' questions, reject options that introduce a new cause, value judgement or unsupported prediction."],
+      "hi": ["जब तक प्रश्न स्पष्ट रूप से बाहरी ज्ञान न मांगे, अनुच्छेद में दी जानकारी ही उपयोग करें।", "साक्ष्य से अधिक व्यापक या मजबूत निष्कर्ष उचित नहीं, भले ही वह संभावित लगे।", "सभी, कुछ, अक्सर, संभवतः और केवल जैसे परिमाण-सूचक शब्द देखें; इनमें बदलाव कथन का अर्थ पलट सकता है।", "‘निश्चित रूप से निकलता है’ वाले प्रश्न में नया कारण, मूल्य-निर्णय या असमर्थित भविष्यवाणी जोड़ने वाले विकल्प हटाएं।"]
+    },
+    "examAngle": {
+      "en": "Underline the claim and its qualifier in the passage, then test each option against that exact scope. The best answer is the narrowest one fully supported, not the most ambitious interpretation.",
+      "hi": "अनुच्छेद में मुख्य दावा और उसकी सीमा रेखांकित करें, फिर प्रत्येक विकल्प को उसी दायरे पर जाँचें। सबसे अच्छा उत्तर वह संकीर्ण निष्कर्ष है जो पूरी तरह समर्थित हो, सबसे महत्वाकांक्षी व्याख्या नहीं।"
+    },
+    "revision": {
+      "en": "For each practice passage, write one supported conclusion and one tempting but unsupported conclusion. Mark the exact sentence that supports or rules out each option.",
+      "hi": "हर अभ्यास अनुच्छेद के लिए एक समर्थित निष्कर्ष और एक आकर्षक लेकिन असमर्थित निष्कर्ष लिखें। प्रत्येक विकल्प को समर्थन या खारिज करने वाला सटीक वाक्य चिह्नित करें।"
+    },
+    "questions": [
+      {"question": {"en": "A passage says: 'Several cities reduced water use after metered billing began, although rainfall was also above average that year.' Which inference is best supported?", "hi": "अनुच्छेद कहता है: ‘मीटर आधारित बिलिंग शुरू होने के बाद कई शहरों में जल उपयोग घटा, हालांकि उस वर्ष वर्षा भी औसत से अधिक थी।’ कौन-सा निष्कर्ष सबसे अधिक समर्थित है?"}, "options": {"en": ["Metered billing alone caused every reduction", "Water use fell in several cities after metered billing began, but the passage does not isolate the cause", "Rainfall always reduces household water use", "All cities adopted metered billing"], "hi": ["केवल मीटर बिलिंग से हर कमी हुई", "मीटर बिलिंग के बाद कई शहरों में जल उपयोग घटा, पर अनुच्छेद कारण को अलग नहीं करता", "वर्षा हमेशा घरेलू जल उपयोग घटाती है", "सभी शहरों ने मीटर बिलिंग अपनाई"]}, "correct": 1, "explanation": {"en": "The passage reports a sequence and another simultaneous factor; it does not prove sole causation, a universal effect or universal adoption.", "hi": "अनुच्छेद घटनाक्रम और साथ मौजूद दूसरे कारक की सूचना देता है; यह अकेले कारण, सार्वभौमिक प्रभाव या सभी जगह अपनाने को सिद्ध नहीं करता।"}},
+      {"question": {"en": "For a 'must follow' inference, an answer should", "hi": "‘निश्चित रूप से निकलता है’ वाले अनुमान के लिए उत्तर को"}, "options": {"en": ["Rely on facts not present in the passage", "Be fully supported by the passage's evidence", "Be the most optimistic option", "Introduce a likely but unstated cause"], "hi": ["अनुच्छेद में न दिए तथ्य पर निर्भर होना चाहिए", "अनुच्छेद के साक्ष्य से पूरी तरह समर्थित होना चाहिए", "सबसे आशावादी विकल्प होना चाहिए", "संभावित लेकिन न बताए कारण को जोड़ना चाहिए"]}, "correct": 1, "explanation": {"en": "A necessary inference stays within the passage's evidence and does not add a new premise or unsupported causal claim.", "hi": "अनिवार्य निष्कर्ष अनुच्छेद के साक्ष्य की सीमा में रहता है और नया आधार या असमर्थित कारण-संबंध नहीं जोड़ता।"}}
+    ]
+  }
+}

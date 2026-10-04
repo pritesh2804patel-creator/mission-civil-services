@@ -1,0 +1,299 @@
+{
+    "exam": "CGPSC",
+    "stage": "Prelims",
+
+    "papers": [
+
+        {
+            "id": "cgpsc-gs",
+            "name": "General Studies Paper I",
+
+            "subjects": [
+
+                {
+                    "id": "cg-history",
+                    "name": "History and Culture",
+
+                    "chapters": [
+
+                        {
+                            "id": "india-history",
+                            "name": "Indian History",
+
+                            "topics": [
+                                {
+                                    "id": "ancient-india",
+                                    "name": "Ancient India"
+                                },
+                                {
+                                    "id": "medieval-india",
+                                    "name": "Medieval India"
+                                },
+                                {
+                                    "id": "modern-india",
+                                    "name": "Modern India"
+                                }
+                            ]
+                        },
+
+
+                        {
+                            "id": "cg-history",
+                            "name": "History of Chhattisgarh",
+
+                            "topics": [
+                                {
+                                    "id": "cg-ancient-history",
+                                    "name": "Ancient History of Chhattisgarh"
+                                },
+                                {
+                                    "id": "cg-modern-history",
+                                    "name": "Modern History of Chhattisgarh"
+                                }
+                            ]
+                        },
+
+
+                        {
+                            "id": "cg-culture",
+                            "name": "Chhattisgarh Culture",
+
+                            "topics": [
+                                {
+                                    "id": "tribal-culture",
+                                    "name": "Tribal Culture"
+                                },
+                                {
+                                    "id": "folk-dance",
+                                    "name": "Folk Dance and Music"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+
+
+                {
+                    "id": "cg-polity",
+                    "name": "Indian Polity and Governance",
+
+                    "chapters": [
+
+                        {
+                            "id": "constitution",
+                            "name": "Constitution of India",
+
+                            "topics": [
+                                {
+                                    "id": "preamble",
+                                    "name": "Preamble"
+                                },
+                                {
+                                    "id": "fundamental-rights",
+                                    "name": "Fundamental Rights"
+                                },
+                                {
+                                    "id": "directive-principles",
+                                    "name": "Directive Principles of State Policy"
+                                }
+                            ]
+                        },
+
+
+                        {
+                            "id": "cg-administration",
+                            "name": "Chhattisgarh Administration",
+
+                            "topics": [
+                                {
+                                    "id": "state-administration",
+                                    "name": "State Administration"
+                                },
+                                {
+                                    "id": "local-government",
+                                    "name": "Local Government in Chhattisgarh"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+
+
+                {
+                    "id": "cg-geography",
+                    "name": "Geography",
+
+                    "chapters": [
+
+                        {
+                            "id": "india-geography",
+                            "name": "Indian Geography",
+
+                            "topics": [
+                                {
+                                    "id": "physical-geography",
+                                    "name": "Physical Geography"
+                                },
+                                {
+                                    "id": "indian-rivers",
+                                    "name": "Indian Rivers"
+                                }
+                            ]
+                        },
+
+
+                        {
+                            "id": "cg-geography",
+                            "name": "Geography of Chhattisgarh",
+
+                            "topics": [
+                                {
+                                    "id": "cg-rivers",
+                                    "name": "Rivers of Chhattisgarh"
+                                },
+                                {
+                                    "id": "cg-soils",
+                                    "name": "Soils of Chhattisgarh"
+                                },
+                                {
+                                    "id": "cg-minerals",
+                                    "name": "Mineral Resources of Chhattisgarh"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+
+
+                {
+                    "id": "cg-economy",
+                    "name": "Economy",
+
+                    "chapters": [
+
+                        {
+                            "id": "indian-economy",
+                            "name": "Indian Economy",
+
+                            "topics": [
+                                {
+                                    "id": "gdp",
+                                    "name": "GDP and National Income"
+                                },
+                                {
+                                    "id": "inflation",
+                                    "name": "Inflation"
+                                },
+                                {
+                                    "id": "budget",
+                                    "name": "Government Budget"
+                                }
+                            ]
+                        },
+
+
+                        {
+                            "id": "cg-economy",
+                            "name": "Chhattisgarh Economy",
+
+                            "topics": [
+                                {
+                                    "id": "cg-agriculture",
+                                    "name": "Agriculture in Chhattisgarh"
+                                },
+                                {
+                                    "id": "cg-industry",
+                                    "name": "Industries of Chhattisgarh"
+                                },
+                                {
+                                    "id": "cg-budget",
+                                    "name": "Chhattisgarh Budget"
+                                }
+                            ]
+                        }
+
+                    ]
+                }
+
+            ]
+        },
+
+
+        {
+            "id": "cgpsc-aptitude",
+            "name": "General Studies Paper II — Aptitude",
+
+            "subjects": [
+
+                {
+                    "id": "aptitude-maths",
+                    "name": "Mathematics",
+
+                    "chapters": [
+
+                        {
+                            "id": "percentage",
+                            "name": "Percentage",
+
+                            "topics": [
+                                {
+                                    "id": "basic-percentage",
+                                    "name": "Basic Percentage"
+                                },
+                                {
+                                    "id": "percentage-change",
+                                    "name": "Percentage Change"
+                                }
+                            ]
+                        },
+
+
+                        {
+                            "id": "ratio",
+                            "name": "Ratio and Proportion",
+
+                            "topics": [
+                                {
+                                    "id": "basic-ratio",
+                                    "name": "Basic Ratio"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+
+
+                {
+                    "id": "aptitude-reasoning",
+                    "name": "Reasoning",
+
+                    "chapters": [
+
+                        {
+                            "id": "logical-reasoning",
+                            "name": "Logical Reasoning",
+
+                            "topics": [
+                                {
+                                    "id": "statement-conclusion",
+                                    "name": "Statement and Conclusion"
+                                },
+                                {
+                                    "id": "syllogism",
+                                    "name": "Syllogism"
+                                }
+                            ]
+                        }
+
+                    ]
+                }
+
+            ]
+        }
+
+    ]
+}

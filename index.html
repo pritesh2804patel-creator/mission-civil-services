@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#071a3d">
+        <meta name="description" content="Bilingual UPSC and CGPSC study notes, practice questions and explanations.">
+
+    <title>Mission Civil Services</title>
+
+        <link rel="manifest" href="manifest.webmanifest">
+        <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css?v=20261004-4">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="top-header">
+
+        <div class="brand">
+            <h1>Mission Civil Services</h1>
+            <p>UPSC + CGPSC Prelims</p>
+        </div>
+
+        <div class="student-area">
+            <span id="student-area-label" data-i18n="studentClassroom">Student Classroom</span>
+
+            <div class="lang-toggle" aria-label="Language selector">
+                <button class="lang-btn active" data-lang="en" type="button">EN</button>
+                <button class="lang-btn" data-lang="hi" type="button">हिंदी</button>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <!-- WELCOME -->
+
+        <section class="welcome-section">
+
+            <h2 id="welcome-title" data-i18n="welcomeTitle">Welcome to Your Civil Services Classroom</h2>
+
+            <p id="welcome-subtitle" data-i18n="welcomeSubtitle">
+                Study. Practice. Test. Analyse. Improve.
+            </p>
+
+            <div class="phase-strip">
+
+                <div class="phase-card">
+                    <span data-i18n="phase1Label">Phase 1</span>
+                    <h3 data-i18n="studyRoom">Study Room</h3>
+                    <p data-i18n="phase1Text">Concepts, amendments, budgets, PYQs, and official references for UPSC & CGPSC.</p>
+                </div>
+
+                <div class="phase-card">
+                    <span data-i18n="phase2Label">Phase 2</span>
+                    <h3 data-i18n="practiceLab">Practice Lab</h3>
+                    <p data-i18n="phase2Text">MCQ practice with exam timing, marking pattern, and answer explanations.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXAM SELECTION -->
+
+        <section class="exam-section">
+
+            <h2 data-i18n="selectExam">Select Examination</h2>
+
+            <div class="exam-container">
+
+                <div class="exam-card" onclick="openExam('UPSC')">
+
+                    <div class="exam-icon">
+                        🇮🇳
+                    </div>
+
+                    <h3>UPSC</h3>
+
+                    <p data-i18n="upscExamDescription">Civil Services Preliminary Examination</p>
+
+                    <button data-i18n="enterUpsc">Enter UPSC Classroom</button>
+
+                </div>
+
+
+                <div class="exam-card" onclick="openExam('CGPSC')">
+
+                    <div class="exam-icon">
+                        🇮🇳
+                    </div>
+
+                    <h3>CGPSC</h3>
+
+                    <p data-i18n="cgpscExamDescription">Chhattisgarh State Service Preliminary Examination</p>
+
+                    <button data-i18n="enterCgpsc">Enter CGPSC Classroom</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TODAY -->
+
+        <section class="today-section">
+
+            <h2 data-i18n="todaysPreparation">Today's Preparation</h2>
+
+            <div class="today-grid">
+
+                <div class="today-card">
+                    <span class="today-icon">📖</span>
+
+                    <h3 data-i18n="homeStudy">Study</h3>
+
+                    <p data-i18n="continueTopic">Continue your current topic</p>
+                </div>
+
+
+                <div class="today-card">
+                    <span class="today-icon">📝</span>
+
+                    <h3 data-i18n="homePractice">Practice</h3>
+
+                    <p data-i18n="solveMcqs">Solve today's MCQs</p>
+                </div>
+
+
+                <div class="today-card">
+                    <span class="today-icon">📰</span>
+
+                    <h3 data-i18n="currentAffairs">Current Affairs</h3>
+
+                    <p data-i18n="readUpdates">Read important updates</p>
+                </div>
+
+
+                <div class="today-card">
+                    <span class="today-icon">🔄</span>
+
+                    <h3 data-i18n="revision">Revision</h3>
+
+                    <p data-i18n="reviseWeakAreas">Revise your weak areas</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- UPDATE -->
+
+        <section class="update-section">
+
+            <h2 data-i18n="latestUpdates">Latest Exam Updates</h2>
+
+            <div class="update-box">
+
+                <strong data-i18n="examUpdateStrong">Official Notifications</strong>
+
+                <p>
+                    Use the official UPSC and CGPSC portals to verify current notices, dates and syllabus changes. This page does not fetch live updates.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- CLASSROOM AREA -->
+
+<section id="classroom" class="classroom-section">
+
+    <div class="classroom-header">
+
+        <button onclick="goHome()" class="back-button" id="back-button">
+            ← Back
+        </button>
+
+        <div>
+            <h2 id="classroom-title">
+                    Classroom
+                </h2>
+
+                 <p id="classroom-subtitle">
+                        Select your study path
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div id="breadcrumb" class="breadcrumb">
+            </div>
+
+
+            <div id="classroom-content" class="classroom-content">
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            Mission Civil Services
+            | <span data-i18n="footerPlatform">Personal Learning Platform</span>
+        </p>
+
+        <p>
+            <span data-i18n="footerPurpose">Built for learning and preparation.</span>
+        </p>
+
+    </footer>
+
+
+    <script src="app.js?v=20261004-6"></script>
+
+</body>
+
+</html>
