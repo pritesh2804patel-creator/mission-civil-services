@@ -75,6 +75,30 @@ const STUDY_SOURCES = [
         url: "https://psc.cg.gov.in/Modelanswer.php"
     },
     {
+        exams: ["CGPSC"],
+        label: { en: "CGPSC Previous Year Papers — Prepp archive", hi: "CGPSC पिछले प्रश्नपत्र — Prepp संग्रह" },
+        detail: { en: "Third-party archive listing prelims papers by year and separating GS Paper I from CSAT Paper II. Check each cycle/date against CGPSC notices and official model answers.", hi: "वर्षवार प्रारंभिक परीक्षा प्रश्नपत्रों का तृतीय-पक्ष संग्रह; GS Paper I और CSAT Paper II अलग हैं। हर परीक्षा-वर्ष/तिथि को CGPSC सूचना और आधिकारिक मॉडल उत्तरों से जाँचें।" },
+        url: "https://prepp.in/cgpsc-exam/practice-papers"
+    },
+    {
+        exams: ["CGPSC"],
+        label: { en: "CGPSC 2025-cycle GS Paper I — Prepp attempt", hi: "CGPSC 2025 चक्र GS प्रश्नपत्र I — Prepp अभ्यास" },
+        detail: { en: "Prepp labels this paper 22 February 2026 and lists 100 questions, 200 marks and 120 minutes. Third-party paper; verify the cycle and key with CGPSC.", hi: "Prepp इसे 22 फरवरी 2026 का प्रश्नपत्र बताता है और 100 प्रश्न, 200 अंक, 120 मिनट सूचीबद्ध करता है। तृतीय-पक्ष पेपर; परीक्षा-वर्ष और उत्तर CGPSC से सत्यापित करें।" },
+        url: "https://prepp.in/paper/cgpsc-prelims-gs-question-paper-22-feb-2026-699bfa1a65daf4bd76abeffd"
+    },
+    {
+        exams: ["CGPSC"],
+        label: { en: "CGPSC 2025-cycle CSAT Paper II — Prepp attempt", hi: "CGPSC 2025 चक्र CSAT प्रश्नपत्र II — Prepp अभ्यास" },
+        detail: { en: "Prepp labels this paper 22 February 2026 and lists 100 questions, 200 marks and 120 minutes. Third-party paper; verify the cycle and key with CGPSC.", hi: "Prepp इसे 22 फरवरी 2026 का प्रश्नपत्र बताता है और 100 प्रश्न, 200 अंक, 120 मिनट सूचीबद्ध करता है। तृतीय-पक्ष पेपर; परीक्षा-वर्ष और उत्तर CGPSC से सत्यापित करें।" },
+        url: "https://prepp.in/paper/cgpsc-prelims-csat-question-paper-22-feb-2026-699c31dc90ffc2cc412c6551"
+    },
+    {
+        exams: ["CGPSC"],
+        label: { en: "CGPSC 2025 revised official prelims model answers", hi: "CGPSC 2025 संशोधित आधिकारिक प्रारंभिक परीक्षा मॉडल उत्तर" },
+        detail: { en: "Commission-published amended model answer. Match the paper/year carefully; an answer key is not a substitute for the question paper.", hi: "आयोग द्वारा प्रकाशित संशोधित मॉडल उत्तर। प्रश्नपत्र/वर्ष का मिलान करें; उत्तर-कुंजी प्रश्नपत्र का विकल्प नहीं है।" },
+        url: "https://psc.cg.gov.in/PDFs/MODEL_ANSWER/STATE_SERVICE_EXAMINATION-2025_PRELIMS_AMENDED_MODEL_ANSWER%20(25-03-2026).pdf"
+    },
+    {
         exams: ["UPSC", "CGPSC"],
         label: { en: "NCERT official textbooks", hi: "NCERT की आधिकारिक पाठ्यपुस्तकें" },
         detail: { en: "Use the relevant school-level textbooks for foundational history, geography, polity, economy and science.", hi: "इतिहास, भूगोल, राजव्यवस्था, अर्थव्यवस्था और विज्ञान की बुनियाद के लिए संबंधित स्कूली पाठ्यपुस्तकें पढ़ें।" },
@@ -91,6 +115,12 @@ const STUDY_SOURCES = [
         label: { en: "Press Information Bureau", hi: "प्रेस सूचना ब्यूरो" },
         detail: { en: "Primary-source Union Government releases for schemes, policy and current affairs; verify claims against the issuing ministry.", hi: "योजनाओं, नीति और समसामयिकी के लिए केंद्र सरकार की मूल विज्ञप्तियाँ; तथ्यों को संबंधित मंत्रालय से मिलाएँ।" },
         url: "https://pib.gov.in/"
+    },
+    {
+        exams: ["UPSC", "CGPSC"],
+        label: { en: "Daily Current Affairs — Prepp notes, videos and quizzes", hi: "दैनिक समसामयिकी — Prepp नोट्स, वीडियो और क्विज़" },
+        detail: { en: "Useful third-party daily reading and practice supplement. Check the publication date and verify important facts, schemes and data against the cited ministry or official report.", hi: "दैनिक अध्ययन और अभ्यास के लिए उपयोगी तृतीय-पक्ष स्रोत। प्रकाशन तिथि देखें और महत्त्वपूर्ण तथ्य, योजनाएँ व आँकड़े संबंधित मंत्रालय या आधिकारिक रिपोर्ट से सत्यापित करें।" },
+        url: "https://prepp.in/current-affairs"
     },
     {
         exams: ["UPSC", "CGPSC"],
@@ -885,7 +915,7 @@ async function openExam(examName) {
             fetch(file),
             fetch("data/lessons.json?v=20261004-2"),
             fetch("data/lesson-expansion.json?v=20261008-2"),
-            fetch("data/curriculum-expansion.json?v=20261104-2")
+            fetch("data/curriculum-expansion.json?v=20261104-3")
         ]);
 
         if (!response.ok || !lessonsResponse.ok || !expansionResponse.ok || !curriculumResponse.ok) {

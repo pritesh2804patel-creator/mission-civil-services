@@ -1,15 +1,15 @@
-const CACHE_NAME = "mission-civil-services-v11";
+const CACHE_NAME = "mission-civil-services-v12";
 const APP_FILES = [
     "./",
     "./index.html",
     "./style.css?v=20261104-2",
-    "./app.js?v=20261104-2",
+    "./app.js?v=20261104-3",
     "./manifest.webmanifest",
     "./data/upsc.json",
     "./data/cgpsc.json",
     "./data/lessons.json?v=20261004-2",
     "./data/lesson-expansion.json?v=20261008-2",
-    "./data/curriculum-expansion.json?v=20261104-2",
+    "./data/curriculum-expansion.json?v=20261104-3",
     "./assets/icon.svg"
 ];
 

@@ -257,7 +257,12 @@
                   { "id": "economy-current-affairs", "name": "Economic Reports, Indices and Policy Updates" },
                   { "id": "environment-current-affairs", "name": "Environment, Species, Protected Areas and Climate Updates" },
                   { "id": "science-current-affairs", "name": "Science, Technology and Health Developments" },
-                  { "id": "awards-sports-places", "name": "Awards, Reports, Sports and Important Places" }
+                  { "id": "awards-sports-places", "name": "Awards, Reports, Sports and Important Places" },
+                  { "id": "current-affairs-source-reading", "name": "Daily News: Source Verification and Syllabus Linkage" },
+                  { "id": "monthly-current-affairs-revision", "name": "Monthly and Annual Revision of Major Events" },
+                  { "id": "government-reports-indices", "name": "Government Reports, Rankings, Indices and Survey Findings" },
+                  { "id": "government-schemes-current", "name": "Government Schemes: Ministry, Beneficiaries, Funding and Outcomes" },
+                  { "id": "places-in-news-current", "name": "Places in the News: Mapping and Geographic Context" }
                 ]
               }
             ]
@@ -517,7 +522,12 @@
                   { "id": "cg-state-policy-news", "name": "Chhattisgarh Government Policies, Schemes and Notifications" },
                   { "id": "cg-state-reports-data", "name": "State Reports, Rankings, Budget and Economic Data" },
                   { "id": "cg-culture-places-people", "name": "State Personalities, Awards, Culture and Important Places" },
-                  { "id": "cg-national-international-news", "name": "National and International Events with State Relevance" }
+                  { "id": "cg-national-international-news", "name": "National and International Events with State Relevance" },
+                  { "id": "cg-current-affairs-source-reading", "name": "Daily News: Official Source, Date and Chhattisgarh Relevance" },
+                  { "id": "cg-monthly-current-affairs-revision", "name": "Monthly and Annual Chhattisgarh Current Affairs Revision" },
+                  { "id": "cg-current-reports-indices", "name": "State and National Reports, Rankings and Indices" },
+                  { "id": "cg-current-schemes-budget", "name": "State Schemes, Budget Announcements and Implementation" },
+                  { "id": "cg-places-in-news-map", "name": "Places in Chhattisgarh News: District and Map Context" }
                 ]
               }
             ]
