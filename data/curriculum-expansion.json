@@ -1,0 +1,616 @@
+{
+  "UPSC": {
+    "papers": [
+      {
+        "id": "upsc-gs1",
+        "subjects": [
+          {
+            "id": "history",
+            "chapters": [
+              {
+                "id": "upsc-early-india",
+                "name": "Early India and Historical Sources",
+                "topics": [
+                  { "id": "prehistory-india", "name": "Prehistoric India and Archaeological Sources" },
+                  { "id": "harappan-society", "name": "Harappan Sites, Society and Economy" },
+                  { "id": "vedic-society", "name": "Vedic Texts, Society and Polity" },
+                  { "id": "mahajanapadas", "name": "Mahajanapadas, Buddhism and Jainism" },
+                  { "id": "mauryan-empire", "name": "Mauryan State, Ashoka and Administration" },
+                  { "id": "post-mauryan-india", "name": "Post-Mauryan India and Regional Kingdoms" },
+                  { "id": "gupta-period", "name": "Gupta and Post-Gupta India" },
+                  { "id": "south-indian-kingdoms", "name": "Early South Indian Kingdoms and the Sangam Age" }
+                ]
+              },
+              {
+                "id": "upsc-medieval-india",
+                "name": "Medieval India",
+                "topics": [
+                  { "id": "early-medieval-india", "name": "Early Medieval Regional Kingdoms" },
+                  { "id": "delhi-sultanate", "name": "Delhi Sultanate: Polity, Economy and Society" },
+                  { "id": "mughal-india", "name": "Mughal Empire: Administration, Economy and Culture" },
+                  { "id": "bhakti-sufi", "name": "Bhakti and Sufi Movements" },
+                  { "id": "maratha-and-regional-states", "name": "Marathas and Eighteenth-Century Regional States" }
+                ]
+              },
+              {
+                "id": "upsc-modern-india",
+                "name": "Modern India and the Freedom Struggle",
+                "topics": [
+                  { "id": "european-expansion", "name": "European Trading Companies and British Expansion" },
+                  { "id": "colonial-economy", "name": "Colonial Administration, Economy and Social Change" },
+                  { "id": "social-reform-movements", "name": "Social and Religious Reform Movements" },
+                  { "id": "tribal-peasant-movements", "name": "Peasant, Tribal and Labour Movements" },
+                  { "id": "nationalism-1885-1919", "name": "Rise of Nationalism: 1885–1919" },
+                  { "id": "nationalism-1919-1947", "name": "Mass Movements and the Final Phase: 1919–1947" },
+                  { "id": "constitutional-development", "name": "Constitutional Developments under British Rule" },
+                  { "id": "revolutionary-movements", "name": "Revolutionary, Socialist and Subhas Bose-led Movements" },
+                  { "id": "post-independence-consolidation", "name": "Post-Independence Consolidation and Reorganisation" }
+                ]
+              },
+              {
+                "id": "upsc-art-culture",
+                "name": "Indian Art and Culture",
+                "topics": [
+                  { "id": "architecture-india", "name": "Indian Architecture: Ancient, Medieval and Modern" },
+                  { "id": "sculpture-painting", "name": "Sculpture, Painting and Visual Traditions" },
+                  { "id": "performing-arts", "name": "Classical and Folk Dance, Music and Theatre" },
+                  { "id": "literature-philosophy", "name": "Indian Literature, Languages and Philosophy" },
+                  { "id": "religions-festivals", "name": "Religions, Festivals and Cultural Institutions" },
+                  { "id": "heritage-conservation", "name": "Cultural Heritage, UNESCO Sites and Conservation" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "polity",
+            "chapters": [
+              {
+                "id": "union-government",
+                "name": "Union Government and Parliament",
+                "topics": [
+                  { "id": "president-vice-president", "name": "President, Vice-President and Union Executive" },
+                  { "id": "prime-minister-council", "name": "Prime Minister and Council of Ministers" },
+                  { "id": "parliament", "name": "Parliament: Procedure, Privileges and Committees" },
+                  { "id": "supreme-court", "name": "Supreme Court and Judicial Review" },
+                  { "id": "constitutional-amendment", "name": "Constitutional Amendment and Basic Structure" }
+                ]
+              },
+              {
+                "id": "federalism-state-government",
+                "name": "Federalism and State Government",
+                "topics": [
+                  { "id": "centre-state-relations", "name": "Legislative, Administrative and Financial Relations" },
+                  { "id": "interstate-relations", "name": "Inter-State Council, Zonal Councils and Disputes" },
+                  { "id": "governor-state-executive", "name": "Governor, Chief Minister and State Council of Ministers" },
+                  { "id": "state-legislature", "name": "State Legislature and High Courts" },
+                  { "id": "emergency-provisions", "name": "Emergency Provisions and Federal Balance" },
+                  { "id": "election-system", "name": "Election Commission, Elections and Electoral Reform" }
+                ]
+              },
+              {
+                "id": "local-government-constitution",
+                "name": "Local Government and Constitutional Bodies",
+                "topics": [
+                  { "id": "panchayati-raj", "name": "Panchayati Raj Institutions and the 73rd Amendment" },
+                  { "id": "urban-local-bodies", "name": "Municipal Government and the 74th Amendment" },
+                  { "id": "constitutional-commissions", "name": "Finance Commission, CAG, UPSC and Other Constitutional Bodies" },
+                  { "id": "statutory-regulatory-bodies", "name": "Statutory, Regulatory and Quasi-Judicial Bodies" }
+                ]
+              },
+              {
+                "id": "governance-rights",
+                "name": "Governance, Rights and Public Policy",
+                "topics": [
+                  { "id": "transparency-accountability", "name": "RTI, Citizen Charters, Social Audit and Accountability" },
+                  { "id": "e-governance", "name": "E-Governance, Digital Public Infrastructure and Service Delivery" },
+                  { "id": "civil-services-governance", "name": "Civil Services, Public Service Values and Reforms" },
+                  { "id": "human-rights-institutions", "name": "Human Rights Institutions and Rights Issues" },
+                  { "id": "vulnerable-groups", "name": "Policies for Women, Children, Older Persons and Vulnerable Groups" },
+                  { "id": "health-education-policy", "name": "Health, Education and Human Development Programmes" },
+                  { "id": "poverty-employment-inclusion", "name": "Poverty, Employment, Inclusion and Demographic Change" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "geography",
+            "chapters": [
+              {
+                "id": "physical-geography-systems",
+                "name": "Physical Geography of the World",
+                "topics": [
+                  { "id": "geomorphology-landforms", "name": "Geomorphology, Landforms and Earth Processes" },
+                  { "id": "atmosphere-weather-climate", "name": "Atmosphere, Weather and Climate Systems" },
+                  { "id": "oceanography", "name": "Oceans, Currents, Tides and Marine Resources" },
+                  { "id": "climate-zones-biomes", "name": "Climate Regions, Natural Vegetation and Biomes" },
+                  { "id": "hazards-disasters", "name": "Earthquakes, Volcanoes, Cyclones and Natural Hazards" }
+                ]
+              },
+              {
+                "id": "indian-geography-systems",
+                "name": "Geography of India",
+                "topics": [
+                  { "id": "india-physiography", "name": "Physiographic Divisions of India" },
+                  { "id": "indian-monsoon-climate", "name": "Indian Monsoon, Climate and Rainfall Patterns" },
+                  { "id": "indian-drainage", "name": "Himalayan and Peninsular Drainage Systems" },
+                  { "id": "indian-soils-natural-vegetation", "name": "Indian Soils, Forests and Natural Vegetation" },
+                  { "id": "indian-agriculture-geography", "name": "Agricultural Regions, Cropping Patterns and Irrigation" },
+                  { "id": "indian-minerals-energy", "name": "Mineral, Energy and Water Resources" },
+                  { "id": "indian-industries-transport", "name": "Industries, Transport Corridors and Connectivity" },
+                  { "id": "population-settlements", "name": "Population, Migration, Urbanisation and Settlements" }
+                ]
+              },
+              {
+                "id": "world-regional-geography",
+                "name": "World and Economic Geography",
+                "topics": [
+                  { "id": "world-regions-resources", "name": "World Regions, Resource Distribution and Trade" },
+                  { "id": "location-based-current-affairs", "name": "Important Locations in Current Affairs" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "economy",
+            "chapters": [
+              {
+                "id": "macroeconomics-development",
+                "name": "Macroeconomics and Development",
+                "topics": [
+                  { "id": "national-income-measures", "name": "National Income, GDP, GVA and Measurement" },
+                  { "id": "growth-development-indicators", "name": "Economic Growth, Development and Indicators" },
+                  { "id": "poverty-inequality-employment", "name": "Poverty, Inequality, Employment and Human Development" },
+                  { "id": "inclusive-sustainable-growth", "name": "Inclusive Growth and Sustainable Development" },
+                  { "id": "demography-human-capital", "name": "Demography, Human Capital and the Demographic Dividend" }
+                ]
+              },
+              {
+                "id": "money-banking-finance",
+                "name": "Money, Banking and Financial Markets",
+                "topics": [
+                  { "id": "money-supply-banking", "name": "Money, Credit Creation and Commercial Banking" },
+                  { "id": "rbi-monetary-policy", "name": "RBI, Monetary Policy and Inflation Management" },
+                  { "id": "financial-markets-inclusion", "name": "Financial Markets, Inclusion and Digital Payments" },
+                  { "id": "external-sector", "name": "Balance of Payments, Exchange Rates and External Trade" }
+                ]
+              },
+              {
+                "id": "public-finance-sectoral-economy",
+                "name": "Public Finance and the Sectoral Economy",
+                "topics": [
+                  { "id": "taxation-gst", "name": "Taxation, GST and Public Revenue" },
+                  { "id": "budget-deficits-debt", "name": "Union Budget, Fiscal Deficits and Public Debt" },
+                  { "id": "agriculture-food-security", "name": "Agriculture, Food Security, MSP and Agricultural Markets" },
+                  { "id": "industry-infrastructure", "name": "Industry, MSMEs, Infrastructure and Investment" },
+                  { "id": "services-digital-economy", "name": "Services, Digital Economy and Emerging Sectors" },
+                  { "id": "government-schemes-economy", "name": "Major Government Schemes and Economic Institutions" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "environment",
+            "name": "Environment and Ecology",
+            "chapters": [
+              {
+                "id": "ecology-biodiversity",
+                "name": "Ecology, Ecosystems and Biodiversity",
+                "topics": [
+                  { "id": "ecosystem-ecological-processes", "name": "Ecosystems, Food Webs and Ecological Processes" },
+                  { "id": "biodiversity-conservation", "name": "Biodiversity, Endemism and Conservation" },
+                  { "id": "protected-areas-india", "name": "National Parks, Wildlife Sanctuaries and Conservation Reserves" },
+                  { "id": "species-conservation", "name": "Threatened Species and Species Recovery Programmes" },
+                  { "id": "environmental-laws-institutions", "name": "Environmental Laws, Institutions and Impact Assessment" }
+                ]
+              },
+              {
+                "id": "climate-pollution-sustainability",
+                "name": "Climate Change, Pollution and Sustainability",
+                "topics": [
+                  { "id": "climate-science-india", "name": "Climate Science, Impacts and Indian Vulnerability" },
+                  { "id": "climate-agreements-india", "name": "UNFCCC, Climate Agreements and India's Commitments" },
+                  { "id": "air-water-waste-pollution", "name": "Air, Water, Soil, Noise and Waste Pollution" },
+                  { "id": "renewable-energy-transition", "name": "Renewable Energy, Energy Transition and Efficiency" },
+                  { "id": "sustainable-development-conventions", "name": "Sustainable Development and Environmental Conventions" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "science-technology",
+            "name": "General Science and Technology",
+            "chapters": [
+              {
+                "id": "general-science",
+                "name": "General Science and Health",
+                "topics": [
+                  { "id": "physics-everyday-applications", "name": "Physics in Everyday Life and Applied Technology" },
+                  { "id": "chemistry-materials-everyday", "name": "Chemistry, Materials and Everyday Applications" },
+                  { "id": "biology-human-health", "name": "Human Biology, Nutrition and Public Health" },
+                  { "id": "diseases-vaccines-biotechnology", "name": "Diseases, Vaccines and Biotechnology" },
+                  { "id": "agriculture-biotechnology", "name": "Agricultural Science and Biotechnology" }
+                ]
+              },
+              {
+                "id": "emerging-technology",
+                "name": "Space, Digital and Emerging Technologies",
+                "topics": [
+                  { "id": "space-technology-india", "name": "Indian Space Programme and Satellite Applications" },
+                  { "id": "it-ai-cyber", "name": "Information Technology, AI, Cybersecurity and Telecom" },
+                  { "id": "nanotechnology-robotics", "name": "Nanotechnology, Robotics and Advanced Materials" },
+                  { "id": "nuclear-defence-technology", "name": "Nuclear Energy and Defence Technology" },
+                  { "id": "science-policy-institutions", "name": "Science Policy, Research Institutions and Recent Developments" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "current-affairs",
+            "name": "Current Affairs",
+            "chapters": [
+              {
+                "id": "national-international-current-affairs",
+                "name": "National and International Developments",
+                "topics": [
+                  { "id": "national-policy-current-affairs", "name": "Major National Policies, Bills and Programmes" },
+                  { "id": "international-relations-current-affairs", "name": "International Organisations, Agreements and Relations" },
+                  { "id": "economy-current-affairs", "name": "Economic Reports, Indices and Policy Updates" },
+                  { "id": "environment-current-affairs", "name": "Environment, Species, Protected Areas and Climate Updates" },
+                  { "id": "science-current-affairs", "name": "Science, Technology and Health Developments" },
+                  { "id": "awards-sports-places", "name": "Awards, Reports, Sports and Important Places" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "upsc-csat",
+        "subjects": [
+          {
+            "id": "csat-comprehension",
+            "chapters": [
+              {
+                "id": "csat-comprehension-skills",
+                "name": "Comprehension and Communication",
+                "topics": [
+                  { "id": "passage-main-idea", "name": "Central Idea, Structure and Author's Purpose" },
+                  { "id": "passage-inference-assumptions", "name": "Inference, Assumptions and Implications" },
+                  { "id": "passage-tone-arguments", "name": "Tone, Argument and Strengthen/Weaken Questions" },
+                  { "id": "interpersonal-communication", "name": "Interpersonal Skills and Communication" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "csat-maths",
+            "chapters": [
+              {
+                "id": "csat-number-system",
+                "name": "Number System and Arithmetic",
+                "topics": [
+                  { "id": "number-system-csat", "name": "Number System, Divisibility and Remainders" },
+                  { "id": "averages-csat", "name": "Averages and Weighted Averages" },
+                  { "id": "profit-loss-csat", "name": "Profit, Loss, Discount and Mark-up" },
+                  { "id": "interest-csat", "name": "Simple and Compound Interest" },
+                  { "id": "time-work-csat", "name": "Time, Work and Pipes" },
+                  { "id": "time-distance-csat", "name": "Time, Speed, Distance, Trains and Boats" },
+                  { "id": "mixtures-csat", "name": "Mixtures, Alligation and Partnership" },
+                  { "id": "ages-csat", "name": "Age-Based Problems" }
+                ]
+              },
+              {
+                "id": "csat-algebra-geometry",
+                "name": "Algebra, Geometry and Measurement",
+                "topics": [
+                  { "id": "algebra-csat", "name": "Algebra, Equations and Sequences" },
+                  { "id": "geometry-csat", "name": "Lines, Angles, Triangles and Circles" },
+                  { "id": "mensuration-csat", "name": "Area, Surface Area and Volume" },
+                  { "id": "permutation-probability-csat", "name": "Counting, Permutations and Probability" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "csat-reasoning",
+            "name": "Logical Reasoning and Analytical Ability",
+            "chapters": [
+              {
+                "id": "csat-logical-reasoning",
+                "name": "Logical and Analytical Reasoning",
+                "topics": [
+                  { "id": "argument-conclusions-csat", "name": "Arguments, Conclusions and Assumptions" },
+                  { "id": "deduction-induction-csat", "name": "Deductive and Inductive Reasoning" },
+                  { "id": "arrangements-csat", "name": "Ordering, Ranking and Arrangements" },
+                  { "id": "directions-relations-csat", "name": "Directions, Routes and Blood Relations" },
+                  { "id": "coding-series-csat", "name": "Coding, Series and Pattern Recognition" },
+                  { "id": "sets-venn-csat", "name": "Sets, Venn Diagrams and Syllogisms" },
+                  { "id": "decision-making-csat", "name": "Decision-Making and Problem-Solving" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "csat-data-interpretation",
+            "name": "Data Interpretation and Sufficiency",
+            "chapters": [
+              {
+                "id": "csat-data-analysis",
+                "name": "Tables, Charts and Data Analysis",
+                "topics": [
+                  { "id": "tables-data-csat", "name": "Tables and Data Sufficiency" },
+                  { "id": "bar-line-pie-csat", "name": "Bar, Line and Pie Charts" },
+                  { "id": "caselet-data-csat", "name": "Caselets, Comparisons and Multi-Step Data" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "CGPSC": {
+    "papers": [
+      {
+        "id": "cgpsc-gs",
+        "subjects": [
+          {
+            "id": "cg-history",
+            "chapters": [
+              {
+                "id": "cg-ancient-medieval-india",
+                "name": "Ancient and Medieval Indian History",
+                "topics": [
+                  { "id": "indian-prehistory-cg", "name": "Prehistoric Cultures and Archaeological Sources" },
+                  { "id": "indus-vedic-cg", "name": "Indus, Vedic and Early Historic India" },
+                  { "id": "mauryan-gupta-cg", "name": "Mauryan, Gupta and Regional Kingdoms" },
+                  { "id": "medieval-india-cg", "name": "Delhi Sultanate, Mughals and Regional Powers" },
+                  { "id": "bhakti-sufi-cg", "name": "Bhakti, Sufi and Medieval Cultural Movements" }
+                ]
+              },
+              {
+                "id": "cg-freedom-movement",
+                "name": "Modern India and the National Movement",
+                "topics": [
+                  { "id": "british-rule-cg", "name": "British Expansion, Administration and Economic Impact" },
+                  { "id": "reform-movements-cg", "name": "Social and Religious Reform Movements" },
+                  { "id": "freedom-movement-phases-cg", "name": "National Movement: Moderate, Extremist and Gandhian Phases" },
+                  { "id": "revolutionaries-cg", "name": "Revolutionary, Peasant, Tribal and Labour Movements" },
+                  { "id": "independence-partition-cg", "name": "Independence, Partition and Integration of Princely States" }
+                ]
+              },
+              {
+                "id": "cg-state-history-expanded",
+                "name": "History of Chhattisgarh",
+                "topics": [
+                  { "id": "cg-archaeology-kingdoms", "name": "Archaeological Sites, Early Kingdoms and Dynasties" },
+                  { "id": "cg-medieval-history", "name": "Medieval Chhattisgarh and Regional Polities" },
+                  { "id": "cg-colonial-history", "name": "Colonial Rule, Princely States and Administration" },
+                  { "id": "cg-freedom-tribal-movements", "name": "Freedom Struggle, Tribal Resistance and Public Movements" },
+                  { "id": "cg-state-formation", "name": "State Reorganisation and Formation of Chhattisgarh" },
+                  { "id": "cg-historical-places", "name": "Historical Sites, Inscriptions and Heritage" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cg-polity",
+            "chapters": [
+              {
+                "id": "indian-constitution-governance-cg",
+                "name": "Indian Constitution and Governance",
+                "topics": [
+                  { "id": "citizenship-duties-cg", "name": "Citizenship, Fundamental Duties and Constitutional Values" },
+                  { "id": "union-state-government-cg", "name": "Union and State Executive, Legislature and Judiciary" },
+                  { "id": "federalism-cg", "name": "Federalism, Centre–State Relations and Emergency Provisions" },
+                  { "id": "elections-constitutional-bodies-cg", "name": "Elections and Constitutional Bodies" },
+                  { "id": "panchayat-municipality-cg", "name": "Panchayats, Municipalities and Local Self-Government" },
+                  { "id": "governance-transparency-cg", "name": "Public Administration, RTI, Accountability and E-Governance" },
+                  { "id": "welfare-social-justice-cg", "name": "Welfare Programmes, Social Justice and Rights" }
+                ]
+              },
+              {
+                "id": "cg-administration-expanded",
+                "name": "Chhattisgarh Administration",
+                "topics": [
+                  { "id": "cg-governor-council", "name": "Governor, Chief Minister and Council of Ministers" },
+                  { "id": "cg-secretariat-district", "name": "State Secretariat, Departments and District Administration" },
+                  { "id": "cg-police-judicial-administration", "name": "Police, Revenue and District-Level Administration" },
+                  { "id": "cg-local-bodies-structure", "name": "Panchayat and Urban Local-Body Structure in Chhattisgarh" },
+                  { "id": "cg-scheduled-areas-governance", "name": "Scheduled Areas, Fifth Schedule and PESA Governance" },
+                  { "id": "cg-public-services-schemes", "name": "State Public Services, Commissions and Major Schemes" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cg-geography",
+            "chapters": [
+              {
+                "id": "india-geography-expanded",
+                "name": "Physical and Human Geography of India",
+                "topics": [
+                  { "id": "india-landforms-climate-cg", "name": "Physiography, Climate and Monsoon of India" },
+                  { "id": "india-rivers-water-cg", "name": "Drainage, River Systems and Water Resources of India" },
+                  { "id": "india-soils-forests-cg", "name": "Soils, Natural Vegetation and Biodiversity Regions" },
+                  { "id": "india-agriculture-resources-cg", "name": "Agriculture, Minerals, Energy and Industrial Regions" },
+                  { "id": "india-population-urbanisation-cg", "name": "Population, Migration, Transport and Urbanisation" }
+                ]
+              },
+              {
+                "id": "cg-physical-geography",
+                "name": "Physical Geography of Chhattisgarh",
+                "topics": [
+                  { "id": "cg-location-boundaries-regions", "name": "Location, Boundaries and Physiographic Regions" },
+                  { "id": "cg-climate-rainfall", "name": "Climate, Rainfall and Seasonal Patterns" },
+                  { "id": "cg-river-basins-dams", "name": "River Basins, Dams, Irrigation and Water Resources" },
+                  { "id": "cg-soil-forest-ecosystems", "name": "Soils, Forest Types and Ecosystems" },
+                  { "id": "cg-mineral-belts-energy", "name": "Mineral Belts, Energy Resources and Distribution" },
+                  { "id": "cg-national-parks-wildlife", "name": "National Parks, Sanctuaries and Wildlife" },
+                  { "id": "cg-district-map-resources", "name": "District Map, Regional Features and Resource Distribution" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cg-economy",
+            "chapters": [
+              {
+                "id": "indian-economy-expanded",
+                "name": "Indian Economy and Development",
+                "topics": [
+                  { "id": "india-growth-poverty-employment-cg", "name": "Growth, Poverty, Employment and Inclusion" },
+                  { "id": "india-budget-tax-banking-cg", "name": "Budget, Taxation, Banking and Monetary Policy" },
+                  { "id": "india-agriculture-food-cg", "name": "Agriculture, Food Security and Rural Development" },
+                  { "id": "india-industry-infrastructure-cg", "name": "Industry, Infrastructure and Services" },
+                  { "id": "india-planning-schemes-cg", "name": "Planning, Development Programmes and Economic Institutions" }
+                ]
+              },
+              {
+                "id": "cg-economy-expanded",
+                "name": "Economy of Chhattisgarh",
+                "topics": [
+                  { "id": "cg-economic-profile-indicators", "name": "State Economic Profile, GSDP and Development Indicators" },
+                  { "id": "cg-agriculture-crops-irrigation", "name": "Crops, Irrigation, Procurement and Agricultural Policy" },
+                  { "id": "cg-forest-minor-produce", "name": "Forests, Minor Forest Produce and Forest-Based Livelihoods" },
+                  { "id": "cg-minerals-industrial-development", "name": "Minerals, Energy, Industries and Industrial Policy" },
+                  { "id": "cg-budget-planning-finance", "name": "State Budget, Planning and Public Finance" },
+                  { "id": "cg-rural-employment-development", "name": "Rural Development, Employment and Welfare Schemes" },
+                  { "id": "cg-human-development-services", "name": "Education, Health and Human Development" },
+                  { "id": "cg-economic-survey-data", "name": "Economic Survey, Census and Official State Statistics" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cg-science-tech",
+            "name": "General Science and Technology",
+            "chapters": [
+              {
+                "id": "cg-basic-science",
+                "name": "Basic Science, Health and Agriculture",
+                "topics": [
+                  { "id": "basic-physics-chemistry-cg", "name": "Basic Physics and Chemistry in Everyday Life" },
+                  { "id": "biology-health-disease-cg", "name": "Biology, Nutrition, Diseases and Public Health" },
+                  { "id": "agriculture-science-cg", "name": "Agricultural Science, Crops and Biotechnology" },
+                  { "id": "environment-science-technology-cg", "name": "Environmental Science and Clean Technologies" }
+                ]
+              },
+              {
+                "id": "cg-modern-technology",
+                "name": "Technology and Innovation",
+                "topics": [
+                  { "id": "space-digital-technology-cg", "name": "Space, Communication and Digital Technology" },
+                  { "id": "ai-biotech-current-science-cg", "name": "Biotechnology, AI and Current Science Developments" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cg-current-affairs",
+            "name": "Current Affairs",
+            "chapters": [
+              {
+                "id": "cg-current-national-state",
+                "name": "National and Chhattisgarh Current Affairs",
+                "topics": [
+                  { "id": "cg-state-policy-news", "name": "Chhattisgarh Government Policies, Schemes and Notifications" },
+                  { "id": "cg-state-reports-data", "name": "State Reports, Rankings, Budget and Economic Data" },
+                  { "id": "cg-culture-places-people", "name": "State Personalities, Awards, Culture and Important Places" },
+                  { "id": "cg-national-international-news", "name": "National and International Events with State Relevance" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cg-environment",
+            "name": "Environment and Biodiversity",
+            "chapters": [
+              {
+                "id": "cg-environment-ecology",
+                "name": "Ecology, Forests and Conservation",
+                "topics": [
+                  { "id": "ecology-biodiversity-cg", "name": "Ecology, Biodiversity and Conservation Basics" },
+                  { "id": "cg-forest-conservation-law", "name": "Forest Governance, Conservation and Environmental Law" },
+                  { "id": "cg-tribal-livelihood-environment", "name": "Tribal Livelihoods, Forest Rights and Natural Resources" },
+                  { "id": "pollution-climate-cg", "name": "Pollution, Climate Change and Disaster Risk" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cgpsc-aptitude",
+        "subjects": [
+          {
+            "id": "aptitude-maths",
+            "chapters": [
+              {
+                "id": "cg-numerical-ability",
+                "name": "Numerical Ability and Arithmetic",
+                "topics": [
+                  { "id": "cg-number-system", "name": "Number System, Fractions and Decimals" },
+                  { "id": "cg-average", "name": "Averages and Weighted Averages" },
+                  { "id": "cg-profit-loss", "name": "Profit, Loss and Discount" },
+                  { "id": "cg-interest", "name": "Simple and Compound Interest" },
+                  { "id": "cg-time-work", "name": "Time, Work and Work Rates" },
+                  { "id": "cg-speed-distance", "name": "Speed, Distance and Time" },
+                  { "id": "cg-algebra", "name": "Algebra and Equations" },
+                  { "id": "cg-geometry-mensuration", "name": "Geometry and Mensuration" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "aptitude-reasoning",
+            "chapters": [
+              {
+                "id": "cg-reasoning-analytical",
+                "name": "Logical and Analytical Reasoning",
+                "topics": [
+                  { "id": "cg-arguments-inference", "name": "Arguments, Inference and Conclusions" },
+                  { "id": "cg-arrangements-ranking", "name": "Arrangements, Ordering and Ranking" },
+                  { "id": "cg-directions-relations", "name": "Directions, Routes and Relations" },
+                  { "id": "cg-series-coding", "name": "Series, Coding and Patterns" },
+                  { "id": "cg-venn-syllogism", "name": "Venn Diagrams, Sets and Syllogisms" },
+                  { "id": "cg-decision-making", "name": "Decision-Making and Problem-Solving" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cg-aptitude-comprehension",
+            "name": "Comprehension and Communication",
+            "chapters": [
+              {
+                "id": "cg-language-comprehension",
+                "name": "Reading Comprehension",
+                "topics": [
+                  { "id": "cg-passage-main-idea", "name": "Main Idea, Purpose and Structure" },
+                  { "id": "cg-passage-inference", "name": "Inference, Assumptions and Conclusions" },
+                  { "id": "cg-communication-skills", "name": "Interpersonal and Communication Skills" }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cg-aptitude-data",
+            "name": "Data Interpretation and Mental Ability",
+            "chapters": [
+              {
+                "id": "cg-data-analysis",
+                "name": "Data Interpretation and General Mental Ability",
+                "topics": [
+                  { "id": "cg-tables-charts", "name": "Tables, Charts and Data Interpretation" },
+                  { "id": "cg-data-sufficiency", "name": "Data Sufficiency and Quantitative Comparison" },
+                  { "id": "cg-mental-ability", "name": "General Mental Ability and Pattern Recognition" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

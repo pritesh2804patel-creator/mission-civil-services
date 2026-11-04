@@ -6,24 +6,124 @@ let lastPracticeResult = null;
 let rerenderCurrentView = null;
 let currentLanguage = localStorage.getItem("mission-language") === "hi" ? "hi" : "en";
 
-const OFFICIAL_PORTALS = {
-    UPSC: {
-        label: {
-            en: "Union Public Service Commission",
-            hi: "संघ लोक सेवा आयोग"
-        },
-        url: "https://upsconline.gov.in/",
-        notices: "https://upsconline.gov.in/"
+const ANSWER_PROMPTS = [
+    {
+        id: "federalism",
+        exams: ["UPSC", "CGPSC"],
+        words: 250,
+        en: "Cooperative federalism depends not only on constitutional design but also on institutions, fiscal relations and political practice. Discuss with suitable examples.",
+        hi: "सहकारी संघवाद केवल संवैधानिक व्यवस्था पर नहीं, बल्कि संस्थाओं, वित्तीय संबंधों और राजनीतिक व्यवहार पर भी निर्भर करता है। उपयुक्त उदाहरणों सहित चर्चा कीजिए।"
     },
-    CGPSC: {
-        label: {
-            en: "Chhattisgarh Public Service Commission",
-            hi: "छत्तीसगढ़ लोक सेवा आयोग"
-        },
-        url: "https://psc.cg.gov.in/",
-        notices: "https://psc.cg.gov.in/"
+    {
+        id: "cg-local-governance",
+        exams: ["CGPSC"],
+        words: 200,
+        en: "How can local self-government improve the delivery of public services in Chhattisgarh? Discuss the roles of devolution, local capacity and social accountability.",
+        hi: "छत्तीसगढ़ में स्थानीय स्वशासन सार्वजनिक सेवाओं की आपूर्ति को कैसे बेहतर बना सकता है? विकेंद्रीकरण, स्थानीय क्षमता और सामाजिक जवाबदेही की भूमिका पर चर्चा कीजिए।"
+    },
+    {
+        id: "climate-agriculture",
+        exams: ["UPSC", "CGPSC"],
+        words: 250,
+        en: "Climate risks affect agriculture through water availability, heat stress and changing crop conditions. Examine a layered response involving farmers, state institutions and the Union government.",
+        hi: "जलवायु जोखिम जल उपलब्धता, गर्मी के तनाव और फसल परिस्थितियों में बदलाव के माध्यम से कृषि को प्रभावित करते हैं। किसान, राज्य संस्थाओं और केंद्र सरकार की संयुक्त भूमिका से समाधान की समीक्षा कीजिए।"
+    },
+    {
+        id: "tribal-development",
+        exams: ["CGPSC"],
+        words: 200,
+        en: "Discuss how public policy can combine access to basic services with respect for the rights, knowledge and participation of Adivasi communities.",
+        hi: "सार्वजनिक नीति आदिवासी समुदायों के अधिकारों, ज्ञान और भागीदारी का सम्मान करते हुए बुनियादी सेवाओं तक पहुँच कैसे सुनिश्चित कर सकती है? चर्चा कीजिए।"
     }
-};
+];
+
+const STUDY_SOURCES = [
+    {
+        exams: ["UPSC"],
+        label: { en: "UPSC examination and syllabus notices", hi: "UPSC परीक्षा एवं पाठ्यक्रम अधिसूचनाएँ" },
+        detail: { en: "Use the latest examination notice as the controlling source for the official syllabus and scheme.", hi: "आधिकारिक पाठ्यक्रम और परीक्षा योजना के लिए नवीनतम परीक्षा अधिसूचना को मान्य स्रोत मानें।" },
+        url: "https://upsc.gov.in/examinations/active-examinations"
+    },
+    {
+        exams: ["UPSC"],
+        label: { en: "UPSC previous question papers", hi: "UPSC के पिछले प्रश्नपत्र" },
+        detail: { en: "Authentic past papers for timed practice; these are not reproduced in this platform unless explicitly labelled.", hi: "समयबद्ध अभ्यास के लिए वास्तविक पुराने प्रश्नपत्र; इन्हें मंच पर स्पष्ट उल्लेख के बिना PYQ नहीं कहा गया है।" },
+        url: "https://upsc.gov.in/examinations/previous-question-papers"
+    },
+    {
+        exams: ["CGPSC"],
+        label: { en: "CGPSC State Service Examination 2025 advertisement", hi: "CGPSC राज्य सेवा परीक्षा 2025 विज्ञापन" },
+        detail: { en: "Official advertisement and syllabus reference. Check subsequent corrigenda before relying on any detail.", hi: "आधिकारिक विज्ञापन और पाठ्यक्रम संदर्भ। किसी विवरण पर भरोसा करने से पहले बाद के शुद्धिपत्र भी देखें।" },
+        url: "https://psc.cg.gov.in/PDFs/advertisement/STATE_SERVICE_EXAMINATION-2025_ADVERTISEMENT%20(26-11-2025).pdf"
+    },
+    {
+        exams: ["CGPSC"],
+        label: { en: "CGPSC notifications and corrigenda", hi: "CGPSC अधिसूचनाएँ और शुद्धिपत्र" },
+        detail: { en: "Check for syllabus changes, exam notices and later corrections. A 2026 syllabus-feedback notice is a consultation, not a replacement syllabus.", hi: "पाठ्यक्रम बदलाव, परीक्षा सूचनाएँ और बाद के सुधार देखें। 2026 का पाठ्यक्रम-प्रतिक्रिया नोटिस परामर्श है, नया लागू पाठ्यक्रम नहीं।" },
+        url: "https://psc.cg.gov.in/Notifications.php"
+    },
+    {
+        exams: ["CGPSC"],
+        label: { en: "CGPSC 2026 syllabus-revision feedback notice", hi: "CGPSC 2026 पाठ्यक्रम-संशोधन प्रतिक्रिया सूचना" },
+        detail: { en: "Official consultation notice only; do not treat it as an adopted syllabus unless CGPSC issues a final notification.", hi: "यह केवल आधिकारिक परामर्श सूचना है; CGPSC की अंतिम अधिसूचना के बिना इसे लागू पाठ्यक्रम न मानें।" },
+        url: "https://psc.cg.gov.in/PDFs/Notifications/SYLLABUS_REVISION_FEEDBACK_STATE_SERVICE_EXAMINATION%20(07-07-2026).pdf"
+    },
+    {
+        exams: ["CGPSC"],
+        label: { en: "CGPSC official model answers", hi: "CGPSC के आधिकारिक मॉडल उत्तर" },
+        detail: { en: "Use official answer keys/model answers to check question interpretation and factual accuracy.", hi: "प्रश्न की व्याख्या और तथ्यात्मक शुद्धता जाँचने के लिए आधिकारिक उत्तर-कुंजी/मॉडल उत्तर देखें।" },
+        url: "https://psc.cg.gov.in/Modelanswer.php"
+    },
+    {
+        exams: ["UPSC", "CGPSC"],
+        label: { en: "NCERT official textbooks", hi: "NCERT की आधिकारिक पाठ्यपुस्तकें" },
+        detail: { en: "Use the relevant school-level textbooks for foundational history, geography, polity, economy and science.", hi: "इतिहास, भूगोल, राजव्यवस्था, अर्थव्यवस्था और विज्ञान की बुनियाद के लिए संबंधित स्कूली पाठ्यपुस्तकें पढ़ें।" },
+        url: "https://ncert.nic.in/textbook.php"
+    },
+    {
+        exams: ["UPSC", "CGPSC"],
+        label: { en: "ePathshala digital textbooks", hi: "ई-पाठशाला डिजिटल पुस्तकें" },
+        detail: { en: "Official digital access to NCERT learning material.", hi: "NCERT की अध्ययन सामग्री तक आधिकारिक डिजिटल पहुँच।" },
+        url: "https://epathshala.nic.in/"
+    },
+    {
+        exams: ["UPSC", "CGPSC"],
+        label: { en: "Press Information Bureau", hi: "प्रेस सूचना ब्यूरो" },
+        detail: { en: "Primary-source Union Government releases for schemes, policy and current affairs; verify claims against the issuing ministry.", hi: "योजनाओं, नीति और समसामयिकी के लिए केंद्र सरकार की मूल विज्ञप्तियाँ; तथ्यों को संबंधित मंत्रालय से मिलाएँ।" },
+        url: "https://pib.gov.in/"
+    },
+    {
+        exams: ["UPSC", "CGPSC"],
+        label: { en: "Union Budget and Economic Survey", hi: "केंद्रीय बजट और आर्थिक सर्वेक्षण" },
+        detail: { en: "Ministry of Finance source for the annual Budget, Economic Survey, receipts and expenditure documents.", hi: "वार्षिक बजट, आर्थिक सर्वेक्षण, प्राप्तियों और व्यय दस्तावेजों के लिए वित्त मंत्रालय का स्रोत।" },
+        url: "https://www.indiabudget.gov.in/"
+    },
+    {
+        exams: ["UPSC", "CGPSC"],
+        label: { en: "Reserve Bank of India", hi: "भारतीय रिज़र्व बैंक" },
+        detail: { en: "Official material on monetary policy, banking, inflation, payments and financial stability.", hi: "मौद्रिक नीति, बैंकिंग, मुद्रास्फीति, भुगतान और वित्तीय स्थिरता की आधिकारिक सामग्री।" },
+        url: "https://www.rbi.org.in/"
+    },
+    {
+        exams: ["UPSC", "CGPSC"],
+        label: { en: "Ministry of Environment, Forest and Climate Change", hi: "पर्यावरण, वन और जलवायु परिवर्तन मंत्रालय" },
+        detail: { en: "Primary government material on environmental law, conservation, protected areas and climate policy.", hi: "पर्यावरण कानून, संरक्षण, संरक्षित क्षेत्रों और जलवायु नीति की सरकारी मूल सामग्री।" },
+        url: "https://moef.gov.in/"
+    },
+    {
+        exams: ["CGPSC"],
+        label: { en: "Government of Chhattisgarh", hi: "छत्तीसगढ़ शासन" },
+        detail: { en: "State government departments, policies and service information; use the relevant department as the primary source.", hi: "राज्य शासन के विभाग, नीतियाँ और सेवाएँ; मूल जानकारी के लिए संबंधित विभाग देखें।" },
+        url: "https://cgstate.gov.in/"
+    }
+];
+
+const ANSWER_RUBRIC = [
+    { id: "focus", en: "Directly answers the directive", hi: "प्रश्न के निर्देश का सीधा उत्तर" },
+    { id: "structure", en: "Clear introduction, analysis and conclusion", hi: "स्पष्ट भूमिका, विश्लेषण और निष्कर्ष" },
+    { id: "evidence", en: "Relevant facts, examples or constitutional links", hi: "उपयुक्त तथ्य, उदाहरण या संवैधानिक संदर्भ" },
+    { id: "balance", en: "Balanced reasoning and feasible way forward", hi: "संतुलित तर्क और व्यावहारिक समाधान" }
+];
 
 const CURRICULUM_HI = {
     "General Studies Paper I": "सामान्य अध्ययन प्रश्नपत्र I",
@@ -33,6 +133,9 @@ const CURRICULUM_HI = {
     "Indian Polity": "भारतीय राजव्यवस्था",
     "Geography": "भूगोल",
     "Indian Economy": "भारतीय अर्थव्यवस्था",
+    "Environment and Ecology": "पर्यावरण एवं पारिस्थितिकी",
+    "General Science and Technology": "सामान्य विज्ञान एवं प्रौद्योगिकी",
+    "Current Affairs": "समसामयिकी",
     "Comprehension": "गद्यांश",
     "Basic Numeracy": "बुनियादी गणित",
     "History and Culture": "इतिहास एवं संस्कृति",
@@ -111,7 +214,7 @@ const TRANSLATIONS = {
         welcomeTitle: "Welcome to Your Civil Services Classroom",
         welcomeSubtitle: "Study. Practice. Test. Analyse. Improve.",
         phase1Label: "Phase 1",
-        phase1Text: "Concepts, amendments, budgets, PYQs, and official references for UPSC & CGPSC.",
+        phase1Text: "Bilingual subject notes, concept checks and exam-pattern practice for UPSC & CGPSC.",
         phase2Label: "Phase 2",
         phase2Text: "MCQ practice with exam timing, marking pattern, and answer explanations.",
         studyRoom: "Study Room",
@@ -144,22 +247,18 @@ const TRANSLATIONS = {
         practice: "Practice",
         back: "Back",
         prelimsPrep: "Prelims Preparation",
-        officialReference: "Official Reference",
-        officialReferenceText: "Use the authorised commission portal for the latest notifications, amendments, syllabus, and exam updates.",
-        noticesUpdates: "Notices & Updates",
         startPractice: "Start Practice",
         phaseStudyRoom: "PHASE 1 • STUDY ROOM",
         phasePractice: "PHASE 2 • PRACTICE",
         result: "RESULT",
         practiceResult: "Practice Result",
-        officialSource: "Official source",
         backToStudy: "Back to Study",
         finishTest: "Finish Test",
         nextQuestion: "Next Question",
         retryTest: "Retry Test",
         reviseTopic: "Revise Topic",
         questionLabel: "Question",
-        markingLabel: "Marking: +1 each",
+        markingLabel: "Practice score: +1 per correct answer; no penalty simulation",
         timeLabel: "Time: 10 min",
         correctAnswer: "Correct answer",
         incorrectAnswer: "Incorrect answer",
@@ -169,7 +268,6 @@ const TRANSLATIONS = {
         correctAnswers: "Correct Answers",
         score: "Score",
         timeLeft: "Time Left",
-        officialPortal: "Official portal",
         live: "LIVE",
         examUpdateText: "Use the official UPSC and CGPSC portals to verify current notices, dates and syllabus changes. This page does not fetch live updates.",
         examUpdateStrong: "Official Notifications"
@@ -179,7 +277,7 @@ const TRANSLATIONS = {
         welcomeTitle: "आपका सिविल सर्विसेज क्लासरूम में स्वागत है",
         welcomeSubtitle: "अध्ययन करें। अभ्यास करें। परीक्षण करें। विश्लेषण करें। सुधार करें।",
         phase1Label: "चरण 1",
-        phase1Text: "संकल्पना, संशोधन, बजट, PYQ और UPSC & CGPSC के लिए आधिकारिक संदर्भ।",
+        phase1Text: "UPSC और CGPSC के लिए विषयवार द्विभाषी नोट्स, अवधारणा अभ्यास और परीक्षा-शैली प्रश्न।",
         phase2Label: "चरण 2",
         phase2Text: "MCQ अभ्यास, परीक्षा समय, अंकन प्रणाली और उत्तर की व्याख्या।",
         studyRoom: "अध्ययन कक्ष",
@@ -212,22 +310,18 @@ const TRANSLATIONS = {
         practice: "अभ्यास",
         back: "पीछे",
         prelimsPrep: "प्रिलिम्स तैयारी",
-        officialReference: "आधिकारिक संदर्भ",
-        officialReferenceText: "नवीनतम अधिसूचनाएं, संशोधन, पाठ्यक्रम और परीक्षा अपडेट के लिए अधिकृत आयोग पोर्टल का उपयोग करें।",
-        noticesUpdates: "अधिसूचनाएँ और अपडेट",
         startPractice: "अभ्यास शुरू करें",
         phaseStudyRoom: "चरण 1 • अध्ययन कक्ष",
         phasePractice: "चरण 2 • अभ्यास",
         result: "परिणाम",
         practiceResult: "अभ्यास परिणाम",
-        officialSource: "आधिकारिक स्रोत",
         backToStudy: "अध्ययन पर लौटें",
         finishTest: "परीक्षा समाप्त करें",
         nextQuestion: "अगला प्रश्न",
         retryTest: "पुनः प्रयास",
         reviseTopic: "विषय दोबारा सीखें",
         questionLabel: "प्रश्न",
-        markingLabel: "अंक: +1 प्रति प्रश्न",
+        markingLabel: "अभ्यास अंक: सही उत्तर पर +1; नकारात्मक अंकन लागू नहीं",
         timeLabel: "समय: 10 मिनट",
         correctAnswer: "सही उत्तर",
         incorrectAnswer: "गलत उत्तर",
@@ -237,7 +331,6 @@ const TRANSLATIONS = {
         correctAnswers: "सही उत्तर",
         score: "अंक",
         timeLeft: "बाकी समय",
-        officialPortal: "आधिकारिक पोर्टल",
         live: "लाइव",
         examUpdateText: "वर्तमान अधिसूचनाओं, तिथियों और पाठ्यक्रम बदलावों की पुष्टि UPSC तथा CGPSC के आधिकारिक पोर्टल से करें। यह पृष्ठ लाइव अपडेट स्वतः नहीं लाता।",
         examUpdateStrong: "आधिकारिक अधिसूचनाएँ"
@@ -264,15 +357,6 @@ function safeQuote(value) {
         .replace(/"/g, "&quot;");
 }
 
-function getExamPortal(examName) {
-    const portal = OFFICIAL_PORTALS[examName] || OFFICIAL_PORTALS.UPSC;
-    return {
-        label: portal.label[currentLanguage],
-        url: portal.url,
-        notices: portal.notices
-    };
-}
-
 function setupLanguageToggle() {
     document.querySelectorAll(".lang-btn").forEach((button) => {
         button.addEventListener("click", () => {
@@ -284,18 +368,22 @@ function setupLanguageToggle() {
             applyTranslations();
             if (currentExam) {
                 if (currentPracticeState) {
-                    currentPracticeState.questions = getPracticeQuestions(
-                        currentPracticeState.topicId,
-                        currentPracticeState.topicName,
-                        currentExam
-                    );
+                    currentPracticeState.questions = currentPracticeState.isMixedMock
+                        ? buildMixedMockQuestions(currentPracticeState.mockQuestionIds)
+                        : getPracticeQuestions(
+                            currentPracticeState.topicId,
+                            currentPracticeState.topicName,
+                            currentExam
+                        );
                     renderPracticeQuestion();
                 } else if (lastPracticeResult) {
-                    lastPracticeResult.questions = getPracticeQuestions(
-                        lastPracticeResult.topicId,
-                        lastPracticeResult.topicName,
-                        currentExam
-                    );
+                    lastPracticeResult.questions = lastPracticeResult.isMixedMock
+                        ? buildMixedMockQuestions(lastPracticeResult.mockQuestionIds)
+                        : getPracticeQuestions(
+                            lastPracticeResult.topicId,
+                            lastPracticeResult.topicName,
+                            currentExam
+                        );
                     renderPracticeResult(lastPracticeResult);
                 } else if (document.querySelector("#classroom").style.display === "block" && rerenderCurrentView) {
                     rerenderCurrentView();
@@ -352,6 +440,41 @@ function updateBreadcrumb(parts) {
     }).join("");
 }
 
+function mergeCurriculumExpansion(examData, expansionData) {
+    const examExpansion = expansionData[examData.exam];
+    if (!examExpansion || !Array.isArray(examExpansion.papers)) {
+        throw new Error(`No expanded curriculum is available for ${examData.exam}.`);
+    }
+
+    examExpansion.papers.forEach((paperExpansion) => {
+        const paper = examData.papers.find((item) => item.id === paperExpansion.id);
+        if (!paper) {
+            throw new Error(`Expanded curriculum references unknown paper ${paperExpansion.id}.`);
+        }
+
+        paperExpansion.subjects.forEach((subjectExpansion) => {
+            let subject = paper.subjects.find((item) => item.id === subjectExpansion.id);
+            if (!subject) {
+                subject = {
+                    id: subjectExpansion.id,
+                    name: subjectExpansion.name,
+                    chapters: []
+                };
+                paper.subjects.push(subject);
+            }
+
+            const existingChapterIds = new Set(subject.chapters.map((chapter) => chapter.id));
+            subjectExpansion.chapters.forEach((chapter) => {
+                if (!existingChapterIds.has(chapter.id)) {
+                    subject.chapters.push(chapter);
+                }
+            });
+        });
+    });
+
+    return examData;
+}
+
 function buildStudySummary(topicId, topicName, subjectName, chapterName) {
     const lesson = lessonLibrary[topicId];
     if (lesson) return lesson;
@@ -384,7 +507,7 @@ function buildStudySummary(topicId, topicName, subjectName, chapterName) {
 }
 
 function getPracticeQuestions(topicId, topicName, examName) {
-    const sourceUrl = getExamPortal(examName).url;
+    const sourceUrl = "";
     const authoredLesson = lessonLibrary[topicId];
     if (authoredLesson && authoredLesson.questions) {
         return authoredLesson.questions.map((question) => ({
@@ -576,10 +699,13 @@ function renderPracticeQuestion() {
             <div class="practice-meta">
                 <span>${t("questionLabel")} ${currentPracticeState.index + 1} / ${total}</span>
                 <span>${t("markingLabel")}</span>
-                <span>${t("timeLabel")}</span>
+                <span>${currentLanguage === "hi" ? "समय" : "Time"}: ${Math.ceil((currentPracticeState.timeLimit || 600) / 60)} ${currentLanguage === "hi" ? "मिनट" : "min"}</span>
             </div>
 
+            ${currentPracticeState.isMixedMock ? `<p class="mock-disclaimer">${currentLanguage === "hi" ? "यह उपलब्ध पाठ्यक्रम प्रश्नों से बना अनुशंसित अभ्यास-पत्र है; यह पूर्ण आधिकारिक पेपर या PYQ नहीं है। वास्तविक पिछले प्रश्नपत्र के लिए आधिकारिक आयोग स्रोत देखें।" : "This recommended practice paper uses all currently available syllabus questions; it is not a full official paper or a PYQ. Use the official commission source for authentic past papers."}</p>` : ""}
+
             <div class="question-card">
+                ${question.topicName ? `<div class="question-topic">${escapeHtml(curriculumName(question.topicName))}</div>` : ""}
                 <h3>${escapeHtml(question.question)}</h3>
 
                 <div class="option-list">
@@ -587,9 +713,13 @@ function renderPracticeQuestion() {
                         let classes = ["option-btn"];
 
                         if (selectedIndex !== undefined) {
-                            if (optionIndex === question.correct) classes.push("correct");
-                            if (optionIndex === selectedIndex && optionIndex !== question.correct) classes.push("wrong");
-                            if (optionIndex === selectedIndex) classes.push("selected");
+                            if (currentPracticeState.isMixedMock) {
+                                if (optionIndex === selectedIndex) classes.push("selected");
+                            } else {
+                                if (optionIndex === question.correct) classes.push("correct");
+                                if (optionIndex === selectedIndex && optionIndex !== question.correct) classes.push("wrong");
+                                if (optionIndex === selectedIndex) classes.push("selected");
+                            }
                         }
 
                         return `
@@ -597,7 +727,7 @@ function renderPracticeQuestion() {
                                 type="button"
                                 class="${classes.join(" ")}"
                                 data-index="${optionIndex}"
-                                ${selectedIndex !== undefined ? "disabled" : ""}
+                                ${selectedIndex !== undefined && !currentPracticeState.isMixedMock ? "disabled" : ""}
                             >
                                 <span>${String.fromCharCode(65 + optionIndex)}.</span>
                                 ${escapeHtml(option)}
@@ -606,7 +736,7 @@ function renderPracticeQuestion() {
                     }).join("")}
                 </div>
 
-                ${selectedIndex !== undefined ? `
+                ${selectedIndex !== undefined && !currentPracticeState.isMixedMock ? `
                     <div class="answer-feedback ${selectedIndex === question.correct ? "success" : "error"}">
                         <strong>${selectedIndex === question.correct ? t("correctAnswer") : t("incorrectAnswer")}:</strong>
                         ${escapeHtml(question.options[question.correct])}. ${escapeHtml(question.explanation)}
@@ -615,13 +745,15 @@ function renderPracticeQuestion() {
             </div>
 
             <div class="practice-actions">
-                <button class="secondary-btn" onclick="openStudy('${safeQuote(currentPracticeState.topicId)}', '${safeQuote(currentPracticeState.topicName)}', '${safeQuote(currentPracticeState.subjectName)}', '${safeQuote(currentPracticeState.chapterName)}')">
-                    ← ${t("backToStudy")}
-                </button>
+                ${currentPracticeState.isMixedMock
+                    ? `<button class="secondary-btn" onclick="movePracticePrevious()" ${currentPracticeState.index === 0 ? "disabled" : ""}>← ${currentLanguage === "hi" ? "पिछला" : "Previous"}</button>`
+                    : `<button class="secondary-btn" onclick="openStudy('${safeQuote(currentPracticeState.topicId)}', '${safeQuote(currentPracticeState.topicName)}', '${safeQuote(currentPracticeState.subjectName)}', '${safeQuote(currentPracticeState.chapterName)}')">← ${t("backToStudy")}</button>`}
 
-                ${selectedIndex !== undefined ? `
+                ${currentPracticeState.isMixedMock || selectedIndex !== undefined ? `
                     <button onclick="movePracticeNext()">
-                        ${currentPracticeState.index === total - 1 ? t("finishTest") : t("nextQuestion")} →
+                        ${currentPracticeState.index === total - 1
+                            ? (currentPracticeState.isMixedMock ? (currentLanguage === "hi" ? "मॉक जमा करें" : "Submit mock") : t("finishTest"))
+                            : t("nextQuestion")} →
                     </button>
                 ` : ""}
             </div>
@@ -631,6 +763,11 @@ function renderPracticeQuestion() {
     document.querySelectorAll(".option-btn").forEach((button) => {
         button.addEventListener("click", () => {
             const selected = Number(button.dataset.index);
+            if (currentPracticeState.isMixedMock) {
+                currentPracticeState.selected[currentPracticeState.index] = selected;
+                renderPracticeQuestion();
+                return;
+            }
             if (currentPracticeState.selected[currentPracticeState.index] !== undefined) return;
 
             currentPracticeState.selected[currentPracticeState.index] = selected;
@@ -656,6 +793,12 @@ function movePracticeNext() {
     finishPractice();
 }
 
+function movePracticePrevious() {
+    if (!currentPracticeState || currentPracticeState.index === 0) return;
+    currentPracticeState.index -= 1;
+    renderPracticeQuestion();
+}
+
 function finishPractice() {
     if (!currentPracticeState) return;
 
@@ -675,8 +818,6 @@ function renderPracticeResult(practiceResult) {
     const percentage = Math.round((correctAnswers / totalQuestions) * 100);
 
     const container = document.getElementById("classroom-content");
-    const portal = getExamPortal(currentExam);
-
     container.innerHTML = `
         <div class="result-page">
             <div class="study-label">${t("result")}</div>
@@ -708,17 +849,17 @@ function renderPracticeResult(practiceResult) {
                             <p><strong>${t("yourAnswer")}:</strong> ${picked === undefined ? t("notAttempted") : escapeHtml(question.options[picked])}</p>
                             <p><strong>${t("correctAnswer")}:</strong> ${escapeHtml(question.options[question.correct])}</p>
                             <p><strong>${t("logicLabel")}:</strong> ${escapeHtml(question.explanation)}</p>
-                            <a href="${question.sourceUrl || portal.url}" target="_blank" rel="noopener noreferrer">${t("officialSource")}</a>
+                            <p class="lesson-origin">${currentLanguage === "hi" ? "यह प्रश्न पाठ्यक्रम अभ्यास के लिए तैयार किए गए हैं; आधिकारिक PYQ नहीं हैं।" : "Original syllabus practice question; not an official PYQ."}</p>
                         </div>
                     `;
                 }).join("")}
             </div>
 
             <div class="practice-actions">
-                <button onclick="openPractice('${safeQuote(practiceResult.topicId)}', '${safeQuote(practiceResult.topicName)}', '${safeQuote(practiceResult.subjectName)}', '${safeQuote(practiceResult.chapterName)}')">
+                <button onclick="${practiceResult.isMixedMock ? "startMixedMock()" : `openPractice('${safeQuote(practiceResult.topicId)}', '${safeQuote(practiceResult.topicName)}', '${safeQuote(practiceResult.subjectName)}', '${safeQuote(practiceResult.chapterName)}')`}">
                     ${t("retryTest")}
                 </button>
-                <button class="secondary-btn" onclick="openStudy('${safeQuote(practiceResult.topicId)}', '${safeQuote(practiceResult.topicName)}', '${safeQuote(practiceResult.subjectName)}', '${safeQuote(practiceResult.chapterName)}')">
+                <button class="secondary-btn" onclick="${practiceResult.isMixedMock ? "showPapers()" : `openStudy('${safeQuote(practiceResult.topicId)}', '${safeQuote(practiceResult.topicName)}', '${safeQuote(practiceResult.subjectName)}', '${safeQuote(practiceResult.chapterName)}')`}">
                     ${t("reviseTopic")}
                 </button>
             </div>
@@ -740,19 +881,25 @@ async function openExam(examName) {
             return;
         }
 
-        const [response, lessonsResponse] = await Promise.all([
+        const [response, lessonsResponse, expansionResponse, curriculumResponse] = await Promise.all([
             fetch(file),
-            fetch("data/lessons.json?v=20261004-2")
+            fetch("data/lessons.json?v=20261004-2"),
+            fetch("data/lesson-expansion.json?v=20261008-2"),
+            fetch("data/curriculum-expansion.json?v=20261104-2")
         ]);
 
-        if (!response.ok || !lessonsResponse.ok) {
+        if (!response.ok || !lessonsResponse.ok || !expansionResponse.ok || !curriculumResponse.ok) {
             throw new Error("Unable to load exam data.");
         }
 
-        [currentData, lessonLibrary] = await Promise.all([
+        const [examData, authoredLessons, expandedLessons, curriculumExpansion] = await Promise.all([
             response.json(),
-            lessonsResponse.json()
+            lessonsResponse.json(),
+            expansionResponse.json(),
+            curriculumResponse.json()
         ]);
+        currentData = mergeCurriculumExpansion(examData, curriculumExpansion);
+        lessonLibrary = { ...authoredLessons, ...expandedLessons };
 
         document.querySelector(".welcome-section").style.display = "none";
         document.querySelector(".exam-section").style.display = "none";
@@ -784,16 +931,25 @@ function showPapers() {
 
     const grid = document.createElement("div");
     grid.className = "classroom-grid";
+    const examQuestions = collectExamQuestions();
 
     currentData.papers.forEach((paper) => {
         const card = document.createElement("div");
         card.className = "classroom-card";
         const subjectCount = paper.subjects.length;
+        const chapters = paper.subjects.reduce((count, subject) => count + subject.chapters.length, 0);
+        const topics = paper.subjects.reduce((count, subject) => (
+            count + subject.chapters.reduce((chapterCount, chapter) => chapterCount + chapter.topics.length, 0)
+        ), 0);
+        const paperQuestionCount = examQuestions.filter((record) => record.paperId === paper.id).length;
         card.innerHTML = `
             <div class="classroom-icon">📚</div>
             <h3>${escapeHtml(curriculumName(paper.name))}</h3>
-            <p>${subjectCount} ${currentLanguage === "hi" ? "विषय" : "Subjects"}</p>
-            <button>${t("enterPaper")}</button>
+            <p>${subjectCount} ${currentLanguage === "hi" ? "विषय" : subjectCount === 1 ? "subject" : "subjects"} · ${chapters} ${currentLanguage === "hi" ? "अध्याय" : chapters === 1 ? "chapter" : "chapters"} · ${topics} ${currentLanguage === "hi" ? "उपविषय" : topics === 1 ? "topic" : "topics"}</p>
+            <button type="button">${t("enterPaper")}</button>
+            <button type="button" class="secondary-btn paper-practice-button" data-paper-id="${escapeHtml(paper.id)}" ${paperQuestionCount ? "" : "disabled"}>
+                ${currentLanguage === "hi" ? `अनुशंसित अभ्यास (${paperQuestionCount} प्रश्न)` : `Recommended practice (${paperQuestionCount} questions)`}
+            </button>
         `;
         card.onclick = function () {
             showSubjects(paper);
@@ -801,7 +957,232 @@ function showPapers() {
         grid.appendChild(card);
     });
 
+    grid.querySelectorAll(".paper-practice-button").forEach((button) => {
+        button.addEventListener("click", (event) => {
+            event.stopPropagation();
+            startPaperPractice(button.dataset.paperId);
+        });
+    });
+
     container.appendChild(grid);
+    const questionCount = examQuestions.length;
+    container.insertAdjacentHTML("beforeend", `
+        <p class="mock-disclaimer">${currentLanguage === "hi"
+            ? "नीचे का पाठ्यक्रम आधिकारिक परीक्षा अधिसूचनाओं के आधार पर व्यवस्थित अध्ययन-मानचित्र है। अधिसूचना/शुद्धिपत्र अंतिम मानें। अभ्यास प्रश्न मौलिक हैं, आधिकारिक PYQ नहीं।"
+            : "This is a structured study map based on official examination notices. The latest notice and corrigenda take precedence. In-platform practice questions are original, not official PYQs."}</p>
+        <div class="prep-actions classroom-quick-actions">
+            <button type="button" ${questionCount ? "" : "disabled"} onclick="startMixedMock()">${currentLanguage === "hi" ? `सभी पेपर का अनुशंसित अभ्यास (${questionCount} प्रश्न)` : `Recommended all-paper practice (${questionCount} questions)`}</button>
+            <button type="button" class="secondary-btn" onclick="openAnswerPractice()">${currentLanguage === "hi" ? "उत्तर लेखन" : "Answer writing"}</button>
+        </div>
+        <section class="source-library" aria-labelledby="source-library-heading">
+            <h3 id="source-library-heading">${currentLanguage === "hi" ? "आधिकारिक पाठ्यक्रम और अनुशंसित अध्ययन स्रोत" : "Official syllabus and recommended study sources"}</h3>
+            <p>${currentLanguage === "hi"
+                ? "पहले पाठ्यक्रम और पुराने प्रश्नपत्र देखें; फिर NCERT से आधार बनाएं और संबंधित मंत्रालय/संस्था के मूल स्रोतों से अद्यतन करें।"
+                : "Start with the official syllabus and past papers, build foundations from NCERT, then update from the relevant ministry or institution's primary sources."}</p>
+            <div class="source-grid">
+                ${STUDY_SOURCES.filter((sourceItem) => sourceItem.exams.includes(currentExam)).map((sourceItem) => `
+                    <a class="source-card" href="${sourceItem.url}" target="_blank" rel="noopener noreferrer">
+                        <strong>${escapeHtml(sourceItem.label[currentLanguage])}</strong>
+                        <span>${escapeHtml(sourceItem.detail[currentLanguage])}</span>
+                    </a>
+                `).join("")}
+            </div>
+        </section>
+    `);
+}
+
+function collectExamQuestions() {
+    if (!currentData || !Array.isArray(currentData.papers)) return [];
+
+    const records = [];
+    const seen = new Set();
+    currentData.papers.forEach((paper) => {
+        paper.subjects.forEach((subject) => {
+            subject.chapters.forEach((chapter) => {
+                chapter.topics.forEach((topic) => {
+                    const lesson = lessonLibrary[topic.id];
+                    if (!lesson || !Array.isArray(lesson.questions)) return;
+                    lesson.questions.forEach((question, index) => {
+                        const id = `${paper.id}-${topic.id}-${index}`;
+                        if (seen.has(id)) return;
+                        seen.add(id);
+                        records.push({
+                            id,
+                            paperId: paper.id,
+                            topicId: topic.id,
+                            topicName: topic.name,
+                            subjectName: subject.name,
+                            chapterName: chapter.name,
+                            question
+                        });
+                    });
+                });
+            });
+        });
+    });
+    return records;
+}
+
+function buildMixedMockQuestions(questionIds) {
+    const records = new Map(collectExamQuestions().map((record) => [record.id, record]));
+    return (questionIds || []).map((id) => records.get(id)).filter(Boolean).map((record) => ({
+        question: record.question.question[currentLanguage],
+        options: record.question.options[currentLanguage],
+        correct: record.question.correct,
+        explanation: record.question.explanation[currentLanguage],
+        topicName: record.topicName
+    }));
+}
+
+function startPaperPractice(paperId) {
+    const paper = currentData.papers.find((item) => item.id === paperId);
+    if (!paper) return;
+    const pool = collectExamQuestions().filter((record) => record.paperId === paperId);
+    startRecommendedPractice(pool, paper.name);
+}
+
+function startMixedMock() {
+    startRecommendedPractice(
+        collectExamQuestions(),
+        currentLanguage === "hi" ? "सभी पेपर" : "All papers"
+    );
+}
+
+function startRecommendedPractice(pool, paperName) {
+    if (!pool.length) return;
+    for (let index = pool.length - 1; index > 0; index -= 1) {
+        const swapIndex = Math.floor(Math.random() * (index + 1));
+        [pool[index], pool[swapIndex]] = [pool[swapIndex], pool[index]];
+    }
+    const mockQuestionIds = pool.map((record) => record.id);
+    const topicName = currentLanguage === "hi"
+        ? `${paperName} — अनुशंसित अभ्यास-पत्र`
+        : `${paperName} — recommended practice paper`;
+    currentPracticeState = {
+        topicId: "mixed-mock",
+        topicName,
+        subjectName: currentLanguage === "hi" ? "सभी विषय" : "All subjects",
+        chapterName: currentLanguage === "hi" ? "अनुशंसित अभ्यास" : "Recommended practice",
+        questions: buildMixedMockQuestions(mockQuestionIds),
+        mockQuestionIds,
+        isMixedMock: true,
+        index: 0,
+        selected: [],
+        score: 0,
+        timeLeft: Math.max(600, mockQuestionIds.length * 60),
+        timeLimit: Math.max(600, mockQuestionIds.length * 60),
+        timerId: null
+    };
+    lastPracticeResult = null;
+    renderPracticeQuestion();
+    startPracticeTimer();
+}
+
+function openAnswerPractice(promptId) {
+    const prompts = ANSWER_PROMPTS.filter((prompt) => prompt.exams.includes(currentExam));
+    renderAnswerPractice(promptId || prompts[0].id);
+}
+
+function getAnswerDraftKey(promptId) {
+    return `mission-answer-${currentExam}-${promptId}`;
+}
+
+function readAnswerDraft(promptId) {
+    try {
+        return JSON.parse(localStorage.getItem(getAnswerDraftKey(promptId)) || "null") || {};
+    } catch (error) {
+        return {};
+    }
+}
+
+function saveAnswerDraft(promptId, answer, ratings) {
+    localStorage.setItem(getAnswerDraftKey(promptId), JSON.stringify({ answer, ratings }));
+}
+
+function renderAnswerPractice(promptId) {
+    const prompts = ANSWER_PROMPTS.filter((prompt) => prompt.exams.includes(currentExam));
+    const prompt = prompts.find((item) => item.id === promptId) || prompts[0];
+    const draft = readAnswerDraft(prompt.id);
+    const answer = draft.answer || "";
+    const ratings = draft.ratings || {};
+    rerenderCurrentView = () => renderAnswerPractice(prompt.id);
+    updateBreadcrumb([currentExam, currentLanguage === "hi" ? "उत्तर लेखन" : "Answer writing"]);
+
+    const container = document.getElementById("classroom-content");
+    container.innerHTML = `
+        <section class="answer-room">
+            <div class="study-page-header">
+                <div>
+                    <div class="study-label">${currentLanguage === "hi" ? "मुख्य परीक्षा लेखन प्रयोगशाला" : "MAINS ANSWER PRACTICE"}</div>
+                    <h2>${currentLanguage === "hi" ? "उत्तर लेखन अभ्यास" : "Answer writing room"}</h2>
+                </div>
+                <span class="draft-status">${currentLanguage === "hi" ? "इस ब्राउज़र में स्थानीय रूप से सहेजा गया" : "Saved locally in this browser"}</span>
+            </div>
+            <label class="prompt-select-label" for="answer-prompt">${currentLanguage === "hi" ? "प्रश्न चुनें" : "Choose a prompt"}</label>
+            <select id="answer-prompt">
+                ${prompts.map((item) => `<option value="${item.id}" ${item.id === prompt.id ? "selected" : ""}>${escapeHtml(item[currentLanguage])}</option>`).join("")}
+            </select>
+            <div class="answer-prompt">
+                <span>${currentLanguage === "hi" ? `लक्ष्य: ${prompt.words} शब्द` : `Target: ${prompt.words} words`}</span>
+                <p>${escapeHtml(prompt[currentLanguage])}</p>
+            </div>
+            <label class="answer-label" for="answer-draft">${currentLanguage === "hi" ? "अपना उत्तर लिखें" : "Write your answer"}</label>
+            <textarea id="answer-draft" rows="14" placeholder="${currentLanguage === "hi" ? "भूमिका से शुरू करें, तर्क और उदाहरण जोड़ें, फिर निष्कर्ष दें…" : "Set up the issue, build your argument with examples, and close with a reasoned conclusion…"}">${escapeHtml(answer)}</textarea>
+            <div class="answer-editor-meta">
+                <span id="answer-word-count"></span>
+                <span>${currentLanguage === "hi" ? "कोई स्वचालित मूल्यांकन नहीं; उत्तर केवल आपके डिवाइस पर रहता है।" : "No automated grading. Your draft stays on this device."}</span>
+            </div>
+            <div class="rubric-panel">
+                <div class="rubric-heading">
+                    <div><h3>${currentLanguage === "hi" ? "स्व-मूल्यांकन" : "Self-review rubric"}</h3><p>${currentLanguage === "hi" ? "हर आयाम को 0–5 अंक दें; 0 = अनुपस्थित, 5 = बहुत मजबूत।" : "Rate each dimension from 0 to 5; 0 = missing, 5 = strong."}</p></div>
+                    <strong id="rubric-total">0 / 20</strong>
+                </div>
+                ${ANSWER_RUBRIC.map((criterion) => `
+                    <label class="rubric-row" for="answer-score-${criterion.id}">
+                        <span>${criterion[currentLanguage]}</span>
+                        <input id="answer-score-${criterion.id}" type="range" min="0" max="5" step="1" value="${Number(ratings[criterion.id]) || 0}" data-rubric="${criterion.id}">
+                        <output id="answer-score-value-${criterion.id}">${Number(ratings[criterion.id]) || 0}</output>
+                    </label>
+                `).join("")}
+            </div>
+            <div class="answer-actions">
+                <button type="button" class="secondary-btn" onclick="showPapers()">${currentLanguage === "hi" ? "← तैयारी डेस्क" : "← Preparation desk"}</button>
+                <button type="button" class="secondary-btn" onclick="clearAnswerDraft('${prompt.id}')">${currentLanguage === "hi" ? "मसौदा मिटाएँ" : "Clear draft"}</button>
+            </div>
+        </section>
+    `;
+
+    const textarea = document.getElementById("answer-draft");
+    const updateWordCount = () => {
+        const words = textarea.value.trim() ? textarea.value.trim().split(/\s+/).length : 0;
+        document.getElementById("answer-word-count").textContent = currentLanguage === "hi"
+            ? `${words} शब्द / लक्ष्य ${prompt.words}`
+            : `${words} words / ${prompt.words} target`;
+        const currentDraft = readAnswerDraft(prompt.id);
+        saveAnswerDraft(prompt.id, textarea.value, currentDraft.ratings || ratings);
+    };
+    const updateRubric = () => {
+        const updatedRatings = {};
+        let total = 0;
+        ANSWER_RUBRIC.forEach((criterion) => {
+            const value = Number(document.getElementById(`answer-score-${criterion.id}`).value);
+            updatedRatings[criterion.id] = value;
+            total += value;
+            document.getElementById(`answer-score-value-${criterion.id}`).textContent = value;
+        });
+        document.getElementById("rubric-total").textContent = `${total} / 20`;
+        saveAnswerDraft(prompt.id, textarea.value, updatedRatings);
+    };
+    textarea.addEventListener("input", updateWordCount);
+    document.getElementById("answer-prompt").addEventListener("change", (event) => renderAnswerPractice(event.target.value));
+    document.querySelectorAll("[data-rubric]").forEach((input) => input.addEventListener("input", updateRubric));
+    updateWordCount();
+    updateRubric();
+}
+
+function clearAnswerDraft(promptId) {
+    localStorage.removeItem(getAnswerDraftKey(promptId));
+    renderAnswerPractice(promptId);
 }
 
 function showSubjects(paper) {
@@ -821,10 +1202,11 @@ function showSubjects(paper) {
         const card = document.createElement("div");
         card.className = "classroom-card";
         const chapterCount = subject.chapters.length;
+        const topicCount = subject.chapters.reduce((count, chapter) => count + chapter.topics.length, 0);
         card.innerHTML = `
             <div class="classroom-icon">📖</div>
             <h3>${escapeHtml(curriculumName(subject.name))}</h3>
-            <p>${chapterCount} ${currentLanguage === "hi" ? "अध्याय" : "Chapters"}</p>
+            <p>${chapterCount} ${currentLanguage === "hi" ? "अध्याय" : chapterCount === 1 ? "chapter" : "chapters"} · ${topicCount} ${currentLanguage === "hi" ? "उपविषय" : topicCount === 1 ? "topic" : "topics"}</p>
             <button>${t("studySubject")}</button>
         `;
         card.onclick = function () {
@@ -856,7 +1238,7 @@ function showChapters(paper, subject) {
         card.innerHTML = `
             <div class="classroom-icon">📘</div>
             <h3>${escapeHtml(curriculumName(chapter.name))}</h3>
-            <p>${topicCount} ${currentLanguage === "hi" ? "विषय" : "Topics"}</p>
+            <p>${topicCount} ${currentLanguage === "hi" ? "विषय" : topicCount === 1 ? "topic" : "topics"}</p>
             <button>${t("openChapter")}</button>
         `;
         card.onclick = function () {
@@ -884,12 +1266,16 @@ function showTopics(paper, subject, chapter) {
     chapter.topics.forEach((topic) => {
         const card = document.createElement("div");
         card.className = "topic-card";
+        const lesson = lessonLibrary[topic.id];
+        const hasQuestions = lesson && Array.isArray(lesson.questions) && lesson.questions.length > 0;
         card.innerHTML = `
             <div class="topic-icon">🎯</div>
             <h3>${escapeHtml(curriculumName(topic.name))}</h3>
             <div class="topic-buttons">
                 <button onclick="openStudy('${safeQuote(topic.id)}', '${safeQuote(topic.name)}', '${safeQuote(subject.name)}', '${safeQuote(chapter.name)}')">📖 ${t("study")}</button>
-                <button class="practice-button" onclick="openPractice('${safeQuote(topic.id)}', '${safeQuote(topic.name)}', '${safeQuote(subject.name)}', '${safeQuote(chapter.name)}')">📝 ${t("practice")}</button>
+                ${hasQuestions
+                    ? `<button class="practice-button" onclick="openPractice('${safeQuote(topic.id)}', '${safeQuote(topic.name)}', '${safeQuote(subject.name)}', '${safeQuote(chapter.name)}')">📝 ${t("practice")}</button>`
+                    : `<span class="topic-coverage-label">${currentLanguage === "hi" ? "पाठ्यक्रम सूची · विस्तृत पाठ और विषय-विशिष्ट प्रश्न जोड़े जा रहे हैं" : "Syllabus outline · detailed lesson and topic questions not added yet"}</span>`}
             </div>
         `;
         grid.appendChild(card);
@@ -902,7 +1288,7 @@ function openStudy(topicId, topicName, subjectName, chapterName) {
     rerenderCurrentView = () => openStudy(topicId, topicName, subjectName, chapterName);
     const container = document.getElementById("classroom-content");
     const summary = buildStudySummary(topicId, topicName, subjectName, chapterName);
-    const examPortal = getExamPortal(currentExam);
+    const authoredLesson = lessonLibrary[topicId];
     const lessonText = (section) => section && section[currentLanguage];
 
     updateBreadcrumb([currentExam, subjectName, chapterName, topicName]);
@@ -914,14 +1300,11 @@ function openStudy(topicId, topicName, subjectName, chapterName) {
                     <div class="study-label">${t("phaseStudyRoom")}</div>
                     <h2>${escapeHtml(curriculumName(topicName))}</h2>
                 </div>
-                <a class="portal-link" href="${examPortal.url}" target="_blank" rel="noopener noreferrer">
-                    ${escapeHtml(examPortal.label)}
-                </a>
             </div>
 
             <p class="study-introduction">${escapeHtml(lessonText(summary.concept) || summary.intro)}</p>
 
-            <div class="study-grid">
+            ${authoredLesson ? `<div class="study-grid">
                 <article class="lesson-section">
                     <h3>🧠 1. ${currentLanguage === "hi" ? "मुख्य तथ्य" : "Key Points"}</h3>
                     ${summary.keyPoints
@@ -945,20 +1328,23 @@ function openStudy(topicId, topicName, subjectName, chapterName) {
                         ? "प्रश्न के प्रत्येक कथन को अलग-अलग जाँचें। गलत विकल्प को हटाने का कारण भी नोट करें और संदेह वाले तथ्य को आधिकारिक स्रोत से सत्यापित करें।"
                         : "Check each statement in a question independently. Note why a distractor is wrong, and verify uncertain facts from an official source."))}</p>
                 </article>
-            </div>
+            </div>` : `
+                <article class="lesson-section syllabus-outline-panel">
+                    <h3>${currentLanguage === "hi" ? "पाठ्यक्रम कवरेज मानचित्र" : "Syllabus coverage map"}</h3>
+                    <p>${currentLanguage === "hi"
+                        ? "यह विस्तारित पाठ्यक्रम में शामिल एक विषय-बिंदु है। इस बिंदु के विस्तृत तथ्यात्मक नोट्स और प्रश्न अभी इस मंच पर उपलब्ध नहीं हैं। परीक्षा से पहले नवीनतम आधिकारिक पाठ्यक्रम अधिसूचना जाँचें।"
+                        : "This is a topic in the expanded syllabus map. Detailed factual notes and topic-specific questions for this item are not yet available in the platform. Check the latest official syllabus notice before the exam."}</p>
+                    <p>${currentLanguage === "hi"
+                        ? "आधिकारिक पाठ्यक्रम, NCERT और संबंधित सरकारी संस्थाओं के प्राथमिक स्रोत इस परीक्षा के मुख्य पृष्ठ पर दिए गए हैं।"
+                        : "Official syllabus notices, NCERT and relevant government primary sources are listed on this exam's paper-selection page."}</p>
+                </article>
+            `}
 
-            <div class="official-card">
-                <h3>${t("officialReference")}</h3>
-                <p>${t("officialReferenceText")}</p>
-                <div class="official-links">
-                    <a href="${examPortal.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(examPortal.label)}</a>
-                    <a href="${examPortal.notices}" target="_blank" rel="noopener noreferrer">${t("noticesUpdates")}</a>
-                </div>
-            </div>
-
-            <div class="study-actions">
-                <button onclick="openPractice('${safeQuote(topicId)}', '${safeQuote(topicName)}', '${safeQuote(subjectName)}', '${safeQuote(chapterName)}')">📝 ${t("startPractice")}</button>
-            </div>
+            ${authoredLesson && authoredLesson.questions && authoredLesson.questions.length
+                ? `<div class="study-actions">
+                    <button onclick="openPractice('${safeQuote(topicId)}', '${safeQuote(topicName)}', '${safeQuote(subjectName)}', '${safeQuote(chapterName)}')">📝 ${t("startPractice")}</button>
+                </div>`
+                : ""}
         </div>
     `;
 }
@@ -977,6 +1363,7 @@ function openPractice(topicId, topicName, subjectName, chapterName) {
         selected: [],
         score: 0,
         timeLeft: 600,
+        timeLimit: 600,
         timerId: null
     };
 
